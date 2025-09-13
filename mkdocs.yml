@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: AnikiFan's Personal Website
 site_url: https://anikifan.github.io
 site_author: AnikiFan
 site_description: >-
@@ -8,7 +8,7 @@ repo_url: https://github.com/AnikiFan/AnikiFan.github.io
 
 theme:
   name: material
-  custom_dir: material/overrides
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -29,7 +29,7 @@ theme:
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -68,6 +68,7 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  
 
 # Extensions
 markdown_extensions:
@@ -133,3 +134,4 @@ nav:
     - notes/index.md
   - Gallery:
     - gallery/index.md
+    - Tongji Picture: gallery/tongji.md
