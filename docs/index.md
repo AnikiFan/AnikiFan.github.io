@@ -46,7 +46,7 @@ template: home.html
 !!! info ""
     ![VERL](assets/images/paper/2025/VERL.png){ align=left width=50%}
     **Beyond the Exploration-Exploitation Trade-off: A Hidden State Approach for LLM Reasoning in RLVR**  
-    \*{{ author("huang_fan_ding") }}, \*{{ author("huang_guan_bo") }}, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}†, {{ author("wang_zhi") }}†.  
+    {{ author("huang_fan_ding") }}\*, {{ author("huang_guan_bo") }}\*, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}†, {{ author("wang_zhi") }}†.  
     *Submitted to ACL ARR 2026.*  
     [[Paper]](https://arxiv.org/abs/2509.23808) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://dblp.org/rec/journals/corr/abs-2509-23808.bib?param=1)
 
