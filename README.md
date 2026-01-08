@@ -16,9 +16,9 @@ uv run mkdocs serve
 
 - Template:
 ```markdown
-!!! info "**<PAPER TITLE>**"
+!!! info ""
     ![<ABBR>](assets/images/paper/<YEAR>/<[VENUE_]YEAR>.png){ align=left width=40%}
-
+    **<PAPER TITLE>**  
     <AUTHORS>  
     *<VENUEINFO>*  
     [[Paper]](<ARXIV OR OFFICIAL URL>) [[Code]](<GITHUB URL>) [[Project]](<URL>) [[BibTex]](<PREFER DBLP URL THAN GOOGLE SCHOLAR URL>)
