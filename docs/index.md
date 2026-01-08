@@ -39,7 +39,7 @@ template: home.html
 
 ## Publications
 
-> *\* equal contribution, † corresponding author. Authors in bold indicate student mentees.*
+> *\* equal contribution, † corresponding author.*
 
 ### 2025
 
