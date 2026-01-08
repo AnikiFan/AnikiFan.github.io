@@ -17,7 +17,7 @@ uv run mkdocs serve
 - Template:
 ```markdown
 !!! info "**<PAPER TITLE>**"
-    ![<ABBR>](assets/images/paper/<YEAR>/<[VENUE_]YEAR>.png){ align=left width=30%}
+    ![<ABBR>](assets/images/paper/<YEAR>/<[VENUE_]YEAR>.png){ align=left width=40%}
 
     <AUTHORS>  
     *<VENUEINFO>*  

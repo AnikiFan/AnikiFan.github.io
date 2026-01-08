@@ -13,7 +13,7 @@ template: home.html
       <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
       <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
       <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a> ·
-      <a href="weixin://dl/chat?username=AnikiFan" target="_blank" rel="noopener">WeChat</a> 
+      <a href="assets/images/WeChat.png" target="_blank" rel="noopener">WeChat</a> 
       <!-- <a href="assets/CV.pdf" target="_blank" rel="noopener">CV</a> -->
     </p>
   </div>
@@ -44,7 +44,7 @@ template: home.html
 ### 2025
 
 !!! info "**Beyond the Exploration-Exploitation Trade-off: A Hidden State Approach for LLM Reasoning in RLVR**"
-    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=30%}
+    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=40%}
 
     \*{{ author("huang_fan_ding") }}, \*{{ author("huang_guan_bo") }}, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}, {{ author("wang_zhi") }}.  
     *Submitted to ACL ARR 2026.*  
@@ -57,7 +57,7 @@ template: home.html
 ### 2026
 
 !!! info "**MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**"
-    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=30%}
+    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=40%}
 
     **Xiao Fan**, {{ author("jiang_jing_yan") }}†, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
     {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
