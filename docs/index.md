@@ -8,12 +8,12 @@ template: home.html
   <img src="assets/images/avatar.jpg" alt="Your Avatar" width="120" height="120" style="border-radius:50%; box-shadow: 0 4px 16px rgba(0,0,0,.12);" />
   <div>
     <h1 style="margin:0 0 .25rem 0;">Xiao Fan (范潇)</h1>
-    <p style="margin:.25rem 0 0 0;">Senior student @ Tongji University<br>Interests: Test-time Adaptation</p>
+    <p style="margin:.25rem 0 0 0;">Senior student @ Tongji University<br>Interests: Test-time Adaptation, Self-Evloving Embodied Agent</p>
     <p style="margin:.25rem 0 0 0;">
       <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
-      <!-- <a href="https://scholar.google.com/citations?user=XXXX" target="_blank" rel="noopener">Google Scholar</a> · -->
-      <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a>
-      <!-- <a href="https://twitter.com/yourname" target="_blank" rel="noopener">Twitter/X</a> · -->
+      <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
+      <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a> ·
+      <a href="weixin://dl/chat?username=AnikiFan" target="_blank" rel="noopener">WeChat</a> 
       <!-- <a href="assets/CV.pdf" target="_blank" rel="noopener">CV</a> -->
     </p>
   </div>
@@ -25,14 +25,16 @@ template: home.html
 
 | Degree | Institution | Advisor | Years |
 |---|---|---|---|
-| B.S. in Data Science | Tongji University |  | 2022–Present |
-<!-- | Ph.D. in Computer Science | Your University | [Prof. XYZ](https://example.com) | 2022–Present |
-| M.S. in XXX | Another University |  | 2019–2022 | -->
+| B.Eng. in Data Science | Tongji University |  | 2022–2026 |
+| D.Eng in Electronic Information | Tsinghua University | [Prof. Zhi Wang](http://pages.mmlab.top/) | 2026–2031 |
+<!-- | M.S. in XXX | Another University |  | 2019–2022 | --> 
 
 ---
 
 !!! note "Recent News"
     - **[2025-09]** My personal website is launched!
+    - **[2025-09]** We have released a new paper [VERL](https://hf618.github.io/VERL.github.io/) on Reinforcement Learning for reasoning LLM.
+    - **[2025-11]** {==My first paper is accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate)!==}
 ---
 
 ## Publications
@@ -41,20 +43,37 @@ template: home.html
 
 ### 2025
 
-1. **Oops, I have no published paper yet.**
-<!-- 1. **Paper Title A**  
-   **Your Name**, Coauthor A, Coauthor B.  
-   *Conference/Journal 2025.* [[paper]](https://arxiv.org/abs/xxx) [[code]](https://github.com/yourname/repo) [[project]](https://yourdomain.example/project-a)
-   ??? details "BibTeX"
-       ```bibtex
-       @inproceedings{your2025a,
-         title={Paper Title A},
-         author={Your Name and Coauthor A and Coauthor B},
-         booktitle={NeurIPS},
-         year={2025}
-       }
-       ```
+!!! info "**Beyond the Exploration-Exploitation Trade-off: A Hidden State Approach for LLM Reasoning in RLVR**"
+    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=30%}
 
+    \*{{ author("huang_fan_ding") }}, \*{{ author("huang_guan_bo") }}, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}, {{ author("wang_zhi") }}.  
+    *Submitted to ACL ARR 2026.*  
+    [[Paper]](https://arxiv.org/abs/2509.23808) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://dblp.org/rec/journals/corr/abs-2509-23808.bib?param=1)
+
+    <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
+    ??? abstract
+        A prevailing view in Reinforcement Learning with Verifiable Rewards (RLVR) interprets recent progress through the lens of an exploration-exploitation trade-off, a perspective largely shaped by token-level metrics. We re-examine this perspective, proposing that this perceived trade-off may not be a fundamental constraint but rather an artifact of the measurement level. To investigate this, we shift the analysis to the semantically rich hidden-state space, adopting Effective Rank (ER) to quantify exploration and proposing its novel first- and second-order derivatives, named ER Velocity and ER Acceleration, to capture exploitation dynamics. Our analysis reveals that in the semantic space, exploration and exploitation could be decoupled (Sec.4). This finding reveals an opportunity to enhance both capacities simultaneously. This insight motivates our method, Velocity-Exploiting Rank-Learning (VERL), the first to operationalize the principle of synergistic exploration-exploitation enhancement by directly shaping the RL advantage function. The key innovation is leveraging the theoretically stable ERA as a predictive meta-controller to create a synergistic, dual-channel incentive structure. Instead of forcing a trade-off, VERL prospectively amplifies rewards for exploration to preempt overconfidence and reinforces exploitative gains to consolidate reasoning. Experiments across diverse LLMs and reasoning benchmarks show consistent gains, including up to 21.4% absolute accuracy improvement on the challenging Gaokao 2024 dataset.
+
+### 2026
+
+!!! info "**MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**"
+    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=30%}
+
+    **Xiao Fan**, {{ author("jiang_jing_yan") }}†, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
+    {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
+    [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://scholar.googleusercontent.com/scholar.bib?q=info:MhQkAYKtitAJ:scholar.google.com/&output=citation&scisdr=Cryq5hPsEPeRgJlUapk:ALhkC2QAAAAAaV9ScpkdxvXTz94sELchgtXbXfI&scisig=ALhkC2QAAAAAaV9ScqsfHsiwOF_8KIaL6i4uz1Q&scisf=4&ct=citation&cd=-1&hl=en)
+
+    <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
+    ??? abstract
+        Test-Time Adaptation (TTA) has proven effective in mitigating performance drops under single-domain distribution shifts by updating model parameters during inference. However, real-world deployments often involve mixed distribution shifts, where test samples are affected by diverse and potentially conflicting domain factors, posing significant challenges even for state-of-the-art TTA methods. A key limitation in existing approaches is their reliance on a unified adaptation path, which fails to account for the fact that optimal gradient directions can vary significantly across different domains. Moreover, current benchmarks focus only on synthetic or homogeneous shifts, failing to capture the complexity of real-world heterogeneous mixed distribution shifts.
+        To address this, we propose **MoETTA**, a novel entropy-based TTA framework that integrates the Mixture-of-Experts (MoE) architecture. Rather than enforcing a single parameter update rule for all test samples, MoETTA introduces a set of structurally decoupled experts, enabling adaptation along diverse gradient directions. This design allows the model to better accommodate heterogeneous shifts through flexible and disentangled parameter updates.
+        To simulate realistic deployment conditions, we introduce two new benchmarks: *potpourri* and *potpourri+*. While classical settings focus solely on synthetic corruptions (i.e., ImageNet-C), potpourri encompasses a broader range of domain shifts—including natural, artistic, and adversarial distortions—capturing more realistic deployment challenges. Additionally, potpourri+ further includes source-domain samples to evaluate robustness against catastrophic forgetting.
+        Extensive experiments across three mixed distribution shifts settings show that MoETTA consistently outperforms strong baselines, establishing new state-of-the-art performance and highlighting the benefit of modeling multiple adaptation directions via expert-level diversity.
+
+<!-- TODO: use bibtex exported from dblp!!! -->
+<!-- TODO: change project url!!! -->
+
+<!--
 2. **Paper Title B**  
    Your Name, Collaborator C†.  
    *Journal 2025.* [[paper]](https://doi.org/xxx) -->
