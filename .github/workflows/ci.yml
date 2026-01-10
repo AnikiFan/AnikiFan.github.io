@@ -18,6 +18,7 @@ jobs:
         uses: xu-cheng/latex-action@v4
         with:
           root_file: ./docs/assets/cv/cv.tex
+          working_directory: ./docs/assets/cv
       - run: tree
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
