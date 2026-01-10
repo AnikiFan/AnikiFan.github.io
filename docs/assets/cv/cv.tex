@@ -1,0 +1,268 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumesingleItem}[1]{
+  \item\small{
+    \textbf{#1\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+  % ---- 第一行: Title + Date ----
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+  \end{tabular*}
+  \vspace{-1pt} % 可调节行间距
+
+  % ---- 第二行: Institution + Location ----
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}
+  \vspace{-5pt} % 保持和原模板一致
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newlength{\pubtitlewidth}
+\setlength{\pubtitlewidth}{0.90\textwidth}
+
+\newcommand{\resumePublicationLong}[6]{
+  \item
+  % ---- Title + Year ----
+  \begin{tabular*}{0.97\textwidth}{%
+    p{\pubtitlewidth}@{\extracolsep{\fill}}r}
+    \raggedright\textbf{#1} & \textit{#4} \\
+  \end{tabular*}
+  \vspace{-4pt}
+
+  % ---- Authors (multi-line) ----
+  {\small #2} \\
+  \vspace{-2pt}
+
+  % ---- Venue (single long line) ----
+  {\small \textit{#3}} \\
+  \vspace{-3pt}
+
+  % ---- Topic (optional) ----
+\ifthenelse{\equal{#5}{}}{}{%
+  {\small Keywords: \detokenize{#5}} \\
+  \vspace{-3pt}
+}
+\ifthenelse{\equal{#6}{}}{}{%
+  {\small TL;DR: \detokenize{#6}} \\
+  \vspace{-3pt}
+}
+}
+
+\newcommand{\resumePublicationLinks}[4]{
+  % ---- Links ----
+{\small
+  \ifx#1\empty\else [\href{#1}{PDF}] \fi
+  \ifx#2\empty\else [\href{#2}{BibTeX}] \fi
+  \ifx#3\empty\else [\href{#3}{Code}] \fi
+  \ifx#4\empty\else [\href{#4}{Project Page}] \fi
+}
+  \vspace{-6pt}
+}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Huge Xiao Fan}} & Email: \href{mailto:}{xiaofan140@gmail.com}\\
+  \href{https://anikifan.github.io/}{Homepage: https://anikifan.github.io/} & Mobile:~~~~~+86-158-007-88661 \\
+  {}[\href{https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en}
+{Google Scholar Profile}]\,[\href{https://github.com/AnikiFan}{GitHub Profile}] & WeChat ID: ~~~~~~~~~~~AnikiFan\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tongji University · College of Computer Science and Technology}{Shanghai, China}
+      {B.Eng. in Data Science and Big Data Technology;  GPA: 4.84/5;  Rank: 1/37}{2022.09--2026.06}
+      % {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+    \resumeSubheading
+    {Tsinghua University · Tsinghua Shenzhen International Graduate School}{Shenzhen, China}
+    {D.Eng. in Electronic Information}{2026.09--2031.06}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Research Interests}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Test-Time Adaptation}{\textit{2025.01}--\textit{Present}}
+      {Test-time model adaptation under data distribution shifts (domain shift) without access to source data.}{}
+    \resumeSubheading
+      {Self-Evolving Embodied Agent}{\textit{2025.05}--\textit{Present}}
+      {Embodied agents that learn from environmental interaction to continually self-improve.}{}   
+    \resumeSubHeadingListEnd
+    
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {HeyWhale}{Remote}
+        {Data Analyst Intern (Part-time)}{2024.07--2024.08}
+        \resumeItemListStart
+           \resumeItem{Community Support in Data Science}
+            {Provided timely answers and guidance to learners and developers on data analysis, machine learning, statistics, and visualization questions in online communities.}
+            \resumeItem{Tutorial and Educational Content Creation}
+            {Designed and authored clear, structured tutorials and guides, translating complex data science concepts into practical, easy-to-follow instructions.}
+            \resumeItem{Knowledge Sharing and Engagement}
+            {Enhanced community learning by sharing example code, best practices, and learning paths to improve technical skills and foster engagement.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+% \vspace{-5pt}
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Vison - multimedia search engine (NLP, Search Engine, Web Crawlers, Multimedia Processing)}{(Work in progress) Research oriented, open source, search engine for bringing reverse multimedia search to small \& mid scale enterprises. Tech: Python, NodeJS, Intel OpenVino Toolkit, Selenium, TensorFlow (October '18)}
+% \vspace{2pt}
+% \resumeSubItem{Reinforcement Learning based Traffic Control System (Reinforcement Learning, Computer Vision)}{AI model to resolve city traffic around 50\%
+% faster. Tech: Python, Alibaba Cloud, Raspberry Pi, Arduino, SUMO \& OpenCV. (August '18)}
+% \vspace{2pt}
+% \resumeSubItem{Panorama from Satellite Imagery using Distributed Computing (Distributed Computing, Image Processing)}{Images clicked using drones, provided by ISRO were stitched together using distributed public compute nodes, effectively bringing down processing time exponentially. Tech: PHP, C++, Java, Python (March '18)}
+% \vspace{2pt}
+% \resumeSubItem{Drag-n-drop machine learning learning environment (Web Development, Machine Learning)}{Scratch like tool for implementing machine learning pipelines along with built in tutorial for each concept. Tech: Python, JavaScript (September '18)}
+% \vspace{2pt}
+% \resumeSubItem{Search Engine and Social Network(Web Development, Web Crawler, Search)}{Created from scratch a social network and a search engine based on the idea of integrating Facebook and Google. The launched website was among top 1000 websites in India during 2012-2013. Tech: PHP, MySQL, HTML, CSS, WebSockets, JavaScript, RSS, XML ( May '12)}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+\section{Publications \small{(${\ast}$ equal contribution, ${\dagger}$ corresponding author)}}
+\resumeSubHeadingListStart
+\resumePublicationLong
+{Beyond the Exploration-Exploitation Trade-off: A Hidden State Approach for LLM Reasoning in RLVR}
+{Fanding Huang$^{\ast}$, Guanbo Huang$^{\ast}$, \textbf{Xiao Fan}, Yi He, Xiao Liang, Xiao Chen, Qinting Jiang, Faisal Nadeem Khan, Jingyan Jiang$^{\dagger}$, Zhi Wang$^{\dagger}$}
+{Submitted to ACL ARR 2026.}
+{2025}
+{LLM Reasoning, Reinforcement Learning, Representation Interpretability}
+{}
+\resumePublicationLinks
+{https://arxiv.org/abs/2509.23808}
+{https://dblp.org/rec/journals/corr/abs-2509-23808.bib?param=1}
+{https://github.com/hf618/VERL}
+{https://hf618.github.io/VERL.github.io/}
+
+\resumePublicationLong
+{MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm}
+{\textbf{Xiao Fan}, Jingyan Jiang$^{\dagger}$, Zhaoru Chen, Fanding Huang, Xiao Chen, Qinting Jiang, Bowen Zhang, Xing Tang, Zhi Wang}
+{Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence (\textcolor{red}{AAAI, CCF-A, 17.6\% overall acceptance rate})}
+{2026}
+{Test-Time Adaptation, Mixture of Experts}
+{}
+\resumePublicationLinks
+{https://arxiv.org/abs/2511.13760v1}
+{https://scholar.googleusercontent.com/scholar.bib?q=info:MhQkAYKtitAJ:scholar.google.com/&output=citation&scisdr=Cryq5hPsEPeRgJlUapk:ALhkC2QAAAAAaV9ScpkdxvXTz94sELchgtXbXfI&scisig=ALhkC2QAAAAAaV9ScqsfHsiwOF_8KIaL6i4uz1Q&scisf=4&ct=citation&cd=-1&hl=en}
+{https://github.com/AnikiFan/MoETTA}
+{}
+
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Selected Honors and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Global Campus AI Algorithm Elite Competition}{National 1st Prize}
+      {Challenge: ``BIRADS Classification and Feature Recognition in Ultrasound Breast Images''}{2024.11}
+    \resumeSubheading
+    {15th Lanqiao Cup}{National 3rd Prize}
+    {Python Programming}{2025.08}
+    \resumeSubheading
+    {Tongji University Excellent Student Scholarship}{1st Prize}
+    {Guo Xie Birong Scholarship, top 2 out of 756 students}{2023.12}
+    \resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Skills Summary\small{($^{\ast}$ Expert, $^{\dagger}$ Proficient, $^{\ddagger}$ Basic, $^{\S}$ Hands-on Experience)}}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming}{\,Python$^{\ast}$, C++$^{\dagger}$, C$^{\dagger}$, Bash$^{\ddagger}$, SQL$^{\ddagger}$, JavaScript$^{\S}$, TypeScript$^{\S}$}
+	\resumeSubItem{Frameworks}{~~~PyTorch$^{\dagger}$, Scikit$^{\dagger}$, Streamlit$^{\dagger}$, Next.js$^{\ddagger}$, Qt Quick$^{\ddagger}$, TailwindCSS$^{\ddagger}$}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~Pandas$^{\dagger}$, \LaTeX$^{\dagger}$, Vim$^{\dagger}$, Tmux$^{\dagger}$, Git$^{\dagger}$, Matplotlib$^{\dagger}$, Docker$^{\ddagger}$}
+    \resumeSubItem{Languages}{~~~~~\,English$^{\dagger}$ (CET-4: 658, Top 1\%; CET-6: 608, $\sim$Top 5\%)}
+    \resumeSubItem{Sports}{~~~~~~~~~~~Men's Pistol$^{\ast}$ (10m Air, 25m Rapid Fire, 50m Free; Achieved 1st Place (Team) and 4th Place (Individual)\\\qquad\quad\qquad\qquad~ at Shanghai City Championship), Badminton$^{\dagger}$, Golf$^{\ddagger}$, Indoor Climbing$^{\ddagger}$}
+	% \resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Arduino, Raspberry, AWS, GCP, Alibaba Cloud, IBM Cloud}
+	% \resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Math Takeaway (Campus Public Welfare Organization)}{Tongji University}
+        {Lecturer for Linear Algebra}{2025.09--2025.12}
+        \resumeItemListStart
+           \resumesingleItem{Delivered a Linear Algebra final exam review lecture.}
+            \resumesingleItem{Co-developed two chapter-level knowledge summaries and revision sessions.}
+            \resumesingleItem{Produced and published recorded revision lectures on BiliBili.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+\end{document}
