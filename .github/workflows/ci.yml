@@ -30,7 +30,5 @@ jobs:
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            cv.tex
-          working_directory: |
-            /home/runner/work/AnikiFan.github.io/AnikiFan.github.io/docs/assets/cv
+            /home/runner/work/AnikiFan.github.io/AnikiFan.github.io/docs/assets/cv/cv.tex
       - run: uv run mkdocs gh-deploy --force
