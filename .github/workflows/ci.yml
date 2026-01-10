@@ -17,12 +17,12 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v4
         with:
-          root_file: $GITHUB_ACTION_PATH/docs/assets/cv/cv.tex
+          root_file: ./docs/assets/cv/cv.tex
       - name: Upload PDF file
         uses: actions/upload-artifact@v5
         with:
           name: PDF
-          path: $GITHUB_ACTION_PATH/docs/assets/cv/cv.tex
+          path: ./docs/assets/cv/cv.tex
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
