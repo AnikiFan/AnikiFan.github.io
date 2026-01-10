@@ -90,3 +90,52 @@ template: home.html
 ## Service
 
 - **Sadly, nothing to serve yet.**
+
+<div id="map-container">
+    </div>
+
+<script>
+  function loadMap(scheme) {
+    const container = document.getElementById('map-container');
+    
+    // 1. 清空当前容器（防止切换模式时出现多个地图）
+    container.innerHTML = '';
+
+    // 2. 创建新的 script 标签
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'mapmyvisitors';
+
+    // 3. 根据模式设置不同的 src
+    if (scheme === 'slate') {
+      // 暗色模式的配置 (注意这里的参数，如 cl, co, ct 等可以自定义为深色系)
+      script.src = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=AW6RVWNwzLEyhknDhkn3Cr9N0KYuZO-ObNBbBJjnQz4&co=1e2129&ct=ffffff&cmo=5ddfef&cmn=d354b9';
+    } else {
+      // 亮色模式的配置 (你可以修改参数以适应浅色背景)
+      script.src = 'https://mapmyvisitors.com/map.js?cl=4051b5&w=a&t=tt&d=AW6RVWNwzLEyhknDhkn3Cr9N0KYuZO-ObNBbBJjnQz4&co=ffffff&ct=4051b5&cmo=5ddfef&cmn=d354b9';
+    }
+
+    // 4. 将脚本注入容器
+    container.appendChild(script);
+  }
+
+  // --- 主题监听逻辑 ---
+
+  // 初始加载
+  window.addEventListener('load', function() {
+    const initialScheme = document.body.getAttribute("data-md-color-scheme");
+    loadMap(initialScheme);
+
+    // 监听主题切换
+    const observer = new MutationObserver(mutations => {
+      mutations.forEach(mutation => {
+        if (mutation.attributeName === "data-md-color-scheme") {
+          const newScheme = document.body.getAttribute("data-md-color-scheme");
+          loadMap(newScheme);
+        }
+      });
+    });
+
+    observer.observe(document.body, { attributes: true });
+  });
+</script>
