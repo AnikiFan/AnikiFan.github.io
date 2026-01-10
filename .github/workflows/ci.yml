@@ -14,9 +14,15 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v4
         with:
-          python-version: 3.x
+          root_file: $GITHUB_ACTION_PATH/docs/assets/cv/cv.tex
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v5
+        with:
+          name: PDF
+          path: $GITHUB_ACTION_PATH/docs/assets/cv/cv.tex
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
@@ -27,8 +33,4 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v7
       - run: UV_HTTP_TIMEOUT=300 uv sync
-      - uses: xu-cheng/latex-action@v2
-        with:
-          root_file: |
-            /home/runner/work/AnikiFan.github.io/AnikiFan.github.io/docs/assets/cv/cv.tex
       - run: uv run mkdocs gh-deploy --force
