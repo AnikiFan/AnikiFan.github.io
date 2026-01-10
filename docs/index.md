@@ -8,7 +8,7 @@ template: home.html
   <img src="assets/images/avatar.jpg" alt="Your Avatar" width="120" height="120" style="border-radius:50%; box-shadow: 0 4px 16px rgba(0,0,0,.12);" />
   <div>
     <h1 style="margin:0 0 .25rem 0;">Xiao Fan (范潇)</h1>
-    <p style="margin:.25rem 0 0 0;">Senior student @ Tongji University<br>Interests: Test-time Adaptation, Self-Evloving Embodied Agent</p>
+    <p style="margin:.25rem 0 0 0;">Senior student @ Tongji University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
     <p style="margin:.25rem 0 0 0;">
       <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
       <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
