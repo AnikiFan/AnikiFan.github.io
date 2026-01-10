@@ -31,6 +31,6 @@ jobs:
       - uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            docs/assets/cv/cv.tex
+            cv.tex
           working_directory: |
             docs/assets/cv
