@@ -34,7 +34,7 @@ template: home.html
 !!! note "Recent News"
     - **[2025-09]** My personal website is launched!
     - **[2025-09]** We have released a new paper [VERL](https://hf618.github.io/VERL.github.io/) on Reinforcement Learning for reasoning LLM.
-    - **[2025-11]** {==My first paper is accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate)!==}
+    - **[2025-11]** {==My debut paper, as the sole first author, has been accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate)!==}
 ---
 
 ## Publications
@@ -62,7 +62,7 @@ template: home.html
     **MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**  
     **Xiao Fan**, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
     {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
-    [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://scholar.googleusercontent.com/scholar.bib?q=info:MhQkAYKtitAJ:scholar.google.com/&output=citation&scisdr=Cryq5hPsEPeRgJlUapk:ALhkC2QAAAAAaV9ScpkdxvXTz94sELchgtXbXfI&scisig=ALhkC2QAAAAAaV9ScqsfHsiwOF_8KIaL6i4uz1Q&scisf=4&ct=citation&cd=-1&hl=en)
+    [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://scholar.googleusercontent.com/scholar.bib?q=info:MhQkAYKtitAJ:scholar.google.com/&output=citation&scisdr=Cryq5hPsEPeRgJlUapk:ALhkC2QAAAAAaV9ScpkdxvXTz94sELchgtXbXfI&scisig=ALhkC2QAAAAAaV9ScqsfHsiwOF_8KIaL6i4uz1Q&scisf=4&ct=citation&cd=-1&hl=en) [[Poster]](assets/poster/AAAI2026.pdf)
 
     <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
     ??? abstract
