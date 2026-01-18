@@ -30,7 +30,7 @@ template: home.html
 | Degree | Institution | Advisor | Years |
 |---|---|---|---|
 | B.Eng. in Data Science | Tongji University |  | 2022–2026 |
-| D.Eng in Electronic Information | Tsinghua University | [Prof. Zhi Wang](http://pages.mmlab.top/) | 2026–2031 |
+| D.Eng. in Electronic Information | Tsinghua University | [Prof. Zhi Wang](http://pages.mmlab.top/) | 2026–2031 |
 <!-- | M.S. in XXX | Another University |  | 2019–2022 | --> 
 
 ---
