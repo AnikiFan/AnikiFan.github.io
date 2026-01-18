@@ -13,7 +13,8 @@ template: home.html
       <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
       <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
       <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a> ·
-      <a href="assets/images/WeChat.png" target="_blank" rel="noopener">WeChat</a>
+      <a href="assets/images/WeChat.png" target="_blank" rel="noopener">WeChat</a> ·
+      <a href="https://x.com/oaa9449qUd29951" target="_blank" rel="noopener">X</a>
     </p>
     <p style="margin:.25rem 0 0 0;">
       <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV</a> · 
