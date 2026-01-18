@@ -17,7 +17,7 @@ template: home.html
     </p>
     <p style="margin:.25rem 0 0 0;">
       <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV</a> · 
-      <a href="linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">Linkedin</a>
+      <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">Linkedin</a>
     </p>
   </div>
 </div>
