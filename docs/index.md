@@ -5,7 +5,7 @@ template: home.html
 
 <!-- 顶部个人信息：头像 + 名片式简介 -->
 <div class="profile" style="display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap;">
-  <img src="assets/images/avatar.jpg" alt="Your Avatar" width="120" height="120" style="border-radius:50%; box-shadow: 0 4px 16px rgba(0,0,0,.12);" />
+  <img src="assets/images/AAAI2026_beach.jpg" alt="Your Avatar" width="120" height="120" style="border-radius:50%; box-shadow: 0 4px 16px rgba(0,0,0,.12);" />
   <div>
     <h1 style="margin:0 0 .25rem 0;">Xiao Fan (范潇)</h1>
     <p style="margin:.25rem 0 0 0;">Senior student @ Tongji University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
