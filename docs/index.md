@@ -66,7 +66,7 @@ template: home.html
     **MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**  
     **Xiao Fan**, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
     {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
-    [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://scholar.googleusercontent.com/scholar.bib?q=info:MhQkAYKtitAJ:scholar.google.com/&output=citation&scisdr=Cryq5hPsEPeRgJlUapk:ALhkC2QAAAAAaV9ScpkdxvXTz94sELchgtXbXfI&scisig=ALhkC2QAAAAAaV9ScqsfHsiwOF_8KIaL6i4uz1Q&scisf=4&ct=citation&cd=-1&hl=en) [[Poster]](assets/poster/AAAI2026.pdf)
+    [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://dblp.org/rec/conf/aaai/FanJCHCJZTW26.bib?param=1) [[Poster]](assets/poster/AAAI2026.pdf)
 
     <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
     ??? abstract
@@ -75,7 +75,6 @@ template: home.html
         To simulate realistic deployment conditions, we introduce two new benchmarks: *potpourri* and *potpourri+*. While classical settings focus solely on synthetic corruptions (i.e., ImageNet-C), potpourri encompasses a broader range of domain shifts—including natural, artistic, and adversarial distortions—capturing more realistic deployment challenges. Additionally, potpourri+ further includes source-domain samples to evaluate robustness against catastrophic forgetting.
         Extensive experiments across three mixed distribution shifts settings show that MoETTA consistently outperforms strong baselines, establishing new state-of-the-art performance and highlighting the benefit of modeling multiple adaptation directions via expert-level diversity.
 
-<!-- TODO: use bibtex exported from dblp!!! -->
 <!-- TODO: change project url!!! -->
 
 <!--
