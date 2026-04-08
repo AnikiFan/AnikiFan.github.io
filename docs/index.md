@@ -39,6 +39,7 @@ template: home.html
     - **[2025-09]** My personal website is launched!
     - **[2025-09]** We have released a new paper [VERL](https://hf618.github.io/VERL.github.io/) on Reinforcement Learning for reasoning LLM.
     - **[2025-11]** {==My debut paper, as the sole first author, has been accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate)!==}
+    - **[2026-04]** [VERL](https://hf618.github.io/VERL.github.io/) has been accepted as ACL 2026 Findings.
 ---
 
 ## Publications
@@ -49,14 +50,16 @@ template: home.html
 
 !!! info ""
     ![VERL](assets/images/paper/2025/VERL.png){ align=left width=50%}
-    **Beyond the Exploration-Exploitation Trade-off: A Hidden State Approach for LLM Reasoning in RLVR**  
+    **Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning**  
     {{ author("huang_fan_ding") }}<sup>\*</sup>, {{ author("huang_guan_bo") }}<sup>\*</sup>, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("wang_zhi") }}<sup>†</sup>.  
-    *Submitted to ACL ARR 2026.*  
-    [[Paper]](https://arxiv.org/abs/2509.23808) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://dblp.org/rec/journals/corr/abs-2509-23808.bib?param=1)
+    *Accepted as ACL 2026 Findings.*  
+    [[Paper]](https://openreview.net/pdf?id=HoyEcZfmdB) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://openreview.net/forum?id=HoyEcZfmdB#)
 
     <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
     ??? abstract
-        A prevailing view in Reinforcement Learning with Verifiable Rewards (RLVR) interprets recent progress through the lens of an exploration-exploitation trade-off, a perspective largely shaped by token-level metrics. We re-examine this perspective, proposing that this perceived trade-off may not be a fundamental constraint but rather an artifact of the measurement level. To investigate this, we shift the analysis to the semantically rich hidden-state space, adopting Effective Rank (ER) to quantify exploration and proposing its novel first- and second-order derivatives, named ER Velocity and ER Acceleration, to capture exploitation dynamics. Our analysis reveals that in the semantic space, exploration and exploitation could be decoupled (Sec.4). This finding reveals an opportunity to enhance both capacities simultaneously. This insight motivates our method, Velocity-Exploiting Rank-Learning (VERL), the first to operationalize the principle of synergistic exploration-exploitation enhancement by directly shaping the RL advantage function. The key innovation is leveraging the theoretically stable ERA as a predictive meta-controller to create a synergistic, dual-channel incentive structure. Instead of forcing a trade-off, VERL prospectively amplifies rewards for exploration to preempt overconfidence and reinforces exploitative gains to consolidate reasoning. Experiments across diverse LLMs and reasoning benchmarks show consistent gains, including up to 21.4% absolute accuracy improvement on the challenging Gaokao 2024 dataset.
+        Reinforcement Learning with Verifiable Rewards (RLVR) for LLM reasoning is often framed as balancing exploration and exploitation in action space, typically operationalized with token-level proxies (e.g., output entropy or confidence). We argue that this apparent trade-off is largely a measurement artifact: token-level statistics reflect next-token uncertainty rather than how reasoning progresses over multi-token semantic structures. We therefore study exploration and exploitation in the hidden-state space of response trajectories. We use Effective Rank (ER) to quantify representational exploration and introduce its temporal derivatives, Effective Rank Velocity (ERV) and Effective Rank Acceleration (ERA), to characterize exploitative refinement dynamics. Empirically and theoretically, ER and ERV exhibit near-zero correlation in semantic space, suggesting the two capacities can be improved simultaneously. Motivated by this, we propose Velocity-Exploiting Rank Learning (VERL), which shapes the RL advantage with an auxiliary signal derived from ER/ERV and uses the more stable ERA as a meta-control variable to adaptively balance the incentives. Across multiple base models, RL algorithms, and reasoning benchmarks, VERL yields consistent improvements, including large gains on challenging tasks (e.g., 21.4% in Gaokao 2024).
+
+<!-- TODO: change bibtex url to dblp link!!! -->
 
 ### 2026
 
