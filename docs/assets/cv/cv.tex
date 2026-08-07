@@ -62,20 +62,36 @@
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+% \resumeSubheading{Title}{Date}
+%   或 \resumeSubheading{Title}{Right}{Subtitle}{Date}
+\makeatletter
+\newcommand{\resumeSubheading}[2]{%
+  \@ifnextchar\bgroup
+    {\resumeSubheading@four{#1}{#2}}%
+    {\resumeSubheading@two{#1}{#2}}%
+}
+\newcommand{\resumeSubheading@two}[2]{%
   \vspace{-1pt}\item
-  % ---- 第一行: Title + Date ----
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{#2} \\
+  \end{tabular*}
+  \vspace{-5pt}
+}
+\newcommand{\resumeSubheading@four}[4]{%
+  \vspace{-1pt}\item
+  % ---- 第一行: Title + Right ----
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
   \end{tabular*}
   \vspace{-1pt} % 可调节行间距
 
-  % ---- 第二行: Institution + Location ----
+  % ---- 第二行: Subtitle + Date ----
   \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
     \textit{#3} & \textit{#4} \\
   \end{tabular*}
   \vspace{-5pt} % 保持和原模板一致
 }
+\makeatother
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
 
@@ -164,6 +180,9 @@
     \resumeSubheading
       {Self-Evolving Embodied Agent}{\textit{2025.05}--\textit{Present}}
       {Embodied agents that learn from environmental interaction to continually self-improve.}{}   
+    \resumeSubheading
+      {Agent Memory}{\textit{2026.01}--\textit{Present}}
+      {System that stores and retrieves information from long-term memory to support reasoning and decision-making.}{}   
     \resumeSubHeadingListEnd
     
 \vspace{-5pt}
@@ -203,7 +222,7 @@
 \resumePublicationLong
 {Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning}
 {Fanding Huang$^{\ast}$, Guanbo Huang$^{\ast}$, \textbf{Xiao Fan}, Yi He, Xiao Liang, Xiao Chen, Qinting Jiang, Faisal Nadeem Khan, Jingyan Jiang$^{\dagger}$, Zhi Wang$^{\dagger}$}
-{Accepted as ACL 2026 Findings.}
+{Findings of the Association for Computational Linguistics: ACL 2026}
 {2025}
 {LLM Reasoning, Reinforcement Learning, Representation Interpretability}
 {}
@@ -244,8 +263,7 @@
     {Tongji University Excellent Student Scholarship}{1st Prize}
     {Guo Xie Birong Scholarship, 2 out of 756 students}{2023.12}
     \resumeSubheading
-    {Excellent Graduate of Tongji University}{}
-    {}{2026.06}
+    {Excellent Graduate of Tongji University}{2026.06}
     \resumeSubHeadingListEnd
 
 \vspace{-5pt}
@@ -253,7 +271,7 @@
 	\resumeSubHeadingListStart
 	\resumeSubItem{Programming}{\,Python$^{\ast}$, C++$^{\dagger}$, C$^{\dagger}$, Bash$^{\ddagger}$, SQL$^{\ddagger}$, JavaScript$^{\S}$, TypeScript$^{\S}$}
 	\resumeSubItem{Frameworks}{~~~PyTorch$^{\dagger}$, Scikit$^{\dagger}$, Streamlit$^{\dagger}$, Next.js$^{\ddagger}$, Qt Quick$^{\ddagger}$, TailwindCSS$^{\ddagger}$}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~Pandas$^{\dagger}$, \LaTeX$^{\dagger}$, Vim$^{\dagger}$, Tmux$^{\dagger}$, Git$^{\dagger}$, Matplotlib$^{\dagger}$, Docker$^{\ddagger}$}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~Pandas$^{\dagger}$, \LaTeX$^{\dagger}$, Vim$^{\dagger}$, Tmux$^{\dagger}$, Matplotlib$^{\dagger}$, Git$^{\ddagger}$, Docker$^{\ddagger}$}
     \resumeSubItem{Languages}{~~~~~\,English$^{\dagger}$ (CET-4: 658, Top 1\%; CET-6: 608, $\sim$Top 5\%), Japanese$^{\S}$ (Self-Study on Duolingo) }
     \resumeSubItem{Sports}{~~~~~~~~~~~Men's Pistol$^{\ast}$ (10m Air, 25m Rapid Fire, 50m Free; Achieved 1st Place (Team) and 4th Place (Individual)\\\qquad\quad\qquad\qquad~ at Shanghai City Championship), Badminton$^{\dagger}$, Golf$^{\ddagger}$, Indoor Climbing$^{\ddagger}$}
 	% \resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Arduino, Raspberry, AWS, GCP, Alibaba Cloud, IBM Cloud}
