@@ -1,7 +1,7 @@
 [project]
 name = "anikifan-github-io"
 version = "0.1.0"
-description = "Add your description here"
+description = "Personal website of Xiao Fan"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

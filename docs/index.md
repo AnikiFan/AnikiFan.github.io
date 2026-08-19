@@ -4,21 +4,21 @@ template: home.html
 ---
 
 <!-- 顶部个人信息：头像 + 名片式简介 -->
-<div class="profile" style="display:flex; align-items:center; gap:1.25rem; flex-wrap:wrap;">
-  <img src="assets/images/AAAI2026_beach.jpg" alt="Your Avatar" width="120" height="120" style="border-radius:50%; box-shadow: 0 4px 16px rgba(0,0,0,.12);" />
+<div class="profile">
+  <img src="assets/images/profile.jpg" alt="Xiao Fan" width="120" height="120" />
   <div>
-    <h1 style="margin:0 0 .25rem 0;">Xiao Fan (范潇)</h1>
-    <p style="margin:.25rem 0 0 0;">1st Year D.Eng. @ Tsinghua University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
-    <p style="margin:.25rem 0 0 0;">
+    <h1>Xiao Fan (范潇)</h1>
+    <p>1st Year D.Eng. @ Tsinghua University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
+    <p>
       <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
       <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
       <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a> ·
       <a href="assets/images/WeChat.png" target="_blank" rel="noopener">WeChat</a> ·
       <a href="https://x.com/oaa9449qUd29951" target="_blank" rel="noopener">X</a>
     </p>
-    <p style="margin:.25rem 0 0 0;">
-      <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV</a> · 
-      <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">Linkedin</a>
+    <p>
+      <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV</a> ·
+      <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">LinkedIn</a>
     </p>
   </div>
 </div>
@@ -49,13 +49,13 @@ template: home.html
 ### 2025
 
 !!! info ""
-    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=50%}
+    ![VERL](assets/images/paper/2025/VERL.jpg){ align=left width=50%}
     **Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning**  
     {{ author("huang_fan_ding") }}<sup>\*</sup>, {{ author("huang_guan_bo") }}<sup>\*</sup>, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("wang_zhi") }}<sup>†</sup>.  
     *Accepted as ACL 2026 Findings.*  
     [[Paper]](https://openreview.net/pdf?id=HoyEcZfmdB) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://openreview.net/forum?id=HoyEcZfmdB#)
 
-    <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
+    <div class="publication-clearfix"></div>
     ??? abstract
         Reinforcement Learning with Verifiable Rewards (RLVR) for LLM reasoning is often framed as balancing exploration and exploitation in action space, typically operationalized with token-level proxies (e.g., output entropy or confidence). We argue that this apparent trade-off is largely a measurement artifact: token-level statistics reflect next-token uncertainty rather than how reasoning progresses over multi-token semantic structures. We therefore study exploration and exploitation in the hidden-state space of response trajectories. We use Effective Rank (ER) to quantify representational exploration and introduce its temporal derivatives, Effective Rank Velocity (ERV) and Effective Rank Acceleration (ERA), to characterize exploitative refinement dynamics. Empirically and theoretically, ER and ERV exhibit near-zero correlation in semantic space, suggesting the two capacities can be improved simultaneously. Motivated by this, we propose Velocity-Exploiting Rank Learning (VERL), which shapes the RL advantage with an auxiliary signal derived from ER/ERV and uses the more stable ERA as a meta-control variable to adaptively balance the incentives. Across multiple base models, RL algorithms, and reasoning benchmarks, VERL yields consistent improvements, including large gains on challenging tasks (e.g., 21.4% in Gaokao 2024).
 
@@ -64,14 +64,14 @@ template: home.html
 ### 2026
 
 !!! info ""
-    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=50%}
+    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.jpg){ align=left width=50%}
 
     **MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**  
     **Xiao Fan**, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
     {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
     [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://dblp.org/rec/conf/aaai/FanJCHCJZTW26.bib?param=1) [[Poster]](assets/poster/AAAI2026.pdf)
 
-    <div style="clear: both; height: 0; margin: 0; padding: 0;"></div>
+    <div class="publication-clearfix"></div>
     ??? abstract
         Test-Time Adaptation (TTA) has proven effective in mitigating performance drops under single-domain distribution shifts by updating model parameters during inference. However, real-world deployments often involve mixed distribution shifts, where test samples are affected by diverse and potentially conflicting domain factors, posing significant challenges even for state-of-the-art TTA methods. A key limitation in existing approaches is their reliance on a unified adaptation path, which fails to account for the fact that optimal gradient directions can vary significantly across different domains. Moreover, current benchmarks focus only on synthetic or homogeneous shifts, failing to capture the complexity of real-world heterogeneous mixed distribution shifts.
         To address this, we propose **MoETTA**, a novel entropy-based TTA framework that integrates the Mixture-of-Experts (MoE) architecture. Rather than enforcing a single parameter update rule for all test samples, MoETTA introduces a set of structurally decoupled experts, enabling adaptation along diverse gradient directions. This design allows the model to better accommodate heterogeneous shifts through flexible and disentangled parameter updates.
@@ -97,51 +97,4 @@ template: home.html
 
 - **Sadly, nothing to serve yet.**
 
-<div id="map-container">
-    </div>
-
-<script>
-  function loadMap(scheme) {
-    const container = document.getElementById('map-container');
-    
-    // 1. 清空当前容器（防止切换模式时出现多个地图）
-    container.innerHTML = '';
-
-    // 2. 创建新的 script 标签
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.id = 'mapmyvisitors';
-
-    // 3. 根据模式设置不同的 src
-    if (scheme === 'slate') {
-      // 暗色模式的配置 (注意这里的参数，如 cl, co, ct 等可以自定义为深色系)
-      script.src = 'https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=AW6RVWNwzLEyhknDhkn3Cr9N0KYuZO-ObNBbBJjnQz4&co=1e2129&ct=ffffff&cmo=5ddfef&cmn=d354b9';
-    } else {
-      // 亮色模式的配置 (你可以修改参数以适应浅色背景)
-      script.src = 'https://mapmyvisitors.com/map.js?cl=4051b5&w=a&t=tt&d=AW6RVWNwzLEyhknDhkn3Cr9N0KYuZO-ObNBbBJjnQz4&co=ffffff&ct=4051b5&cmo=5ddfef&cmn=d354b9';
-    }
-
-    // 4. 将脚本注入容器
-    container.appendChild(script);
-  }
-
-  // --- 主题监听逻辑 ---
-
-  // 初始加载
-  window.addEventListener('load', function() {
-    const initialScheme = document.body.getAttribute("data-md-color-scheme");
-    loadMap(initialScheme);
-
-    // 监听主题切换
-    const observer = new MutationObserver(mutations => {
-      mutations.forEach(mutation => {
-        if (mutation.attributeName === "data-md-color-scheme") {
-          const newScheme = document.body.getAttribute("data-md-color-scheme");
-          loadMap(newScheme);
-        }
-      });
-    });
-
-    observer.observe(document.body, { attributes: true });
-  });
-</script>
+<div id="map-container"></div>

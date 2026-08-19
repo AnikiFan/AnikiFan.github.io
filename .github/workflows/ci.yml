@@ -1,16 +1,23 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 permissions:
   contents: write
+concurrency:
+  group: pages-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
+        if: github.event_name == 'push'
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
@@ -21,8 +28,15 @@ jobs:
           working_directory: ./docs/assets/cv
       - name: Install uv
         uses: astral-sh/setup-uv@v7
-      - run: UV_HTTP_TIMEOUT=300 uv sync && uv run mkdocs build && echo xiaofan.ac.cn > site/CNAME
+        with:
+          enable-cache: true
+      - name: Build site
+        run: |
+          uv sync --frozen
+          uv run mkdocs build --strict
+          echo xiaofan.ac.cn > site/CNAME
       - name: Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

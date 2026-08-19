@@ -1,0 +1,81 @@
+/* Full-bleed homepage hero */
+.hero {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(4px) brightness(0.8);
+  transform: scale(1.05);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10vh 8vw 30vh;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.hero__content h1 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 800;
+  margin: 0 0 0.3em 0;
+}
+
+.hero__content p {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  margin: 0;
+  max-width: 40rem;
+  opacity: 0.9;
+}
+
+/* Homepage profile card */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  object-fit: cover;
+}
+
+.profile h1 {
+  margin: 0 0 0.25rem 0;
+}
+
+.profile p {
+  margin: 0.25rem 0 0 0;
+}
+
+#map-container {
+  margin-top: 2rem;
+}
+
+.publication-clearfix {
+  clear: both;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
