@@ -5,7 +5,7 @@ template: home.html
 
 <!-- 顶部个人信息：头像 + 名片式简介 -->
 <div class="profile">
-  <img src="assets/images/profile.jpg" alt="Xiao Fan" width="120" height="120" />
+  <img src="assets/images/AAAI2026_beach.jpg" alt="Xiao Fan" width="120" height="120" />
   <div>
     <h1>Xiao Fan (范潇)</h1>
     <p>1st Year D.Eng. @ Tsinghua University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
@@ -49,7 +49,7 @@ template: home.html
 ### 2025
 
 !!! info ""
-    ![VERL](assets/images/paper/2025/VERL.jpg){ align=left width=50%}
+    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=50%}
     **Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning**  
     {{ author("huang_fan_ding") }}<sup>\*</sup>, {{ author("huang_guan_bo") }}<sup>\*</sup>, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("wang_zhi") }}<sup>†</sup>.  
     *Accepted as ACL 2026 Findings.*  
@@ -64,7 +64,7 @@ template: home.html
 ### 2026
 
 !!! info ""
-    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.jpg){ align=left width=50%}
+    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=50%}
 
     **MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**  
     **Xiao Fan**, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
