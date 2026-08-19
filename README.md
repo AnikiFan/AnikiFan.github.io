@@ -7,6 +7,8 @@ uv sync
 uv run mkdocs serve
 ```
 
+The GitHub Actions workflow compiles `docs/assets/cv/cv.tex` to PDF and then deploys the site. Local previews will 404 the CV link until that PDF exists.
+
 ## Add an author
 
 - Update `authors.yml`:
