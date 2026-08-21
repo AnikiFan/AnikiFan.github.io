@@ -10,7 +10,7 @@ template: home.html
     <h1>Xiao Fan (范潇)</h1>
     <p>1st Year D.Eng. @ Tsinghua University<br>Interests: Test-time Adaptation, Self-Evolving Embodied Agent</p>
     <p>
-      <a href="mailto:xiaofan140@gmail.com">xiaofan140@gmail.com</a> ·
+      <a href="mailto:fx26@mails.tsinghua.edu.cn">fx26@mails.tsinghua.edu.cn</a> ·
       <a href="https://scholar.google.com/citations?user=XeFBXxYAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> ·
       <a href="https://github.com/AnikiFan" target="_blank" rel="noopener">GitHub</a> ·
       <a href="assets/images/WeChat.png" target="_blank" rel="noopener">WeChat</a> ·
