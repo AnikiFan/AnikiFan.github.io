@@ -73,9 +73,7 @@
   margin-top: 2rem;
 }
 
-.publication-clearfix {
+/* Paper abstracts always start below floated thumbnails, including new entries. */
+.md-typeset .admonition.info > details.abstract {
   clear: both;
-  height: 0;
-  margin: 0;
-  padding: 0;
 }
