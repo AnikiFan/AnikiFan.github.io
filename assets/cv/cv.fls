@@ -92,8 +92,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
 INPUT ./cv.aux
 INPUT ./cv.aux
 INPUT cv.aux
