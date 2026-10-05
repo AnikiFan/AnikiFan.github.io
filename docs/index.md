@@ -87,7 +87,7 @@ template: home.html
 
 ## Projects
 
-- **I promise I will soon organize and share my past projects.**
+- [**campus-beamer**](https://github.com/AnikiFan/campus-beamer) — A LaTeX Beamer template for campus presentations.
 
 ---
 
