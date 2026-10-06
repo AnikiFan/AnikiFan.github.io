@@ -102,12 +102,8 @@
   margin: 0;
 }
 
-.md-typeset .project-entry__content > :first-child {
-  margin-top: 0;
-}
-
-.md-typeset .project-entry__content > :last-child {
-  margin-bottom: 0;
+.md-typeset .project-entry__content > p {
+  margin: 0;
 }
 
 @media (max-width: 480px) {
