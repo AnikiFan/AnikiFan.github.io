@@ -85,6 +85,7 @@
 .paper-entry__image {
   display: block;
   align-self: center;
+  width: 100%;
 }
 
 .project-entry__image img,
