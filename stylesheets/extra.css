@@ -73,41 +73,42 @@
   margin-top: 2rem;
 }
 
-/* Paper abstracts always start below floated thumbnails, including new entries. */
-.md-typeset .admonition.info > details.abstract {
-  clear: both;
-}
-
-/* Keep project links with their description beside the image. */
-.project-entry {
+/* Keep paper and project descriptions beside vertically centered images. */
+.project-entry,
+.paper-entry {
   display: grid;
   grid-template-columns: 50% minmax(0, 1fr);
   gap: 1rem;
 }
 
-.project-entry__image {
+.project-entry__image,
+.paper-entry__image {
   display: block;
   align-self: center;
 }
 
-.project-entry__image img {
+.project-entry__image img,
+.paper-entry__image img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.project-entry__content {
+.project-entry__content,
+.paper-entry__content {
   min-width: 0;
   align-self: center;
   margin: 0;
 }
 
-.md-typeset .project-entry__content > p {
+.md-typeset .project-entry__content > p,
+.md-typeset .paper-entry__content > p {
   margin: 0;
 }
 
 @media (max-width: 480px) {
-  .project-entry {
+  .project-entry,
+  .paper-entry {
     grid-template-columns: minmax(0, 1fr);
   }
 }
