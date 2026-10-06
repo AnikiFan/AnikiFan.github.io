@@ -20,7 +20,8 @@
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+% Keep the CV edition fixed across builds; shared with the homepage link.
+\fancyfoot[R]{\scriptsize\textcolor[gray]{0.6}{CV version: \input{version.txt}\unskip}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -30,6 +31,8 @@
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.45in}
 \addtolength{\textheight}{1in}
+\setlength{\headwidth}{\textwidth}
+\setlength{\footskip}{12pt}
 
 \urlstyle{rm}
 
