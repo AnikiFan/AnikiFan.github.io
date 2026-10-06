@@ -101,7 +101,7 @@ template: home.html
 !!! info ""
     <div class="project-entry">
     <a class="project-entry__image" href="projects/campus-beamer/">
-      <img src="assets/images/projects/campus-beamer-logo.svg" alt="campus-beamer logo" width="568" height="101" />
+      <img src="assets/images/projects/campus-beamer-logo.svg" alt="campus-beamer logo" />
     </a>
     <div class="project-entry__content">
       <p><strong><a href="projects/campus-beamer/">campus-beamer</a></strong></p>
