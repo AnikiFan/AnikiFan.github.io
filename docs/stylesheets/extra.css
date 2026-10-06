@@ -77,3 +77,47 @@
 .md-typeset .admonition.info > details.abstract {
   clear: both;
 }
+
+/* Keep project links with their description beside the image. */
+.project-entry {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-entry__image {
+  position: relative;
+  min-height: 10rem;
+  aspect-ratio: 16 / 10;
+  background: #fff;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.project-entry__image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project-entry__content {
+  min-width: 0;
+  align-self: center;
+  margin: 1rem 0;
+}
+
+.md-typeset .project-entry__content > :first-child {
+  margin-top: 0;
+}
+
+.md-typeset .project-entry__content > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  .project-entry {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
