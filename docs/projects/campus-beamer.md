@@ -3,8 +3,8 @@
 [`campus-beamer`](https://github.com/AnikiFan/campus-beamer) is an agent-oriented system for creating academic presentations with LaTeX Beamer. It is designed around a simple question: what should an academic presentation workflow look like when an AI agent is helping to create, revise, and maintain the slides?
 
 <figure markdown="1">
-![campus-beamer example: cover, paper citations, code window and image layout](../assets/images/projects/campus-beamer-showcase.jpg){ width=100% }
-<figcaption>Actual example slides: consistent academic styling, linked paper citations, code windows, and image layouts. Click to view the full-resolution image.</figcaption>
+![campus-beamer example: cover, section opening, paper citations, code window, image layout and closing slide](../assets/images/projects/campus-beamer-showcase.jpg){ width=100% }
+<figcaption>Actual example slides: cover, section opening, linked paper citations, code window, image layout, and closing slide. Click to view the full-resolution image.</figcaption>
 </figure>
 
 ## Motivation
