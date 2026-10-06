@@ -85,12 +85,14 @@
 .paper-entry__image {
   display: block;
   align-self: center;
+  justify-self: stretch;
   width: 100%;
 }
 
 .project-entry__image img,
 .paper-entry__image img {
   display: block;
+  max-width: none;
   width: 100%;
   height: auto;
 }
