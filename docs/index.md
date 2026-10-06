@@ -49,11 +49,17 @@ template: home.html
 ### 2025
 
 !!! info ""
-    ![VERL](assets/images/paper/2025/VERL.png){ align=left width=50%}
+    <div class="paper-entry" markdown="1">
+    <div class="paper-entry__image">
+      <img src="assets/images/paper/2025/VERL.png" alt="VERL" />
+    </div>
+    <div class="paper-entry__content" markdown="1">
     **Semantic-Space Exploration and Exploitation in RLVR for LLM Reasoning**  
     {{ author("huang_fan_ding") }}<sup>\*</sup>, {{ author("huang_guan_bo") }}<sup>\*</sup>, **Xiao Fan**, {{ author("he_yi") }}, {{ author("liang_xiao") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting") }}, {{ author("faisal_nadeem_khan") }}, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("wang_zhi") }}<sup>†</sup>.  
     *Accepted as ACL 2026 Findings.*  
     [[Paper]](https://openreview.net/pdf?id=HoyEcZfmdB) [[Code]](https://github.com/hf618/VERL) [[Project]](https://hf618.github.io/VERL.github.io/) [[BibTex]](https://dblp.org/rec/conf/acl/HuangHFHLCJKJW26.html?view=bibtex)
+    </div>
+    </div>
 
     ??? abstract
         Reinforcement Learning with Verifiable Rewards (RLVR) for LLM reasoning is often framed as balancing exploration and exploitation in action space, typically operationalized with token-level proxies (e.g., output entropy or confidence). We argue that this apparent trade-off is largely a measurement artifact: token-level statistics reflect next-token uncertainty rather than how reasoning progresses over multi-token semantic structures. We therefore study exploration and exploitation in the hidden-state space of response trajectories. We use Effective Rank (ER) to quantify representational exploration and introduce its temporal derivatives, Effective Rank Velocity (ERV) and Effective Rank Acceleration (ERA), to characterize exploitative refinement dynamics. Empirically and theoretically, ER and ERV exhibit near-zero correlation in semantic space, suggesting the two capacities can be improved simultaneously. Motivated by this, we propose Velocity-Exploiting Rank Learning (VERL), which shapes the RL advantage with an auxiliary signal derived from ER/ERV and uses the more stable ERA as a meta-control variable to adaptively balance the incentives. Across multiple base models, RL algorithms, and reasoning benchmarks, VERL yields consistent improvements, including large gains on challenging tasks (e.g., 21.4% in Gaokao 2024).
@@ -63,12 +69,17 @@ template: home.html
 ### 2026
 
 !!! info ""
-    ![MoETTA](assets/images/paper/2026/AAAI_MoETTA.png){ align=left width=50%}
-
+    <div class="paper-entry" markdown="1">
+    <div class="paper-entry__image">
+      <img src="assets/images/paper/2026/AAAI_MoETTA.png" alt="MoETTA" />
+    </div>
+    <div class="paper-entry__content" markdown="1">
     **MoETTA: Test-Time Adaptation Under Mixed Distribution Shifts with MoE-LayerNorm**  
     **Xiao Fan**, {{ author("jiang_jing_yan") }}<sup>†</sup>, {{ author("chen_zhao_ru") }}, {{ author("huang_fan_ding") }}, {{ author("chen_xiao") }}, {{ author("jiang_qin_ting")}}, {{ author("zhang_bo_wen") }}, {{ author("tang_xing") }}, {{ author("wang_zhi") }}.  
     {==*Accepted by AAAI 2026 (CCF-A, 17.6% overall acceptance rate).*==}  
     [[Paper]](https://arxiv.org/abs/2511.13760v1) [[Code]](https://github.com/AnikiFan/MoETTA) <!--[[project]](https://yourdomain.example/project-a)--> [[BibTex]](https://dblp.org/rec/conf/aaai/FanJCHCJZTW26.bib?param=1) [[Poster]](assets/poster/AAAI2026.pdf)
+    </div>
+    </div>
 
     ??? abstract
         Test-Time Adaptation (TTA) has proven effective in mitigating performance drops under single-domain distribution shifts by updating model parameters during inference. However, real-world deployments often involve mixed distribution shifts, where test samples are affected by diverse and potentially conflicting domain factors, posing significant challenges even for state-of-the-art TTA methods. A key limitation in existing approaches is their reliance on a unified adaptation path, which fails to account for the fact that optimal gradient directions can vary significantly across different domains. Moreover, current benchmarks focus only on synthetic or homogeneous shifts, failing to capture the complexity of real-world heterogeneous mixed distribution shifts.
