@@ -87,7 +87,12 @@ template: home.html
 
 ## Projects
 
-- [**campus-beamer**](https://github.com/AnikiFan/campus-beamer) — A LaTeX Beamer template for campus presentations.
+!!! info ""
+    ![campus-beamer logo](assets/images/projects/campus-beamer-logo.svg){ align=left width=180}
+    **[campus-beamer](projects/campus-beamer.md)**<br>
+    An agent-oriented academic presentation system for the AI era.<br>
+    Released: October 2026<br>
+    [[Project page]](projects/campus-beamer.md) [[GitHub]](https://github.com/AnikiFan/campus-beamer) [[Release sample]](https://github.com/AnikiFan/campus-beamer/releases)
 
 ---
 

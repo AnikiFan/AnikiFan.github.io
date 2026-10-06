@@ -119,6 +119,7 @@ nav:
     - My First Paper: papers/test.md
   - Projects:
     - projects/index.md
+    - campus-beamer: projects/campus-beamer.md
     - My First Project: projects/test.md
   - Notes:
     - notes/index.md
