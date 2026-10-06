@@ -4,6 +4,9 @@ import yaml
 
 
 def define_env(env):
+    env.variables["cv_version"] = (
+        Path(__file__).parent / "docs/assets/cv/version.txt"
+    ).read_text(encoding="utf-8").strip()
     authors_path = Path(__file__).with_name("authors.yml")
     with authors_path.open(encoding="utf-8") as f:
         env.authors = yaml.safe_load(f) or {}

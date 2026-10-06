@@ -9,6 +9,10 @@ uv run mkdocs serve
 
 The GitHub Actions workflow compiles `docs/assets/cv/cv.tex` to PDF and then deploys the site. Local previews will 404 the CV link until that PDF exists.
 
+The CV edition month is stored in `docs/assets/cv/version.txt` as `YYYY-MM`.
+Update it when revising the CV. Both the homepage link and the PDF's subtle
+bottom-right footer read this value, so rebuilding the site does not change the edition.
+
 ## Add an author
 
 - Update `authors.yml`:

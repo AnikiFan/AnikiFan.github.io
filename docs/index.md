@@ -17,7 +17,7 @@ template: home.html
       <a href="https://x.com/oaa9449qUd29951" target="_blank" rel="noopener">X</a>
     </p>
     <p>
-      <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV</a> ·
+      <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV ({{ cv_version }})</a> ·
       <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">LinkedIn</a>
     </p>
   </div>
