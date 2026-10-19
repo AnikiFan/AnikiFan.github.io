@@ -18,7 +18,9 @@ template: home.html
     </p>
     <p>
       <a href="assets/cv/cv.pdf" target="_blank" rel="noopener">CV ({{ cv_version }})</a> ·
-      <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://linkedin.com/in/xiao-fan-42064336b" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://nextcloud.xiaofan.ac.cn/apps/calendar/appointment/TPHb3Kx8fwqf" target="_blank" rel="noopener">Book a meeting (1 hour)</a> ·
+      <a href="https://nextcloud.xiaofan.ac.cn/apps/calendar/appointment/HzzWyKdXTdCZ" target="_blank" rel="noopener">Book a meeting (30 min)</a>
     </p>
   </div>
 </div>
