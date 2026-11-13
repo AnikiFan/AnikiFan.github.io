@@ -8,7 +8,7 @@
   min-height: 28rem;
   max-height: 64rem;
   overflow: hidden;
-  background: #68afbd;
+  background: #9eafe0;
   color: #fff;
 }
 .hero__fallback, .hero__canvas, .hero::after {
@@ -19,16 +19,16 @@
 }
 .hero__fallback {
   background:
-    radial-gradient(ellipse at 73% 22%, #fff9db 0%, #fff2c499 3%, transparent 18%),
-    linear-gradient(172deg, transparent 65%, #e3d4ab 66%, #f1e3c3 100%),
-    linear-gradient(#78bce0 0%, #d8edf0 37%, #337e97 38%, #45b6b2 65%, #8dd3be 85%);
+    radial-gradient(ellipse at 69% 18%, #fff3ea99 0%, #f3d7ed44 15%, transparent 36%),
+    linear-gradient(174deg, transparent 78%, #dbc5cf 80%, #efd2c9 100%),
+    linear-gradient(#819cdb 0%, #c5c6e6 38%, #9baedd 42%, #3d6ac3 62%, #579ee1 85%);
 }
 .hero__canvas { display: block; opacity: 0; }
 .hero__canvas.is-ready { opacity: 1; }
 .hero::after {
   content: "";
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(8, 35, 43, .04) 25%, rgba(8, 35, 43, .2) 50%, rgba(8, 35, 43, .32) 100%);
+  background: linear-gradient(180deg, transparent 30%, rgba(22, 35, 91, .07) 60%, rgba(38, 35, 81, .14) 100%);
 }
 .hero__content {
   position: absolute;
@@ -64,14 +64,14 @@
   padding: .55rem 1rem;
   border: 1px solid rgba(255, 255, 255, .5);
   border-radius: 2rem;
-  background: rgba(8, 35, 43, .65);
+  background: rgba(34, 43, 90, .66);
   color: #fff;
   font: inherit;
   font-size: .75rem;
   cursor: pointer;
   touch-action: manipulation;
 }
-.hero__controls button:hover { background: rgba(8, 35, 43, .9); }
+.hero__controls button:hover { background: rgba(34, 43, 90, .72); }
 .hero__controls button:disabled { opacity: .6; cursor: default; }
 .hero__controls button:focus-visible, .hero__scroll:focus-visible {
   outline: 3px solid #fff;
@@ -88,9 +88,10 @@
   align-items: center;
   gap: .6rem;
   min-height: 44px;
-  color: #fff;
+  color: #28325e;
   font-size: .75rem;
 }
+.hero__scroll:focus-visible { outline-color: #28325e; }
 #homepage-profile { scroll-margin-top: 6rem; }
 @media (max-width: 767px) {
   .hero { min-height: 26rem; max-height: 54rem; }
