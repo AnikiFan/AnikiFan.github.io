@@ -2,14 +2,8 @@
 {% block tabs %}
   {{ super() }}
   <section class="hero" aria-label="Sunny beach" data-beach-hero>
-    <picture class="hero__poster">
-      <source media="(max-width: 767px)" srcset="{{ 'assets/media/beach-poster-mobile.webp' | url }}">
-      <img src="{{ 'assets/media/beach-poster.webp' | url }}" alt="Sunlit blue sea and gentle waves washing onto a sandy beach" width="1280" height="720" fetchpriority="high" draggable="false">
-    </picture>
-    <video class="hero__video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"
-      data-desktop-src="{{ 'assets/media/beach-desktop.mp4' | url }}"
-      data-mobile-src="{{ 'assets/media/beach-mobile.mp4' | url }}"></video>
-    <audio class="hero__audio" loop preload="none" data-src="{{ 'assets/media/beach-waves.mp3' | url }}"></audio>
+    <div class="hero__fallback" aria-hidden="true"></div>
+    <canvas class="hero__canvas" role="img" aria-label="Procedural sunlit ocean: waves roll over a sandy shoreline"></canvas>
     <div class="hero__content">
       <h1>Xiao Fan</h1>
       <p>Exploring AI generalization</p>

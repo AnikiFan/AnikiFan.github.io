@@ -70,26 +70,36 @@ bottom-right footer read this value, so rebuilding the site does not change the 
 
 ## Homepage beach cover
 
-`overrides/home.html`, `docs/stylesheets/extra.css`, and
-`docs/javascripts/beach.js` implement the cover. Media sources and license links
-are recorded in [MEDIA_CREDITS.md](MEDIA_CREDITS.md).
+The beach is rendered in real time by an original WebGL fragment shader in
+`docs/javascripts/beach.js`. There is no video, photograph, texture download,
+audio file, or animation framework in the cover. `overrides/home.html` supplies
+the canvas and controls; `docs/stylesheets/extra.css` supplies layout and the
+CSS-only fallback.
 
-- The responsive WebP poster loads first, including with JavaScript disabled.
-- Only one silent 24 fps H.264 video is selected per visit: a portrait crop below
-  768 CSS pixels, or the landscape version otherwise. Resizing does not fetch
-  another video. Both MP4s use fast-start metadata and a short crossfaded loop.
-- Reduced-motion, Save-Data, and reported 2G connections start with a still
-  image. Play waves allows an explicit opt-in. No video URL is attached before
-  it is needed. Browsers that block autoplay retain the poster and play button.
-- Ocean audio is independent of motion, initially off, and fetched only after
-  the sound button is clicked. Both players pause when the cover leaves view,
-  the document is hidden, or the page is left. They resume according to the
-  visitor's choices when visible again; choices are not persisted across visits.
-- No animation library, canvas, WebGL renderer, or continuous JavaScript loop
-  is used. Media decode and playback remain native browser operations.
+The shader uses a perspective camera, a bounded wave-height intersection,
+analytic wave normals, Fresnel reflection, sun glints, depth-colored shallow
+water, procedural foam, sand noise, and sky haze. These are visual
+approximations designed for a homepage, not a fluid-dynamics simulation.
 
-After changing the cover, run `uv run mkdocs build --strict`, serve `site/`, and
-check desktop, narrow mobile, and landscape mobile layouts. Verify play/pause,
-sound on/off, scroll-away and background-tab suspension, reduced-motion and
-Save-Data opt-in, media-load failures, and the no-JavaScript poster. Audio must
-not be requested before a click, and only one MP4 should be requested per visit.
+- One fullscreen triangle, no texture allocations or post-processing passes.
+- Initial drawing-buffer budgets: 460,000 pixels on desktop, 230,000 on mobile;
+  device pixel ratio is not multiplied in. Target caps are 24 and 20 fps.
+  Repeated slow frames lower the pixel budget down to 90,000 pixels. Actual
+  performance depends on the browser and GPU; the limits are not an FPS guarantee.
+- Reduced-motion, Save-Data, and reported 2G connections render a single still
+  frame by default. Play waves allows an explicit opt-in. Pausing or leaving
+  the cover/tab stops the animation loop; returning preserves the scene time.
+- No WebGL or JavaScript: a CSS beach remains visible. Context loss stops the
+  loop and exposes the fallback; restoration rebuilds GPU resources.
+- Sound is off by default. The first sound-button click creates a Web Audio
+  graph from deterministic filtered noise and slow amplitude/filter modulation.
+  This synthesizes surf rather than playing a recording. It is independent of
+  visual motion, and the audio context is suspended offscreen or in a hidden
+  tab. No sound generation runs before opt-in.
+
+After changes, run `uv run mkdocs build --strict` and check desktop, narrow
+mobile, and landscape layouts. Verify animation and audio controls, offscreen
+and background suspension, reduced-motion/Save-Data opt-in, resizing, WebGL
+failure and context restoration, and the no-JavaScript fallback. Network
+inspection should show no cover media requests. Browser automation with a
+software WebGL renderer validates behavior, not real-device GPU performance.
