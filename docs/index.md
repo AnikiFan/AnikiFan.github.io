@@ -4,7 +4,7 @@ template: home.html
 ---
 
 <!-- 顶部个人信息：头像 + 名片式简介 -->
-<div class="profile" id="homepage-profile">
+<div class="profile">
   <img src="assets/images/AAAI2026_beach.jpg" alt="Xiao Fan" width="120" height="120" />
   <div>
     <h1>Xiao Fan (范潇)</h1>

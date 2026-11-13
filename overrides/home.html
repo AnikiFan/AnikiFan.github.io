@@ -1,24 +1,13 @@
 {% extends "base.html" %}
 {% block tabs %}
   {{ super() }}
-  <section class="hero" aria-label="Dreamlike blue beach" data-beach-hero>
-    <div class="hero__fallback" aria-hidden="true"></div>
-    <canvas class="hero__canvas" role="img" aria-label="Dreamlike blue ocean with slow waves, a hazy sun, and a soft sandy shoreline"></canvas>
+  <section class="hero">
+    <div class="hero__image">
+      <img src="{{ 'assets/images/illustration.png' | url }}" alt="Cover illustration" width="1920" height="1080" draggable="false">
+    </div>
     <div class="hero__content">
       <h1>Xiao Fan</h1>
       <p>Exploring AI generalization</p>
     </div>
-    <div class="hero__toolbar" hidden>
-      <div class="hero__controls" role="group" aria-label="Beach ambience">
-        <button type="button" class="hero__motion" aria-pressed="false">Play waves</button>
-        <button type="button" class="hero__sound" aria-pressed="false">Sound off</button>
-      </div>
-      <span class="hero__status" role="status"></span>
-    </div>
-    <a class="hero__scroll" href="#homepage-profile" aria-label="Explore my profile">Explore <span aria-hidden="true">↓</span></a>
   </section>
-{% endblock %}
-{% block scripts %}
-  {{ super() }}
-  <script src="{{ 'javascripts/beach.js' | url }}" defer></script>
 {% endblock %}
