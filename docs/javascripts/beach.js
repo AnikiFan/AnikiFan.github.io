@@ -1,4 +1,4 @@
-/* Original procedural beach. One fullscreen triangle, no textures or media. */
+/* Original dreamlike procedural beach. One fullscreen triangle, no textures or media. */
 (function () {
   "use strict";
   const hero = document.querySelector("[data-beach-hero]");
@@ -35,105 +35,91 @@
     precision highp float;
     uniform vec2 u_resolution;
     uniform float u_time;
-    vec3 sunDirection() { return normalize(vec3(min(.32,u_resolution.x/u_resolution.y*.18),.24,1.)); }
     float hash(vec2 p) {
-      vec3 q = fract(vec3(p.xyx) * 0.1031);
+      vec3 q = fract(vec3(p.xyx) * .1031);
       q += dot(q, q.yzx + 33.33);
       return fract((q.x + q.y) * q.z);
     }
     float noise(vec2 p) {
-      vec2 i = floor(p), f = fract(p);
-      f = f*f*(3.0-2.0*f);
-      return mix(mix(hash(i), hash(i+vec2(1.,0.)), f.x),
-                 mix(hash(i+vec2(0.,1.)), hash(i+1.), f.x), f.y);
+      vec2 i=floor(p), f=fract(p);
+      f=f*f*(3.-2.*f);
+      return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),
+                 mix(hash(i+vec2(0.,1.)),hash(i+1.),f.x),f.y);
     }
     float fbm(vec2 p) {
-      return .57*noise(p) + .28*noise(p*2.03+7.1) + .15*noise(p*4.11+19.3);
-    }
-    vec3 sky(vec3 rd) {
-      float y = max(rd.y, 0.);
-      vec3 color = mix(vec3(.81,.91,.92), vec3(.26,.61,.83), pow(y,.45));
-      float sun = max(dot(rd,sunDirection()),0.);
-      color += vec3(1.,.80,.49)*pow(sun,20.)*.25;
-      color += vec3(1.,.91,.70)*smoothstep(.99982,.99996,sun)*1.8;
-      if (rd.y > .025) {
-        vec2 p = rd.xz / (rd.y+.12);
-        float clouds = smoothstep(.56,.79,fbm(p*1.2+vec2(u_time*.003,0.)));
-        color = mix(color,vec3(1.,.98,.92),clouds*.40*smoothstep(.025,.16,rd.y));
-      }
-      return color;
-    }
-    // Height and analytic derivatives: no multi-sample normal reconstruction.
-    vec3 swell(vec2 p) {
-      float a = p.y*1.08 + u_time*.82 + .52*sin(p.x*.33);
-      float b = dot(p,vec2(.63,1.6)) + u_time*1.12;
-      float c = dot(p,vec2(-1.8,2.8)) + u_time*1.43;
-      float h = .19*sin(a) + .042*sin(2.*a) + .046*sin(b) + .016*sin(c);
-      float d = .19*cos(a) + .084*cos(2.*a);
-      return vec3(h, d*.1716*cos(p.x*.33)+.02898*cos(b)-.0288*cos(c),
-                  d*1.08+.0736*cos(b)+.0448*cos(c));
+      return .57*noise(p)+.28*noise(p*2.03+7.1)+.15*noise(p*4.11+19.3);
     }
     void main() {
-      vec2 uv = gl_FragCoord.xy/u_resolution;
-      float aspect = u_resolution.x/u_resolution.y;
-      vec3 ro = vec3(0.,3.8,-5.);
-      vec3 rd = normalize(vec3((uv.x-.5)*aspect*.95,(uv.y-.64)*.95,.88));
-      vec3 color;
-      if (rd.y >= -.003) {
-        color = sky(rd);
-      } else {
-        float distance = min(-ro.y/rd.y,650.);
-        vec3 p = ro + rd*distance;
-        // Two bounded corrections to intersect the moving height field.
-        for(int i=0;i<2;i++) {
-          float height = swell(p.xz).x * smoothstep(3.0,7.0,p.z);
-          distance = clamp((height-ro.y)/rd.y,0.,650.);
-          p = ro + rd*distance;
-        }
-        vec2 q = p.xz;
-        float shore = 3.4 + .32*sin(q.x*.28) + q.x*.08;
-        float wash = .36*sin(u_time*.82) + .10*sin(q.x*.8+u_time*.45);
-        float depth = (q.y-shore-wash)*.23;
-        float grain = noise(q*95.);
-        float sandPattern = fbm(q*4.);
-        vec3 sand = vec3(.96,.84,.63) + (sandPattern-.5)*.075 + (grain-.5)*.035;
-        float wet = smoothstep(-.6,.15,depth);
-        sand *= 1.-.23*wet;
-        vec3 wave = swell(q);
-        float attenuation = smoothstep(-.05,1.3,depth);
-        float rippleA = dot(q,vec2(14.,9.))+u_time*1.5;
-        float rippleB = dot(q,vec2(-9.,17.))-u_time*1.8;
-        vec2 ripple = vec2(cos(rippleA)*.028-cos(rippleB)*.019,
-                           cos(rippleA)*.018+cos(rippleB)*.036);
-        // Fade subpixel ripples toward the horizon to prevent sparkling aliases.
-        ripple *= 1.-smoothstep(12.,55.,distance);
-        float distant = 1.-smoothstep(20.,100.,distance);
-        vec3 normal = normalize(vec3(-(wave.y*distant+ripple.x)*attenuation,1.,-(wave.z*distant+ripple.y)*attenuation));
-        vec3 reflected = reflect(rd,normal);
-        float fresnel = .025 + .975*pow(1.-max(dot(-rd,normal),0.),5.);
-        vec3 deep = vec3(.025,.26,.33);
-        vec3 shallow = vec3(.13,.63,.58);
-        vec3 water = mix(shallow,deep,1.-exp(-max(depth,0.)*.17));
-        float caustic = pow(max(0.,sin(q.x*5.+wave.x*3.)*sin(q.y*6.-u_time*.55)),6.);
-        vec3 bottom = sand*vec3(.69,.94,.84) + caustic*.08;
-        water = mix(bottom,water,1.-exp(-max(depth,0.)*1.7));
-        water = mix(water,sky(reflected),clamp(fresnel,.0,.88));
-        float specular = pow(max(dot(reflected,sunDirection()),0.),160.);
-        water += vec3(1.,.9,.64)*specular*.9;
-        float phase = q.y*1.08+u_time*.82+.52*sin(q.x*.33);
-        float crest = smoothstep(.84,1.,sin(phase));
-        float breakup = fbm(q*vec2(3.8,6.)+vec2(0.,u_time*.24));
-        float breakers = crest*smoothstep(.25,.65,breakup)*(1.-smoothstep(1.0,3.3,depth));
-        float edge = (1.-smoothstep(.015,.22,abs(depth)))*smoothstep(.28,.6,breakup);
-        float trails = smoothstep(.63,.88,breakup)*(1.-smoothstep(0.,.8,depth))*.3;
-        float foam = clamp(breakers*.83+edge*.86+trails,0.,.94);
-        water = mix(water,vec3(.94,.98,.92),foam);
-        color = mix(sand,water,smoothstep(-.035,.035,depth));
-        color = mix(color,sky(normalize(vec3(rd.x,0.,rd.z))),1.-exp(-distance*.006));
-      }
-      // Gentle exposure rolloff keeps sun glints bright without a white screen.
-      color = color/(1.+max(color-1.,0.));
-      gl_FragColor = vec4(pow(max(color,0.),vec3(.94)),1.);
+      vec2 uv=gl_FragCoord.xy/u_resolution;
+      float aspect=u_resolution.x/u_resolution.y;
+      float x=(uv.x-.5)*min(aspect,1.8);
+      float t=u_time*.32;
+      const float horizon=.61;
+      vec2 sun=vec2(.69,.82);
+      vec2 sunDelta=(uv-sun)*vec2(min(aspect,1.6),1.);
+      float halo=exp(-dot(sunDelta,sunDelta)*14.);
+      float core=exp(-dot(sunDelta,sunDelta)*1700.);
+
+      // Soft lavender sky with a warm, diffuse sun. No hard disc or horizon.
+      float skyHeight=clamp((uv.y-horizon)/(1.-horizon),0.,1.);
+      vec3 sky=mix(vec3(.87,.85,.95),vec3(.39,.54,.85),skyHeight);
+      sky=mix(sky,vec3(.99,.84,.82),halo*.62);
+      sky+=vec3(1.,.93,.82)*core*.48;
+      float cloud=fbm(vec2(x*1.5+t*.018,uv.y*7.));
+      float cloudVeil=smoothstep(.42,.76,cloud)*smoothstep(horizon,.9,uv.y);
+      sky=mix(sky,vec3(.91,.88,.98),cloudVeil*.24);
+
+      float depth=clamp((horizon-uv.y)/horizon,0.,1.);
+      // Perspective coordinates, with detail fading before it becomes subpixel.
+      float z=1.8/(depth+.16);
+      vec2 p=vec2(x*(1.+z*.32),z);
+      float drift=fbm(p*vec2(.8,.45)+vec2(t*.07,-t*.12));
+      float phase=p.y*2.6+t*.9+drift*3.+sin(p.x*.6)*.7;
+      float swell=sin(phase)*.6+sin(p.y*1.4+p.x*.6+t*.6)*.4;
+      float detail=smoothstep(.05,.3,depth);
+      vec3 sea=mix(vec3(.60,.69,.91),vec3(.12,.34,.74),smoothstep(0.,.38,depth));
+      sea=mix(sea,vec3(.22,.56,.89),smoothstep(.38,1.,depth));
+      sea+=vec3(.06,.08,.12)*swell*.32*detail;
+      sea+=vec3(.055,.07,.10)*(drift-.5)*detail;
+      // Subdued, broad wave shoulders rather than high-contrast striped normals.
+      float shoulder=pow(.5+.5*sin(phase),6.)*(.4+.6*drift);
+      sea+=vec3(.14,.19,.27)*shoulder*.2*detail;
+
+      // A soft path of scattered light; highlights stretch toward the viewer.
+      float lightWidth=.018+depth*.15;
+      float lightX=uv.x-sun.x+.012*sin(z*2.+t*.5);
+      float lightPath=exp(-lightX*lightX/(lightWidth*lightWidth));
+      float shimmer=fbm(vec2(x*16.,z*11.-t*.65));
+      float reflectedLight=lightPath*(.22+.78*smoothstep(.3,.8,shimmer));
+      sea=mix(sea,vec3(.86,.82,.99),reflectedLight*.28*detail);
+
+      // Slow curved wash, with softly feathered foam and blue wet sand.
+      float shore=.16+.055*sin(x*1.7+.4)+.045*x;
+      shore+=.009*sin(t*.9+x*3.)+.004*sin(t*.63-x*5.);
+      float d=uv.y-shore;
+      float edgeNoise=fbm(vec2(x*16.,t*.12));
+      float edge=d+.004*(edgeNoise-.5);
+      vec3 sand=mix(vec3(.94,.82,.78),vec3(.98,.90,.83),clamp(uv.y/.25,0.,1.));
+      sand+=(fbm(vec2(x*3.,uv.y*12.))-.5)*.022;
+      float wet=exp(-abs(d)*27.);
+      sand=mix(sand,vec3(.60,.70,.88),wet*.42);
+      sea=mix(sea,vec3(.48,.72,.96),exp(-max(d,0.)*18.)*.55);
+      float lace=1.-smoothstep(.001,.009,abs(edge));
+      float backwash=1.-smoothstep(.002,.013,abs(d-.032-.007*sin(x*6.+t*.7)));
+      float foam=(lace*.55+backwash*.14)*(.65+.35*edgeNoise);
+      sea=mix(sea,vec3(.90,.92,1.),foam);
+      vec3 coast=mix(sand,sea,smoothstep(-.007,.008,edge));
+
+      // Atmospheric veils hide distant detail without a blur/post-processing pass.
+      vec3 mist=vec3(.80,.81,.95);
+      float seaMist=exp(-pow((uv.y-horizon)/.070,2.));
+      coast=mix(coast,mist,seaMist*.85);
+      sky=mix(sky,mist,exp(-pow((uv.y-horizon)/.10,2.))*.55);
+      vec3 color=mix(coast,sky,smoothstep(horizon-.022,horizon+.025,uv.y));
+      color+=vec3(.10,.065,.10)*halo*.22;
+      // Subtle dithering keeps the broad gradients clean on 8-bit displays.
+      color+=(hash(gl_FragCoord.xy)-.5)/255.;
+      gl_FragColor=vec4(clamp(color,0.,1.),1.);
     }
   `;
 

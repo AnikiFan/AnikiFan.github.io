@@ -76,10 +76,12 @@ audio file, or animation framework in the cover. `overrides/home.html` supplies
 the canvas and controls; `docs/stylesheets/extra.css` supplies layout and the
 CSS-only fallback.
 
-The shader uses a perspective camera, a bounded wave-height intersection,
-analytic wave normals, Fresnel reflection, sun glints, depth-colored shallow
-water, procedural foam, sand noise, and sky haze. These are visual
-approximations designed for a homepage, not a fluid-dynamics simulation.
+The deliberately dreamlike shader uses blue and periwinkle water, broad moving
+swells, a feathered shoreline, diffuse reflected light, a lavender sky, and
+atmospheric haze. Perspective-scaled noise provides motion without sharp normal
+reflections, dense foam, or a hard horizon. Softness is calculated directly in
+the shader, without a full-screen blur or post-processing pass. This is an
+atmospheric illustration rather than a fluid-dynamics simulation.
 
 - One fullscreen triangle, no texture allocations or post-processing passes.
 - Initial drawing-buffer budgets: 460,000 pixels on desktop, 230,000 on mobile;
