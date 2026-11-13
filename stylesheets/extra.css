@@ -1,4 +1,4 @@
-/* Native video decoding; no canvas, WebGL, blur, or animation framework. */
+/* One bounded-resolution procedural canvas; no media downloads. */
 .hero {
   position: relative;
   isolation: isolate;
@@ -11,24 +11,24 @@
   background: #68afbd;
   color: #fff;
 }
-.hero__poster, .hero__video, .hero::after {
+.hero__fallback, .hero__canvas, .hero::after {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
 }
-.hero__poster img, .hero__video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.hero__fallback {
+  background:
+    radial-gradient(ellipse at 73% 22%, #fff9db 0%, #fff2c499 3%, transparent 18%),
+    linear-gradient(172deg, transparent 65%, #e3d4ab 66%, #f1e3c3 100%),
+    linear-gradient(#78bce0 0%, #d8edf0 37%, #337e97 38%, #45b6b2 65%, #8dd3be 85%);
 }
-.hero__video { opacity: 0; }
-.hero__video.is-ready { opacity: 1; }
+.hero__canvas { display: block; opacity: 0; }
+.hero__canvas.is-ready { opacity: 1; }
 .hero::after {
   content: "";
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(8, 35, 43, .04) 25%, rgba(8, 35, 43, .2) 50%, rgba(8, 35, 43, .72) 100%);
+  background: linear-gradient(180deg, rgba(8, 35, 43, .04) 25%, rgba(8, 35, 43, .2) 50%, rgba(8, 35, 43, .32) 100%);
 }
 .hero__content {
   position: absolute;
