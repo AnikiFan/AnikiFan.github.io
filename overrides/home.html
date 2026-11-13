@@ -1,13 +1,30 @@
 {% extends "base.html" %}
 {% block tabs %}
   {{ super() }}
-  <section class="hero">
-    <div class="hero__image">
-      <img src="{{ 'assets/images/illustration.png' | url }}" alt="Cover illustration" width="1920" height="1080" draggable="false">
-    </div>
+  <section class="hero" aria-label="Sunny beach" data-beach-hero>
+    <picture class="hero__poster">
+      <source media="(max-width: 767px)" srcset="{{ 'assets/media/beach-poster-mobile.webp' | url }}">
+      <img src="{{ 'assets/media/beach-poster.webp' | url }}" alt="Sunlit blue sea and gentle waves washing onto a sandy beach" width="1280" height="720" fetchpriority="high" draggable="false">
+    </picture>
+    <video class="hero__video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"
+      data-desktop-src="{{ 'assets/media/beach-desktop.mp4' | url }}"
+      data-mobile-src="{{ 'assets/media/beach-mobile.mp4' | url }}"></video>
+    <audio class="hero__audio" loop preload="none" data-src="{{ 'assets/media/beach-waves.mp3' | url }}"></audio>
     <div class="hero__content">
       <h1>Xiao Fan</h1>
       <p>Exploring AI generalization</p>
     </div>
+    <div class="hero__toolbar" hidden>
+      <div class="hero__controls" role="group" aria-label="Beach ambience">
+        <button type="button" class="hero__motion" aria-pressed="false">Play waves</button>
+        <button type="button" class="hero__sound" aria-pressed="false">Sound off</button>
+      </div>
+      <span class="hero__status" role="status"></span>
+    </div>
+    <a class="hero__scroll" href="#homepage-profile" aria-label="Explore my profile">Explore <span aria-hidden="true">↓</span></a>
   </section>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'javascripts/beach.js' | url }}" defer></script>
 {% endblock %}
