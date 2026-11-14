@@ -7,3 +7,7 @@ __pycache__/
 .DS_Store
 *.pdf
 *.synctex.gz
+build/
+docs/blog/posts/nextcloud/
+docs/gallery/albums/
+docs/nextcloud-content.sha256

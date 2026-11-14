@@ -1,4 +1,5 @@
-# Index Title !
+# Blog
 
-Index content !
+Notes on research, tools, and things I am learning.
+
 

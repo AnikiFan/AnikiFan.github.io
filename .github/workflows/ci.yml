@@ -1,43 +1,64 @@
 name: ci
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [nextcloud-content-updated]
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"
 permissions:
   contents: write
 concurrency:
   group: pages-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        if: github.event_name == 'push'
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v4
-        with:
-          root_file: cv.tex
-          working_directory: ./docs/assets/cv
       - name: Install uv
         uses: astral-sh/setup-uv@v7
         with:
           enable-cache: true
-      - name: Build site
+      - name: Install dependencies and test content sync
         run: |
           uv sync --frozen
-          uv run mkdocs build --strict
+          uv run --frozen python -m unittest discover -s tests -v
+      - name: Read the last published content fingerprint
+        run: |
+          mkdir -p build/nextcloud
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null; then
+            git fetch --depth=1 origin gh-pages
+            git show FETCH_HEAD:nextcloud-content.sha256 > build/nextcloud/previous.sha256 || true
+          fi
+      - name: Sync published Nextcloud content
+        id: sync
+        run: |
+          args=()
+          if [[ "$GITHUB_EVENT_NAME" == "schedule" ]]; then
+            args+=(--skip-unchanged)
+          fi
+          uv run --frozen python scripts/sync_nextcloud.py \
+            --previous-hash build/nextcloud/previous.sha256 "${args[@]}"
+      - name: Compile LaTeX document
+        if: steps.sync.outputs.changed == 'true'
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: cv.tex
+          working_directory: ./docs/assets/cv
+      - name: Build site
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          uv run --frozen mkdocs build --strict
           echo xiaofan.ac.cn > site/CNAME
       - name: Deploy
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: steps.sync.outputs.changed == 'true' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+
