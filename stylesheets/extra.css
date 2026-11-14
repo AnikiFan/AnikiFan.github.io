@@ -122,6 +122,29 @@
   }
 }
 
+/* Photo albums generated from Nextcloud. */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.md-typeset .photo-grid figure { margin: 0; min-width: 0; max-width: none; }
+.photo-grid figure > p { margin: 0; }
+.photo-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: .35rem;
+}
+.md-typeset .photo-grid figcaption {
+  margin: .4rem 0 0;
+  font-size: .75rem;
+  color: var(--md-default-fg-color--light);
+}
+
 /* Campus Beamer previews follow the project's existing light/dark palette. */
 .md-typeset .campus-beamer-brand {
   display: block;
