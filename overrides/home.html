@@ -1,13 +1,20 @@
 {% extends "base.html" %}
 {% block tabs %}
   {{ super() }}
-  <section class="hero">
-    <div class="hero__image">
-      <img src="{{ 'assets/images/illustration.png' | url }}" alt="Cover illustration" width="1920" height="1080" draggable="false">
-    </div>
+  <section class="hero painting" data-painting data-waterline="0.55" aria-label="An interactive oil painting of a peaceful lake">
+    <picture>
+      <source media="(max-width: 767px)" srcset="{{ 'assets/paintings/stillwater-small.webp' | url }}">
+      <img class="painting__image" src="{{ 'assets/paintings/stillwater.webp' | url }}" alt="Oil painting of a peaceful blue lake, willow trees and lavender mountains beneath an apricot morning sky" width="1536" height="1024" fetchpriority="high" draggable="false">
+    </picture>
+    <canvas class="painting__canvas" aria-hidden="true"></canvas>
+    <div class="painting__shade" aria-hidden="true"></div>
     <div class="hero__content">
       <h1>Xiao Fan</h1>
       <p>Exploring AI generalization</p>
     </div>
   </section>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'javascripts/painting.js' | url }}" defer></script>
 {% endblock %}

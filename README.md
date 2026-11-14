@@ -70,6 +70,13 @@ bottom-right footer read this value, so rebuilding the site does not change the 
 
 ## Homepage cover changes
 
-Keep the original static cover until a replacement is approved. For future cover
-changes, build and test locally, show desktop and mobile previews to the owner,
-and wait for explicit approval before pushing changes or deploying them online.
+The current oil-painted lake cover was approved by the owner after preview.
+Optimized WebP artwork provides a static fallback; `docs/javascripts/painting.js`
+adds gentle water and tree movement with Canvas2D, without audio or video.
+Rendering is capped at 550,000 pixels / 16 fps on desktop and 280,000 pixels /
+12 fps on mobile, stops offscreen or in hidden tabs, and respects reduced-motion
+and data-saving preferences. Clicking or tapping the water adds a subtle ripple.
+
+For future cover changes, build and test locally, show desktop and mobile
+previews to the owner, and wait for explicit approval before pushing changes
+or deploying them to the production homepage.

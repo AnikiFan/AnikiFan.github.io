@@ -1,50 +1,56 @@
-/* Full-bleed homepage hero */
-.hero {
+/* Owner-approved oil-painted landscape cover. */
+.hero.painting {
   position: relative;
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  height: 100vh;
+  isolation: isolate;
+  width: 100%;
+  height: 88vh;
+  height: 88svh;
+  min-height: 28rem;
+  max-height: 65rem;
   overflow: hidden;
+  background: #8898be;
+  color: #fff9ec;
 }
-
-.hero__image {
+.painting__image, .painting__canvas, .painting__shade {
   position: absolute;
   inset: 0;
-  z-index: 0;
-}
-
-.hero__image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  filter: blur(4px) brightness(0.8);
-  transform: scale(1.05);
 }
-
-.hero__content {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 10vh 8vw 30vh;
-  color: #fff;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+.painting__image { display: block; object-fit: cover; object-position: center; }
+.painting__canvas { display: block; opacity: 0; }
+.painting__canvas.is-ready { opacity: 1; }
+.painting__shade {
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(24, 35, 64, .08), transparent 28%, transparent 46%, rgba(20, 33, 61, .38));
 }
-
-.hero__content h1 {
-  font-size: clamp(2.5rem, 6vw, 4rem);
-  font-weight: 800;
-  margin: 0 0 0.3em 0;
+.painting .hero__content {
+  position: absolute;
+  left: 6vw;
+  right: 6vw;
+  bottom: 16%;
+  pointer-events: none;
+  color: #fff9ec;
+  text-shadow: 0 2px 18px rgba(18, 31, 58, .4);
 }
-
-.hero__content p {
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+.painting .hero__content h1 {
+  font: 400 clamp(3.2rem, 6.7vw, 5.6rem)/1.08 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.035em;
+  margin: 0 0 .28em;
+}
+.painting .hero__content p {
+  font-size: clamp(.9rem, 1.6vw, 1.15rem);
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: .015em;
   margin: 0;
-  max-width: 40rem;
-  opacity: 0.9;
+}
+@media (max-width: 767px) {
+  .hero.painting { min-height: 26rem; }
+  .painting .hero__content { bottom: 23%; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero.painting { min-height: 22rem; }
 }
 
 /* Homepage profile card */
