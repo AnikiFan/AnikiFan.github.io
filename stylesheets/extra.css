@@ -121,3 +121,48 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* Campus Beamer previews follow the project's existing light/dark palette. */
+.md-typeset .campus-beamer-brand {
+  display: block;
+  width: min(100%, 480px);
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+.campus-beamer-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.md-typeset .campus-beamer-gallery figure {
+  min-width: 0;
+  max-width: none;
+  margin: 0;
+}
+
+.campus-beamer-gallery figure > p {
+  margin: 0;
+}
+
+.campus-beamer-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+}
+
+.md-typeset .campus-beamer-gallery figcaption {
+  margin: 0.4rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .campus-beamer-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
