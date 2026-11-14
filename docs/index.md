@@ -102,16 +102,16 @@ template: home.html
 !!! info ""
     <div class="project-entry">
     <a class="project-entry__image" href="projects/campus-beamer/">
-      <img src="assets/images/projects/campus-beamer-logo.svg" alt="campus-beamer logo" />
+      <img src="assets/images/projects/campus-beamer-logo.svg" alt="Campus Beamer logo" />
     </a>
     <div class="project-entry__content">
-      <p><strong><a href="projects/campus-beamer/">campus-beamer</a></strong></p>
-      <p>An agent-oriented academic presentation system for the AI era.</p>
+      <p><strong><a href="projects/campus-beamer/">Campus Beamer</a></strong></p>
+      <p>An agent-oriented Beamer template with six themes, PDF/PowerPoint export, and native speaker notes.</p>
       <p><em>Released: October 2026</em></p>
       <p>
         <a href="projects/campus-beamer/">[Project page]</a>
         <a href="https://github.com/AnikiFan/campus-beamer">[GitHub]</a>
-        <a href="https://github.com/AnikiFan/campus-beamer/releases">[Release sample]</a>
+        <a href="https://github.com/AnikiFan/campus-beamer/releases/latest">[Download examples]</a>
       </p>
     </div>
     </div>
