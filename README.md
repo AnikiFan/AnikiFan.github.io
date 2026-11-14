@@ -1,5 +1,8 @@
 # MkDocs
 
+Blog posts and photo albums can be maintained in Nextcloud. See
+[Nextcloud publishing](NEXTCLOUD.md) for the author workflow and synchronization details.
+
 ## Get Started
 
 ```bash

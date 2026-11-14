@@ -65,6 +65,9 @@ plugins:
   - macros
   - glightbox
 
+hooks:
+  - scripts/nextcloud_hook.py
+
 markdown_extensions:
   - abbr
   - admonition
