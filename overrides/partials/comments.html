@@ -1,4 +1,4 @@
-{% if not page.is_homepage %}
+{% if not page.is_homepage and page.meta.get("comments", true) %}
 <script src="https://giscus.app/client.js"
         data-repo="AnikiFan/AnikiFan.github.io"
         data-repo-id="R_kgDOOhdurQ"

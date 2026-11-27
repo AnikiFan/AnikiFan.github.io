@@ -1,0 +1,4258 @@
+[
+  {
+    "slug": "dsc00022-2",
+    "name": "DSC00022",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00022-2.jpg",
+        "width": 6336,
+        "height": 9504,
+        "bytes": 21842137
+      },
+      "hd": {
+        "src": "hd/dsc00022-2.webp",
+        "width": 2560,
+        "height": 3840,
+        "bytes": 2044806
+      },
+      "standard": {
+        "src": "images/dsc00022-2.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 832556
+      },
+      "thumb": {
+        "src": "thumbs/dsc00022-2.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 61632
+      }
+    }
+  },
+  {
+    "slug": "dsc00024-3",
+    "name": "DSC00024",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00024-3.jpg",
+        "width": 9504,
+        "height": 6336,
+        "bytes": 22521526
+      },
+      "hd": {
+        "src": "hd/dsc00024-3.webp",
+        "width": 3840,
+        "height": 2560,
+        "bytes": 2102812
+      },
+      "standard": {
+        "src": "images/dsc00024-3.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 890090
+      },
+      "thumb": {
+        "src": "thumbs/dsc00024-3.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 66590
+      }
+    }
+  },
+  {
+    "slug": "dsc00043-20",
+    "name": "DSC00043",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00043-20.jpg",
+        "width": 6336,
+        "height": 9504,
+        "bytes": 24529889
+      },
+      "hd": {
+        "src": "hd/dsc00043-20.webp",
+        "width": 2560,
+        "height": 3840,
+        "bytes": 2216440
+      },
+      "standard": {
+        "src": "images/dsc00043-20.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 964680
+      },
+      "thumb": {
+        "src": "thumbs/dsc00043-20.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 81184
+      }
+    }
+  },
+  {
+    "slug": "dsc00044-21",
+    "name": "DSC00044",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00044-21.jpg",
+        "width": 6336,
+        "height": 9504,
+        "bytes": 24829464
+      },
+      "hd": {
+        "src": "hd/dsc00044-21.webp",
+        "width": 2560,
+        "height": 3840,
+        "bytes": 2243356
+      },
+      "standard": {
+        "src": "images/dsc00044-21.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 972252
+      },
+      "thumb": {
+        "src": "thumbs/dsc00044-21.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 81966
+      }
+    }
+  },
+  {
+    "slug": "dsc00045-22",
+    "name": "DSC00045",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00045-22.jpg",
+        "width": 6336,
+        "height": 9504,
+        "bytes": 24495406
+      },
+      "hd": {
+        "src": "hd/dsc00045-22.webp",
+        "width": 2560,
+        "height": 3840,
+        "bytes": 2225604
+      },
+      "standard": {
+        "src": "images/dsc00045-22.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 973324
+      },
+      "thumb": {
+        "src": "thumbs/dsc00045-22.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 80238
+      }
+    }
+  },
+  {
+    "slug": "dsc00046-23",
+    "name": "DSC00046",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00046-23.jpg",
+        "width": 6336,
+        "height": 9504,
+        "bytes": 25497739
+      },
+      "hd": {
+        "src": "hd/dsc00046-23.webp",
+        "width": 2560,
+        "height": 3840,
+        "bytes": 2446354
+      },
+      "standard": {
+        "src": "images/dsc00046-23.webp",
+        "width": 1707,
+        "height": 2560,
+        "bytes": 1038988
+      },
+      "thumb": {
+        "src": "thumbs/dsc00046-23.webp",
+        "width": 427,
+        "height": 640,
+        "bytes": 82994
+      }
+    }
+  },
+  {
+    "slug": "dsc00048-24",
+    "name": "DSC00048",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00048-24.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 20924917
+      },
+      "hd": {
+        "src": "hd/dsc00048-24.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 814314
+      },
+      "standard": {
+        "src": "images/dsc00048-24.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 326238
+      },
+      "thumb": {
+        "src": "thumbs/dsc00048-24.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 34656
+      }
+    }
+  },
+  {
+    "slug": "dsc00072-37",
+    "name": "DSC00072",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00072-37.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 26807926
+      },
+      "hd": {
+        "src": "hd/dsc00072-37.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 3031624
+      },
+      "standard": {
+        "src": "images/dsc00072-37.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 1366234
+      },
+      "thumb": {
+        "src": "thumbs/dsc00072-37.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 92400
+      }
+    }
+  },
+  {
+    "slug": "dsc00089-48",
+    "name": "DSC00089",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00089-48.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 18271717
+      },
+      "hd": {
+        "src": "hd/dsc00089-48.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 710720
+      },
+      "standard": {
+        "src": "images/dsc00089-48.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 258394
+      },
+      "thumb": {
+        "src": "thumbs/dsc00089-48.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 25254
+      }
+    }
+  },
+  {
+    "slug": "dsc00090-49",
+    "name": "DSC00090",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00090-49.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17359185
+      },
+      "hd": {
+        "src": "hd/dsc00090-49.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 606160
+      },
+      "standard": {
+        "src": "images/dsc00090-49.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 250524
+      },
+      "thumb": {
+        "src": "thumbs/dsc00090-49.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 23962
+      }
+    }
+  },
+  {
+    "slug": "dsc00091-50",
+    "name": "DSC00091",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00091-50.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16914519
+      },
+      "hd": {
+        "src": "hd/dsc00091-50.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 527054
+      },
+      "standard": {
+        "src": "images/dsc00091-50.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 199902
+      },
+      "thumb": {
+        "src": "thumbs/dsc00091-50.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18120
+      }
+    }
+  },
+  {
+    "slug": "dsc00092-51",
+    "name": "DSC00092",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00092-51.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 18321143
+      },
+      "hd": {
+        "src": "hd/dsc00092-51.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 785708
+      },
+      "standard": {
+        "src": "images/dsc00092-51.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 322194
+      },
+      "thumb": {
+        "src": "thumbs/dsc00092-51.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 26102
+      }
+    }
+  },
+  {
+    "slug": "dsc00093-52",
+    "name": "DSC00093",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00093-52.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16954637
+      },
+      "hd": {
+        "src": "hd/dsc00093-52.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 457526
+      },
+      "standard": {
+        "src": "images/dsc00093-52.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 170260
+      },
+      "thumb": {
+        "src": "thumbs/dsc00093-52.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 13564
+      }
+    }
+  },
+  {
+    "slug": "dsc00094-53",
+    "name": "DSC00094",
+    "date": "2026-11-21",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00094-53.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16604035
+      },
+      "hd": {
+        "src": "hd/dsc00094-53.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 409498
+      },
+      "standard": {
+        "src": "images/dsc00094-53.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 143572
+      },
+      "thumb": {
+        "src": "thumbs/dsc00094-53.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 13010
+      }
+    }
+  },
+  {
+    "slug": "dsc00095-54",
+    "name": "DSC00095",
+    "date": "2026-11-21",
+    "rating": 5,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00095-54.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16661597
+      },
+      "hd": {
+        "src": "hd/dsc00095-54.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 413448
+      },
+      "standard": {
+        "src": "images/dsc00095-54.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 145558
+      },
+      "thumb": {
+        "src": "thumbs/dsc00095-54.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 12580
+      }
+    }
+  },
+  {
+    "slug": "dsc00105-59",
+    "name": "DSC00105",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00105-59.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14290682
+      },
+      "hd": {
+        "src": "hd/dsc00105-59.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 541720
+      },
+      "standard": {
+        "src": "images/dsc00105-59.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 205136
+      },
+      "thumb": {
+        "src": "thumbs/dsc00105-59.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 15102
+      }
+    }
+  },
+  {
+    "slug": "dsc00112-60",
+    "name": "DSC00112",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00112-60.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 18518921
+      },
+      "hd": {
+        "src": "hd/dsc00112-60.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1042246
+      },
+      "standard": {
+        "src": "images/dsc00112-60.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 365760
+      },
+      "thumb": {
+        "src": "thumbs/dsc00112-60.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 19584
+      }
+    }
+  },
+  {
+    "slug": "dsc00114-61",
+    "name": "DSC00114",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00114-61.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13442092
+      },
+      "hd": {
+        "src": "hd/dsc00114-61.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 463274
+      },
+      "standard": {
+        "src": "images/dsc00114-61.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 197414
+      },
+      "thumb": {
+        "src": "thumbs/dsc00114-61.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18102
+      }
+    }
+  },
+  {
+    "slug": "dsc00116-63",
+    "name": "DSC00116",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00116-63.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15493454
+      },
+      "hd": {
+        "src": "hd/dsc00116-63.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 833598
+      },
+      "standard": {
+        "src": "images/dsc00116-63.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 344208
+      },
+      "thumb": {
+        "src": "thumbs/dsc00116-63.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 21120
+      }
+    }
+  },
+  {
+    "slug": "dsc00132-70",
+    "name": "DSC00132",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00132-70.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13355269
+      },
+      "hd": {
+        "src": "hd/dsc00132-70.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 439568
+      },
+      "standard": {
+        "src": "images/dsc00132-70.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 173232
+      },
+      "thumb": {
+        "src": "thumbs/dsc00132-70.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18442
+      }
+    }
+  },
+  {
+    "slug": "dsc00133-71",
+    "name": "DSC00133",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00133-71.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15225622
+      },
+      "hd": {
+        "src": "hd/dsc00133-71.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 644186
+      },
+      "standard": {
+        "src": "images/dsc00133-71.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 241476
+      },
+      "thumb": {
+        "src": "thumbs/dsc00133-71.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 22036
+      }
+    }
+  },
+  {
+    "slug": "dsc00150-73",
+    "name": "DSC00150",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00150-73.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15995356
+      },
+      "hd": {
+        "src": "hd/dsc00150-73.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 997488
+      },
+      "standard": {
+        "src": "images/dsc00150-73.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 368932
+      },
+      "thumb": {
+        "src": "thumbs/dsc00150-73.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 23960
+      }
+    }
+  },
+  {
+    "slug": "dsc00153-74",
+    "name": "DSC00153",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00153-74.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14229521
+      },
+      "hd": {
+        "src": "hd/dsc00153-74.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 771586
+      },
+      "standard": {
+        "src": "images/dsc00153-74.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 320394
+      },
+      "thumb": {
+        "src": "thumbs/dsc00153-74.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 26120
+      }
+    }
+  },
+  {
+    "slug": "dsc00171-86",
+    "name": "DSC00171",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00171-86.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16530807
+      },
+      "hd": {
+        "src": "hd/dsc00171-86.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1050306
+      },
+      "standard": {
+        "src": "images/dsc00171-86.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 458122
+      },
+      "thumb": {
+        "src": "thumbs/dsc00171-86.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 34466
+      }
+    }
+  },
+  {
+    "slug": "dsc00175-87",
+    "name": "DSC00175",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00175-87.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15477934
+      },
+      "hd": {
+        "src": "hd/dsc00175-87.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 874090
+      },
+      "standard": {
+        "src": "images/dsc00175-87.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 375238
+      },
+      "thumb": {
+        "src": "thumbs/dsc00175-87.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 29184
+      }
+    }
+  },
+  {
+    "slug": "dsc00182-92",
+    "name": "DSC00182",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00182-92.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15148468
+      },
+      "hd": {
+        "src": "hd/dsc00182-92.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 813796
+      },
+      "standard": {
+        "src": "images/dsc00182-92.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 345970
+      },
+      "thumb": {
+        "src": "thumbs/dsc00182-92.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 28040
+      }
+    }
+  },
+  {
+    "slug": "dsc00190-100",
+    "name": "DSC00190",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00190-100.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13530525
+      },
+      "hd": {
+        "src": "hd/dsc00190-100.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 613950
+      },
+      "standard": {
+        "src": "images/dsc00190-100.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 260738
+      },
+      "thumb": {
+        "src": "thumbs/dsc00190-100.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 25758
+      }
+    }
+  },
+  {
+    "slug": "dsc00191-101",
+    "name": "DSC00191",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00191-101.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13536675
+      },
+      "hd": {
+        "src": "hd/dsc00191-101.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 620262
+      },
+      "standard": {
+        "src": "images/dsc00191-101.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 263206
+      },
+      "thumb": {
+        "src": "thumbs/dsc00191-101.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 26182
+      }
+    }
+  },
+  {
+    "slug": "dsc00192-102",
+    "name": "DSC00192",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00192-102.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13580844
+      },
+      "hd": {
+        "src": "hd/dsc00192-102.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 630862
+      },
+      "standard": {
+        "src": "images/dsc00192-102.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 268906
+      },
+      "thumb": {
+        "src": "thumbs/dsc00192-102.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 26240
+      }
+    }
+  },
+  {
+    "slug": "dsc00193-103",
+    "name": "DSC00193",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00193-103.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15159466
+      },
+      "hd": {
+        "src": "hd/dsc00193-103.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 801926
+      },
+      "standard": {
+        "src": "images/dsc00193-103.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 343254
+      },
+      "thumb": {
+        "src": "thumbs/dsc00193-103.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 26116
+      }
+    }
+  },
+  {
+    "slug": "dsc00196-104",
+    "name": "DSC00196",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00196-104.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 18018822
+      },
+      "hd": {
+        "src": "hd/dsc00196-104.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1387724
+      },
+      "standard": {
+        "src": "images/dsc00196-104.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 606700
+      },
+      "thumb": {
+        "src": "thumbs/dsc00196-104.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 37740
+      }
+    }
+  },
+  {
+    "slug": "dsc00204-105",
+    "name": "DSC00204",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00204-105.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13930826
+      },
+      "hd": {
+        "src": "hd/dsc00204-105.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 487524
+      },
+      "standard": {
+        "src": "images/dsc00204-105.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 200786
+      },
+      "thumb": {
+        "src": "thumbs/dsc00204-105.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 19740
+      }
+    }
+  },
+  {
+    "slug": "dsc00207-108",
+    "name": "DSC00207",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00207-108.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14212731
+      },
+      "hd": {
+        "src": "hd/dsc00207-108.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 613270
+      },
+      "standard": {
+        "src": "images/dsc00207-108.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 260486
+      },
+      "thumb": {
+        "src": "thumbs/dsc00207-108.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 25148
+      }
+    }
+  },
+  {
+    "slug": "dsc00218-118",
+    "name": "DSC00218",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00218-118.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14886653
+      },
+      "hd": {
+        "src": "hd/dsc00218-118.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 684380
+      },
+      "standard": {
+        "src": "images/dsc00218-118.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 275462
+      },
+      "thumb": {
+        "src": "thumbs/dsc00218-118.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 29244
+      }
+    }
+  },
+  {
+    "slug": "dsc00219-119",
+    "name": "DSC00219",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00219-119.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14970567
+      },
+      "hd": {
+        "src": "hd/dsc00219-119.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 715006
+      },
+      "standard": {
+        "src": "images/dsc00219-119.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 289774
+      },
+      "thumb": {
+        "src": "thumbs/dsc00219-119.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 29782
+      }
+    }
+  },
+  {
+    "slug": "dsc00221-120",
+    "name": "DSC00221",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00221-120.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14952608
+      },
+      "hd": {
+        "src": "hd/dsc00221-120.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 710494
+      },
+      "standard": {
+        "src": "images/dsc00221-120.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 288126
+      },
+      "thumb": {
+        "src": "thumbs/dsc00221-120.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 29792
+      }
+    }
+  },
+  {
+    "slug": "dsc00223-122",
+    "name": "DSC00223",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00223-122.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16416996
+      },
+      "hd": {
+        "src": "hd/dsc00223-122.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 953862
+      },
+      "standard": {
+        "src": "images/dsc00223-122.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 399074
+      },
+      "thumb": {
+        "src": "thumbs/dsc00223-122.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 40356
+      }
+    }
+  },
+  {
+    "slug": "dsc00224-123",
+    "name": "DSC00224",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00224-123.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15544266
+      },
+      "hd": {
+        "src": "hd/dsc00224-123.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 774854
+      },
+      "standard": {
+        "src": "images/dsc00224-123.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 328636
+      },
+      "thumb": {
+        "src": "thumbs/dsc00224-123.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 31274
+      }
+    }
+  },
+  {
+    "slug": "dsc00231-128",
+    "name": "DSC00231",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00231-128.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16963005
+      },
+      "hd": {
+        "src": "hd/dsc00231-128.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1070894
+      },
+      "standard": {
+        "src": "images/dsc00231-128.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 439538
+      },
+      "thumb": {
+        "src": "thumbs/dsc00231-128.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 29428
+      }
+    }
+  },
+  {
+    "slug": "dsc00237-132",
+    "name": "DSC00237",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00237-132.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 17189819
+      },
+      "hd": {
+        "src": "hd/dsc00237-132.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1244210
+      },
+      "standard": {
+        "src": "images/dsc00237-132.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 486208
+      },
+      "thumb": {
+        "src": "thumbs/dsc00237-132.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 27508
+      }
+    }
+  },
+  {
+    "slug": "dsc00244-135",
+    "name": "DSC00244",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00244-135.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 17614595
+      },
+      "hd": {
+        "src": "hd/dsc00244-135.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 1317854
+      },
+      "standard": {
+        "src": "images/dsc00244-135.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 514024
+      },
+      "thumb": {
+        "src": "thumbs/dsc00244-135.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 35046
+      }
+    }
+  },
+  {
+    "slug": "dsc00257-141",
+    "name": "DSC00257",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00257-141.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16946303
+      },
+      "hd": {
+        "src": "hd/dsc00257-141.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 750464
+      },
+      "standard": {
+        "src": "images/dsc00257-141.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 294260
+      },
+      "thumb": {
+        "src": "thumbs/dsc00257-141.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 31530
+      }
+    }
+  },
+  {
+    "slug": "dsc00259-142",
+    "name": "DSC00259",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00259-142.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 19122019
+      },
+      "hd": {
+        "src": "hd/dsc00259-142.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 963884
+      },
+      "standard": {
+        "src": "images/dsc00259-142.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 362302
+      },
+      "thumb": {
+        "src": "thumbs/dsc00259-142.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 27172
+      }
+    }
+  },
+  {
+    "slug": "dsc00260-143",
+    "name": "DSC00260",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00260-143.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 17941465
+      },
+      "hd": {
+        "src": "hd/dsc00260-143.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 688568
+      },
+      "standard": {
+        "src": "images/dsc00260-143.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 243698
+      },
+      "thumb": {
+        "src": "thumbs/dsc00260-143.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 23656
+      }
+    }
+  },
+  {
+    "slug": "dsc00261-144",
+    "name": "DSC00261",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00261-144.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16696703
+      },
+      "hd": {
+        "src": "hd/dsc00261-144.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 675422
+      },
+      "standard": {
+        "src": "images/dsc00261-144.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 253072
+      },
+      "thumb": {
+        "src": "thumbs/dsc00261-144.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 27730
+      }
+    }
+  },
+  {
+    "slug": "dsc00262-145",
+    "name": "DSC00262",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00262-145.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16572187
+      },
+      "hd": {
+        "src": "hd/dsc00262-145.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 647576
+      },
+      "standard": {
+        "src": "images/dsc00262-145.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 236374
+      },
+      "thumb": {
+        "src": "thumbs/dsc00262-145.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 27718
+      }
+    }
+  },
+  {
+    "slug": "dsc00265-147",
+    "name": "DSC00265",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00265-147.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 27822561
+      },
+      "hd": {
+        "src": "hd/dsc00265-147.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 2719828
+      },
+      "standard": {
+        "src": "images/dsc00265-147.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 1114468
+      },
+      "thumb": {
+        "src": "thumbs/dsc00265-147.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 71272
+      }
+    }
+  },
+  {
+    "slug": "dsc00266-148",
+    "name": "DSC00266",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00266-148.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 26988251
+      },
+      "hd": {
+        "src": "hd/dsc00266-148.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 2291124
+      },
+      "standard": {
+        "src": "images/dsc00266-148.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 917048
+      },
+      "thumb": {
+        "src": "thumbs/dsc00266-148.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 68502
+      }
+    }
+  },
+  {
+    "slug": "dsc00271-152",
+    "name": "DSC00271",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00271-152.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17606930
+      },
+      "hd": {
+        "src": "hd/dsc00271-152.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 976504
+      },
+      "standard": {
+        "src": "images/dsc00271-152.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 370732
+      },
+      "thumb": {
+        "src": "thumbs/dsc00271-152.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 26776
+      }
+    }
+  },
+  {
+    "slug": "dsc00276-157",
+    "name": "DSC00276",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00276-157.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16511624
+      },
+      "hd": {
+        "src": "hd/dsc00276-157.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 609590
+      },
+      "standard": {
+        "src": "images/dsc00276-157.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 197416
+      },
+      "thumb": {
+        "src": "thumbs/dsc00276-157.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 8218
+      }
+    }
+  },
+  {
+    "slug": "dsc00277-158",
+    "name": "DSC00277",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00277-158.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16101140
+      },
+      "hd": {
+        "src": "hd/dsc00277-158.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 623334
+      },
+      "standard": {
+        "src": "images/dsc00277-158.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 207998
+      },
+      "thumb": {
+        "src": "thumbs/dsc00277-158.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 11128
+      }
+    }
+  },
+  {
+    "slug": "dsc00278-159",
+    "name": "DSC00278",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00278-159.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16194449
+      },
+      "hd": {
+        "src": "hd/dsc00278-159.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 649226
+      },
+      "standard": {
+        "src": "images/dsc00278-159.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 216764
+      },
+      "thumb": {
+        "src": "thumbs/dsc00278-159.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 11648
+      }
+    }
+  },
+  {
+    "slug": "dsc00335-199",
+    "name": "DSC00335",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00335-199.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16715901
+      },
+      "hd": {
+        "src": "hd/dsc00335-199.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1085340
+      },
+      "standard": {
+        "src": "images/dsc00335-199.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 432908
+      },
+      "thumb": {
+        "src": "thumbs/dsc00335-199.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 27020
+      }
+    }
+  },
+  {
+    "slug": "dsc00351-209",
+    "name": "DSC00351",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00351-209.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13836025
+      },
+      "hd": {
+        "src": "hd/dsc00351-209.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 347070
+      },
+      "standard": {
+        "src": "images/dsc00351-209.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 147266
+      },
+      "thumb": {
+        "src": "thumbs/dsc00351-209.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14934
+      }
+    }
+  },
+  {
+    "slug": "dsc00354-210",
+    "name": "DSC00354",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00354-210.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14308941
+      },
+      "hd": {
+        "src": "hd/dsc00354-210.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 496824
+      },
+      "standard": {
+        "src": "images/dsc00354-210.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 197314
+      },
+      "thumb": {
+        "src": "thumbs/dsc00354-210.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 15506
+      }
+    }
+  },
+  {
+    "slug": "dsc00355-211",
+    "name": "DSC00355",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00355-211.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13681971
+      },
+      "hd": {
+        "src": "hd/dsc00355-211.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 356306
+      },
+      "standard": {
+        "src": "images/dsc00355-211.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 141464
+      },
+      "thumb": {
+        "src": "thumbs/dsc00355-211.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14364
+      }
+    }
+  },
+  {
+    "slug": "dsc00365-221",
+    "name": "DSC00365",
+    "date": "2026-11-22",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00365-221.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 18204704
+      },
+      "hd": {
+        "src": "hd/dsc00365-221.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1022614
+      },
+      "standard": {
+        "src": "images/dsc00365-221.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 385898
+      },
+      "thumb": {
+        "src": "thumbs/dsc00365-221.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 23718
+      }
+    }
+  },
+  {
+    "slug": "dsc00370-226",
+    "name": "DSC00370",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00370-226.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17654484
+      },
+      "hd": {
+        "src": "hd/dsc00370-226.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 851362
+      },
+      "standard": {
+        "src": "images/dsc00370-226.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 312696
+      },
+      "thumb": {
+        "src": "thumbs/dsc00370-226.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18822
+      }
+    }
+  },
+  {
+    "slug": "dsc00371-227",
+    "name": "DSC00371",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00371-227.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17895338
+      },
+      "hd": {
+        "src": "hd/dsc00371-227.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 946416
+      },
+      "standard": {
+        "src": "images/dsc00371-227.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 373082
+      },
+      "thumb": {
+        "src": "thumbs/dsc00371-227.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 22526
+      }
+    }
+  },
+  {
+    "slug": "dsc00381-237",
+    "name": "DSC00381",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00381-237.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 18954110
+      },
+      "hd": {
+        "src": "hd/dsc00381-237.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1384020
+      },
+      "standard": {
+        "src": "images/dsc00381-237.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 511194
+      },
+      "thumb": {
+        "src": "thumbs/dsc00381-237.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 39178
+      }
+    }
+  },
+  {
+    "slug": "dsc00419-272",
+    "name": "DSC00419",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00419-272.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 20582195
+      },
+      "hd": {
+        "src": "hd/dsc00419-272.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1139354
+      },
+      "standard": {
+        "src": "images/dsc00419-272.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 390678
+      },
+      "thumb": {
+        "src": "thumbs/dsc00419-272.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 16252
+      }
+    }
+  },
+  {
+    "slug": "dsc00431-279",
+    "name": "DSC00431",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00431-279.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14543223
+      },
+      "hd": {
+        "src": "hd/dsc00431-279.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 278202
+      },
+      "standard": {
+        "src": "images/dsc00431-279.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 98600
+      },
+      "thumb": {
+        "src": "thumbs/dsc00431-279.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9830
+      }
+    }
+  },
+  {
+    "slug": "dsc00432-280",
+    "name": "DSC00432",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00432-280.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14247581
+      },
+      "hd": {
+        "src": "hd/dsc00432-280.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 239214
+      },
+      "standard": {
+        "src": "images/dsc00432-280.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 85680
+      },
+      "thumb": {
+        "src": "thumbs/dsc00432-280.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9280
+      }
+    }
+  },
+  {
+    "slug": "dsc00433-281",
+    "name": "DSC00433",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00433-281.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14426451
+      },
+      "hd": {
+        "src": "hd/dsc00433-281.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 229612
+      },
+      "standard": {
+        "src": "images/dsc00433-281.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 84924
+      },
+      "thumb": {
+        "src": "thumbs/dsc00433-281.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9018
+      }
+    }
+  },
+  {
+    "slug": "dsc00434-282",
+    "name": "DSC00434",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00434-282.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14384250
+      },
+      "hd": {
+        "src": "hd/dsc00434-282.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 250222
+      },
+      "standard": {
+        "src": "images/dsc00434-282.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 91466
+      },
+      "thumb": {
+        "src": "thumbs/dsc00434-282.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9664
+      }
+    }
+  },
+  {
+    "slug": "dsc00435-283",
+    "name": "DSC00435",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00435-283.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14545864
+      },
+      "hd": {
+        "src": "hd/dsc00435-283.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 262940
+      },
+      "standard": {
+        "src": "images/dsc00435-283.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 95674
+      },
+      "thumb": {
+        "src": "thumbs/dsc00435-283.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9432
+      }
+    }
+  },
+  {
+    "slug": "dsc00438-284",
+    "name": "DSC00438",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00438-284.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14680083
+      },
+      "hd": {
+        "src": "hd/dsc00438-284.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 278162
+      },
+      "standard": {
+        "src": "images/dsc00438-284.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 99306
+      },
+      "thumb": {
+        "src": "thumbs/dsc00438-284.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9420
+      }
+    }
+  },
+  {
+    "slug": "dsc00439-285",
+    "name": "DSC00439",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00439-285.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14703166
+      },
+      "hd": {
+        "src": "hd/dsc00439-285.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 277484
+      },
+      "standard": {
+        "src": "images/dsc00439-285.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 100052
+      },
+      "thumb": {
+        "src": "thumbs/dsc00439-285.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 9862
+      }
+    }
+  },
+  {
+    "slug": "dsc00444-287",
+    "name": "DSC00444",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00444-287.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15403261
+      },
+      "hd": {
+        "src": "hd/dsc00444-287.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 382414
+      },
+      "standard": {
+        "src": "images/dsc00444-287.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 118700
+      },
+      "thumb": {
+        "src": "thumbs/dsc00444-287.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 11504
+      }
+    }
+  },
+  {
+    "slug": "dsc00454-297",
+    "name": "DSC00454",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00454-297.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14488455
+      },
+      "hd": {
+        "src": "hd/dsc00454-297.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 233296
+      },
+      "standard": {
+        "src": "images/dsc00454-297.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 82912
+      },
+      "thumb": {
+        "src": "thumbs/dsc00454-297.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 7356
+      }
+    }
+  },
+  {
+    "slug": "dsc00455-298",
+    "name": "DSC00455",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00455-298.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14629691
+      },
+      "hd": {
+        "src": "hd/dsc00455-298.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 210128
+      },
+      "standard": {
+        "src": "images/dsc00455-298.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 67400
+      },
+      "thumb": {
+        "src": "thumbs/dsc00455-298.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 5170
+      }
+    }
+  },
+  {
+    "slug": "dsc00456-299",
+    "name": "DSC00456",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00456-299.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15647593
+      },
+      "hd": {
+        "src": "hd/dsc00456-299.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 374624
+      },
+      "standard": {
+        "src": "images/dsc00456-299.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 132956
+      },
+      "thumb": {
+        "src": "thumbs/dsc00456-299.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 11416
+      }
+    }
+  },
+  {
+    "slug": "dsc00457-300",
+    "name": "DSC00457",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00457-300.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13869823
+      },
+      "hd": {
+        "src": "hd/dsc00457-300.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 120960
+      },
+      "standard": {
+        "src": "images/dsc00457-300.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 37978
+      },
+      "thumb": {
+        "src": "thumbs/dsc00457-300.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 3772
+      }
+    }
+  },
+  {
+    "slug": "dsc00458-301",
+    "name": "DSC00458",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00458-301.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14136024
+      },
+      "hd": {
+        "src": "hd/dsc00458-301.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 108622
+      },
+      "standard": {
+        "src": "images/dsc00458-301.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 31736
+      },
+      "thumb": {
+        "src": "thumbs/dsc00458-301.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 3126
+      }
+    }
+  },
+  {
+    "slug": "dsc00459-302",
+    "name": "DSC00459",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00459-302.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15205795
+      },
+      "hd": {
+        "src": "hd/dsc00459-302.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 297680
+      },
+      "standard": {
+        "src": "images/dsc00459-302.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 103192
+      },
+      "thumb": {
+        "src": "thumbs/dsc00459-302.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 8030
+      }
+    }
+  },
+  {
+    "slug": "dsc00460-303",
+    "name": "DSC00460",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00460-303.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15209647
+      },
+      "hd": {
+        "src": "hd/dsc00460-303.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 300446
+      },
+      "standard": {
+        "src": "images/dsc00460-303.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 102138
+      },
+      "thumb": {
+        "src": "thumbs/dsc00460-303.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 8042
+      }
+    }
+  },
+  {
+    "slug": "dsc00473-313",
+    "name": "DSC00473",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00473-313.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16804843
+      },
+      "hd": {
+        "src": "hd/dsc00473-313.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 487424
+      },
+      "standard": {
+        "src": "images/dsc00473-313.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 179228
+      },
+      "thumb": {
+        "src": "thumbs/dsc00473-313.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 12000
+      }
+    }
+  },
+  {
+    "slug": "dsc00475-314",
+    "name": "DSC00475",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00475-314.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16659242
+      },
+      "hd": {
+        "src": "hd/dsc00475-314.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 516742
+      },
+      "standard": {
+        "src": "images/dsc00475-314.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 206508
+      },
+      "thumb": {
+        "src": "thumbs/dsc00475-314.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 21482
+      }
+    }
+  },
+  {
+    "slug": "dsc00481-320",
+    "name": "DSC00481",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00481-320.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 20752318
+      },
+      "hd": {
+        "src": "hd/dsc00481-320.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1004788
+      },
+      "standard": {
+        "src": "images/dsc00481-320.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 379020
+      },
+      "thumb": {
+        "src": "thumbs/dsc00481-320.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 21694
+      }
+    }
+  },
+  {
+    "slug": "dsc00494-331",
+    "name": "DSC00494",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00494-331.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 17741672
+      },
+      "hd": {
+        "src": "hd/dsc00494-331.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 662476
+      },
+      "standard": {
+        "src": "images/dsc00494-331.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 256386
+      },
+      "thumb": {
+        "src": "thumbs/dsc00494-331.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18424
+      }
+    }
+  },
+  {
+    "slug": "dsc00495-332",
+    "name": "DSC00495",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00495-332.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16400359
+      },
+      "hd": {
+        "src": "hd/dsc00495-332.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 496698
+      },
+      "standard": {
+        "src": "images/dsc00495-332.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 167822
+      },
+      "thumb": {
+        "src": "thumbs/dsc00495-332.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 13862
+      }
+    }
+  },
+  {
+    "slug": "dsc00496-333",
+    "name": "DSC00496",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00496-333.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 16229748
+      },
+      "hd": {
+        "src": "hd/dsc00496-333.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 470238
+      },
+      "standard": {
+        "src": "images/dsc00496-333.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 175774
+      },
+      "thumb": {
+        "src": "thumbs/dsc00496-333.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14738
+      }
+    }
+  },
+  {
+    "slug": "dsc00497-334",
+    "name": "DSC00497",
+    "date": "2026-11-23",
+    "rating": 5,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00497-334.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16967940
+      },
+      "hd": {
+        "src": "hd/dsc00497-334.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 565610
+      },
+      "standard": {
+        "src": "images/dsc00497-334.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 194988
+      },
+      "thumb": {
+        "src": "thumbs/dsc00497-334.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 16508
+      }
+    }
+  },
+  {
+    "slug": "dsc00498-335",
+    "name": "DSC00498",
+    "date": "2026-11-23",
+    "rating": 5,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00498-335.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17114445
+      },
+      "hd": {
+        "src": "hd/dsc00498-335.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 562728
+      },
+      "standard": {
+        "src": "images/dsc00498-335.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 194256
+      },
+      "thumb": {
+        "src": "thumbs/dsc00498-335.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 16616
+      }
+    }
+  },
+  {
+    "slug": "dsc00549-375",
+    "name": "DSC00549",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00549-375.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 21016906
+      },
+      "hd": {
+        "src": "hd/dsc00549-375.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 1638924
+      },
+      "standard": {
+        "src": "images/dsc00549-375.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 595690
+      },
+      "thumb": {
+        "src": "thumbs/dsc00549-375.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 36646
+      }
+    }
+  },
+  {
+    "slug": "dsc00564-386",
+    "name": "DSC00564",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00564-386.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 17306653
+      },
+      "hd": {
+        "src": "hd/dsc00564-386.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 690546
+      },
+      "standard": {
+        "src": "images/dsc00564-386.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 252080
+      },
+      "thumb": {
+        "src": "thumbs/dsc00564-386.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 20390
+      }
+    }
+  },
+  {
+    "slug": "dsc00573-391",
+    "name": "DSC00573",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00573-391.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 20454207
+      },
+      "hd": {
+        "src": "hd/dsc00573-391.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 790506
+      },
+      "standard": {
+        "src": "images/dsc00573-391.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 237054
+      },
+      "thumb": {
+        "src": "thumbs/dsc00573-391.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 14396
+      }
+    }
+  },
+  {
+    "slug": "dsc00574-392",
+    "name": "DSC00574",
+    "date": "2026-11-23",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00574-392.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 20385922
+      },
+      "hd": {
+        "src": "hd/dsc00574-392.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 713436
+      },
+      "standard": {
+        "src": "images/dsc00574-392.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 286106
+      },
+      "thumb": {
+        "src": "thumbs/dsc00574-392.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 24426
+      }
+    }
+  },
+  {
+    "slug": "dsc00632-422",
+    "name": "DSC00632",
+    "date": "2026-11-24",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00632-422.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 18987482
+      },
+      "hd": {
+        "src": "hd/dsc00632-422.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 876684
+      },
+      "standard": {
+        "src": "images/dsc00632-422.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 372988
+      },
+      "thumb": {
+        "src": "thumbs/dsc00632-422.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 52462
+      }
+    }
+  },
+  {
+    "slug": "dsc00633-423",
+    "name": "DSC00633",
+    "date": "2026-11-24",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00633-423.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 19063573
+      },
+      "hd": {
+        "src": "hd/dsc00633-423.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 881052
+      },
+      "standard": {
+        "src": "images/dsc00633-423.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 368642
+      },
+      "thumb": {
+        "src": "thumbs/dsc00633-423.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 52890
+      }
+    }
+  },
+  {
+    "slug": "dsc00682-443",
+    "name": "DSC00682",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00682-443.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15277884
+      },
+      "hd": {
+        "src": "hd/dsc00682-443.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 641806
+      },
+      "standard": {
+        "src": "images/dsc00682-443.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 222948
+      },
+      "thumb": {
+        "src": "thumbs/dsc00682-443.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 11170
+      }
+    }
+  },
+  {
+    "slug": "dsc00783-492",
+    "name": "DSC00783",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00783-492.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15993653
+      },
+      "hd": {
+        "src": "hd/dsc00783-492.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 951290
+      },
+      "standard": {
+        "src": "images/dsc00783-492.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 342630
+      },
+      "thumb": {
+        "src": "thumbs/dsc00783-492.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 19986
+      }
+    }
+  },
+  {
+    "slug": "dsc00886-530",
+    "name": "DSC00886",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00886-530.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12448353
+      },
+      "hd": {
+        "src": "hd/dsc00886-530.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 254058
+      },
+      "standard": {
+        "src": "images/dsc00886-530.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 80858
+      },
+      "thumb": {
+        "src": "thumbs/dsc00886-530.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 7520
+      }
+    }
+  },
+  {
+    "slug": "dsc00940-545",
+    "name": "DSC00940",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00940-545.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14574592
+      },
+      "hd": {
+        "src": "hd/dsc00940-545.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 775706
+      },
+      "standard": {
+        "src": "images/dsc00940-545.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 277928
+      },
+      "thumb": {
+        "src": "thumbs/dsc00940-545.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 17056
+      }
+    }
+  },
+  {
+    "slug": "dsc00943-546",
+    "name": "DSC00943",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00943-546.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15145770
+      },
+      "hd": {
+        "src": "hd/dsc00943-546.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 893514
+      },
+      "standard": {
+        "src": "images/dsc00943-546.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 335746
+      },
+      "thumb": {
+        "src": "thumbs/dsc00943-546.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 20962
+      }
+    }
+  },
+  {
+    "slug": "dsc00946-547",
+    "name": "DSC00946",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00946-547.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13384924
+      },
+      "hd": {
+        "src": "hd/dsc00946-547.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 538916
+      },
+      "standard": {
+        "src": "images/dsc00946-547.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 216356
+      },
+      "thumb": {
+        "src": "thumbs/dsc00946-547.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14892
+      }
+    }
+  },
+  {
+    "slug": "dsc00967-551",
+    "name": "DSC00967",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00967-551.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14300306
+      },
+      "hd": {
+        "src": "hd/dsc00967-551.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 526896
+      },
+      "standard": {
+        "src": "images/dsc00967-551.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 214016
+      },
+      "thumb": {
+        "src": "thumbs/dsc00967-551.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18162
+      }
+    }
+  },
+  {
+    "slug": "dsc00970-552",
+    "name": "DSC00970",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00970-552.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13855506
+      },
+      "hd": {
+        "src": "hd/dsc00970-552.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 462296
+      },
+      "standard": {
+        "src": "images/dsc00970-552.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 190874
+      },
+      "thumb": {
+        "src": "thumbs/dsc00970-552.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 15600
+      }
+    }
+  },
+  {
+    "slug": "dsc00973-553",
+    "name": "DSC00973",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00973-553.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13943644
+      },
+      "hd": {
+        "src": "hd/dsc00973-553.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 447698
+      },
+      "standard": {
+        "src": "images/dsc00973-553.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 182956
+      },
+      "thumb": {
+        "src": "thumbs/dsc00973-553.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14812
+      }
+    }
+  },
+  {
+    "slug": "dsc00976-554",
+    "name": "DSC00976",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00976-554.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13908573
+      },
+      "hd": {
+        "src": "hd/dsc00976-554.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 476014
+      },
+      "standard": {
+        "src": "images/dsc00976-554.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 186922
+      },
+      "thumb": {
+        "src": "thumbs/dsc00976-554.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14404
+      }
+    }
+  },
+  {
+    "slug": "dsc00979-555",
+    "name": "DSC00979",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00979-555.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13823890
+      },
+      "hd": {
+        "src": "hd/dsc00979-555.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 446190
+      },
+      "standard": {
+        "src": "images/dsc00979-555.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 177808
+      },
+      "thumb": {
+        "src": "thumbs/dsc00979-555.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 14818
+      }
+    }
+  },
+  {
+    "slug": "dsc00985-557",
+    "name": "DSC00985",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00985-557.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14177568
+      },
+      "hd": {
+        "src": "hd/dsc00985-557.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 758938
+      },
+      "standard": {
+        "src": "images/dsc00985-557.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 294692
+      },
+      "thumb": {
+        "src": "thumbs/dsc00985-557.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 22312
+      }
+    }
+  },
+  {
+    "slug": "dsc00997-561",
+    "name": "DSC00997",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00997-561.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15367924
+      },
+      "hd": {
+        "src": "hd/dsc00997-561.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 819168
+      },
+      "standard": {
+        "src": "images/dsc00997-561.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 331952
+      },
+      "thumb": {
+        "src": "thumbs/dsc00997-561.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 20994
+      }
+    }
+  },
+  {
+    "slug": "dsc01000-562",
+    "name": "DSC01000",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01000-562.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15698573
+      },
+      "hd": {
+        "src": "hd/dsc01000-562.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 892346
+      },
+      "standard": {
+        "src": "images/dsc01000-562.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 374462
+      },
+      "thumb": {
+        "src": "thumbs/dsc01000-562.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 27448
+      }
+    }
+  },
+  {
+    "slug": "dsc01002-563",
+    "name": "DSC01002",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01002-563.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15872572
+      },
+      "hd": {
+        "src": "hd/dsc01002-563.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 932722
+      },
+      "standard": {
+        "src": "images/dsc01002-563.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 366022
+      },
+      "thumb": {
+        "src": "thumbs/dsc01002-563.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 26004
+      }
+    }
+  },
+  {
+    "slug": "dsc01009-564",
+    "name": "DSC01009",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01009-564.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14141944
+      },
+      "hd": {
+        "src": "hd/dsc01009-564.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 599376
+      },
+      "standard": {
+        "src": "images/dsc01009-564.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 247250
+      },
+      "thumb": {
+        "src": "thumbs/dsc01009-564.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 16216
+      }
+    }
+  },
+  {
+    "slug": "dsc01012-565",
+    "name": "DSC01012",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01012-565.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14234728
+      },
+      "hd": {
+        "src": "hd/dsc01012-565.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 613064
+      },
+      "standard": {
+        "src": "images/dsc01012-565.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 251356
+      },
+      "thumb": {
+        "src": "thumbs/dsc01012-565.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18524
+      }
+    }
+  },
+  {
+    "slug": "dsc01015-566",
+    "name": "DSC01015",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01015-566.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14658736
+      },
+      "hd": {
+        "src": "hd/dsc01015-566.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 678674
+      },
+      "standard": {
+        "src": "images/dsc01015-566.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 272018
+      },
+      "thumb": {
+        "src": "thumbs/dsc01015-566.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18168
+      }
+    }
+  },
+  {
+    "slug": "dsc01023-568",
+    "name": "DSC01023",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01023-568.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14090963
+      },
+      "hd": {
+        "src": "hd/dsc01023-568.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 652816
+      },
+      "standard": {
+        "src": "images/dsc01023-568.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 284656
+      },
+      "thumb": {
+        "src": "thumbs/dsc01023-568.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 19372
+      }
+    }
+  },
+  {
+    "slug": "dsc01027-569",
+    "name": "DSC01027",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01027-569.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14403506
+      },
+      "hd": {
+        "src": "hd/dsc01027-569.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 646076
+      },
+      "standard": {
+        "src": "images/dsc01027-569.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 272292
+      },
+      "thumb": {
+        "src": "thumbs/dsc01027-569.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 17548
+      }
+    }
+  },
+  {
+    "slug": "dsc01030-570",
+    "name": "DSC01030",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01030-570.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14468077
+      },
+      "hd": {
+        "src": "hd/dsc01030-570.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 657642
+      },
+      "standard": {
+        "src": "images/dsc01030-570.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 282120
+      },
+      "thumb": {
+        "src": "thumbs/dsc01030-570.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 20036
+      }
+    }
+  },
+  {
+    "slug": "dsc01057-595",
+    "name": "DSC01057",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01057-595.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13780882
+      },
+      "hd": {
+        "src": "hd/dsc01057-595.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 538576
+      },
+      "standard": {
+        "src": "images/dsc01057-595.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 219484
+      },
+      "thumb": {
+        "src": "thumbs/dsc01057-595.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18250
+      }
+    }
+  },
+  {
+    "slug": "dsc01060-596",
+    "name": "DSC01060",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01060-596.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 13944102
+      },
+      "hd": {
+        "src": "hd/dsc01060-596.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 552610
+      },
+      "standard": {
+        "src": "images/dsc01060-596.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 228208
+      },
+      "thumb": {
+        "src": "thumbs/dsc01060-596.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18670
+      }
+    }
+  },
+  {
+    "slug": "dsc01063-597",
+    "name": "DSC01063",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01063-597.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 14020997
+      },
+      "hd": {
+        "src": "hd/dsc01063-597.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 566488
+      },
+      "standard": {
+        "src": "images/dsc01063-597.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 228880
+      },
+      "thumb": {
+        "src": "thumbs/dsc01063-597.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 18538
+      }
+    }
+  },
+  {
+    "slug": "dsc01066-598",
+    "name": "DSC01066",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01066-598.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 13847868
+      },
+      "hd": {
+        "src": "hd/dsc01066-598.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 592970
+      },
+      "standard": {
+        "src": "images/dsc01066-598.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 255544
+      },
+      "thumb": {
+        "src": "thumbs/dsc01066-598.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 24560
+      }
+    }
+  },
+  {
+    "slug": "dsc01072-599",
+    "name": "DSC01072",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01072-599.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 11970312
+      },
+      "hd": {
+        "src": "hd/dsc01072-599.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 278178
+      },
+      "standard": {
+        "src": "images/dsc01072-599.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 107368
+      },
+      "thumb": {
+        "src": "thumbs/dsc01072-599.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 10762
+      }
+    }
+  },
+  {
+    "slug": "dsc01075-600",
+    "name": "DSC01075",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01075-600.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 12159997
+      },
+      "hd": {
+        "src": "hd/dsc01075-600.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 296434
+      },
+      "standard": {
+        "src": "images/dsc01075-600.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 116254
+      },
+      "thumb": {
+        "src": "thumbs/dsc01075-600.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 11138
+      }
+    }
+  },
+  {
+    "slug": "dsc01081-601",
+    "name": "DSC01081",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01081-601.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 11998901
+      },
+      "hd": {
+        "src": "hd/dsc01081-601.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 283290
+      },
+      "standard": {
+        "src": "images/dsc01081-601.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 104010
+      },
+      "thumb": {
+        "src": "thumbs/dsc01081-601.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 10448
+      }
+    }
+  },
+  {
+    "slug": "dsc01084-602",
+    "name": "DSC01084",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01084-602.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 11934474
+      },
+      "hd": {
+        "src": "hd/dsc01084-602.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 286682
+      },
+      "standard": {
+        "src": "images/dsc01084-602.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 104696
+      },
+      "thumb": {
+        "src": "thumbs/dsc01084-602.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 10608
+      }
+    }
+  },
+  {
+    "slug": "dsc01087-603",
+    "name": "DSC01087",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01087-603.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 12074989
+      },
+      "hd": {
+        "src": "hd/dsc01087-603.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 288114
+      },
+      "standard": {
+        "src": "images/dsc01087-603.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 110358
+      },
+      "thumb": {
+        "src": "thumbs/dsc01087-603.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 11044
+      }
+    }
+  },
+  {
+    "slug": "dsc01090-604",
+    "name": "DSC01090",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01090-604.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12434510
+      },
+      "hd": {
+        "src": "hd/dsc01090-604.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 330276
+      },
+      "standard": {
+        "src": "images/dsc01090-604.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 120304
+      },
+      "thumb": {
+        "src": "thumbs/dsc01090-604.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 9828
+      }
+    }
+  },
+  {
+    "slug": "dsc01093-605",
+    "name": "DSC01093",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01093-605.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12536099
+      },
+      "hd": {
+        "src": "hd/dsc01093-605.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 357522
+      },
+      "standard": {
+        "src": "images/dsc01093-605.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 132132
+      },
+      "thumb": {
+        "src": "thumbs/dsc01093-605.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 10486
+      }
+    }
+  },
+  {
+    "slug": "dsc01096-606",
+    "name": "DSC01096",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01096-606.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12611632
+      },
+      "hd": {
+        "src": "hd/dsc01096-606.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 369830
+      },
+      "standard": {
+        "src": "images/dsc01096-606.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 133004
+      },
+      "thumb": {
+        "src": "thumbs/dsc01096-606.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 10452
+      }
+    }
+  },
+  {
+    "slug": "dsc01099-607",
+    "name": "DSC01099",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01099-607.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12608622
+      },
+      "hd": {
+        "src": "hd/dsc01099-607.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 375674
+      },
+      "standard": {
+        "src": "images/dsc01099-607.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 134766
+      },
+      "thumb": {
+        "src": "thumbs/dsc01099-607.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 10606
+      }
+    }
+  },
+  {
+    "slug": "dsc01102-608",
+    "name": "DSC01102",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01102-608.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 12715941
+      },
+      "hd": {
+        "src": "hd/dsc01102-608.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 382882
+      },
+      "standard": {
+        "src": "images/dsc01102-608.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 137330
+      },
+      "thumb": {
+        "src": "thumbs/dsc01102-608.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 10334
+      }
+    }
+  },
+  {
+    "slug": "dsc01114-612",
+    "name": "DSC01114",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01114-612.jpg",
+        "width": 6376,
+        "height": 9568,
+        "bytes": 15364121
+      },
+      "hd": {
+        "src": "hd/dsc01114-612.webp",
+        "width": 2559,
+        "height": 3840,
+        "bytes": 854786
+      },
+      "standard": {
+        "src": "images/dsc01114-612.webp",
+        "width": 1706,
+        "height": 2560,
+        "bytes": 327630
+      },
+      "thumb": {
+        "src": "thumbs/dsc01114-612.webp",
+        "width": 426,
+        "height": 640,
+        "bytes": 20216
+      }
+    }
+  },
+  {
+    "slug": "dsc01141-624",
+    "name": "DSC01141",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01141-624.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14984220
+      },
+      "hd": {
+        "src": "hd/dsc01141-624.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 778508
+      },
+      "standard": {
+        "src": "images/dsc01141-624.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 332284
+      },
+      "thumb": {
+        "src": "thumbs/dsc01141-624.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 23320
+      }
+    }
+  },
+  {
+    "slug": "dsc01145-625",
+    "name": "DSC01145",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01145-625.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14939288
+      },
+      "hd": {
+        "src": "hd/dsc01145-625.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 756544
+      },
+      "standard": {
+        "src": "images/dsc01145-625.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 305856
+      },
+      "thumb": {
+        "src": "thumbs/dsc01145-625.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 22510
+      }
+    }
+  },
+  {
+    "slug": "dsc01147-626",
+    "name": "DSC01147",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01147-626.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14939288
+      },
+      "hd": {
+        "src": "hd/dsc01147-626.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 756544
+      },
+      "standard": {
+        "src": "images/dsc01147-626.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 305856
+      },
+      "thumb": {
+        "src": "thumbs/dsc01147-626.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 22510
+      }
+    }
+  },
+  {
+    "slug": "dsc01148-627",
+    "name": "DSC01148",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01148-627.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14198981
+      },
+      "hd": {
+        "src": "hd/dsc01148-627.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 707838
+      },
+      "standard": {
+        "src": "images/dsc01148-627.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 260790
+      },
+      "thumb": {
+        "src": "thumbs/dsc01148-627.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 18490
+      }
+    }
+  },
+  {
+    "slug": "dsc01157-628",
+    "name": "DSC01157",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01157-628.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 16563204
+      },
+      "hd": {
+        "src": "hd/dsc01157-628.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 957674
+      },
+      "standard": {
+        "src": "images/dsc01157-628.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 357908
+      },
+      "thumb": {
+        "src": "thumbs/dsc01157-628.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 20416
+      }
+    }
+  },
+  {
+    "slug": "dsc01160-629",
+    "name": "DSC01160",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01160-629.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 14638224
+      },
+      "hd": {
+        "src": "hd/dsc01160-629.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 778982
+      },
+      "standard": {
+        "src": "images/dsc01160-629.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 300062
+      },
+      "thumb": {
+        "src": "thumbs/dsc01160-629.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 21496
+      }
+    }
+  },
+  {
+    "slug": "dsc01168-630",
+    "name": "DSC01168",
+    "date": "2026-11-25",
+    "rating": 4,
+    "variants": {
+      "full": {
+        "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01168-630.jpg",
+        "width": 9568,
+        "height": 6376,
+        "bytes": 15671523
+      },
+      "hd": {
+        "src": "hd/dsc01168-630.webp",
+        "width": 3840,
+        "height": 2559,
+        "bytes": 858866
+      },
+      "standard": {
+        "src": "images/dsc01168-630.webp",
+        "width": 2560,
+        "height": 1706,
+        "bytes": 331046
+      },
+      "thumb": {
+        "src": "thumbs/dsc01168-630.webp",
+        "width": 640,
+        "height": 426,
+        "bytes": 19260
+      }
+    }
+  }
+]
