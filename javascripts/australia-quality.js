@@ -15,6 +15,7 @@
     const links = [...album.querySelectorAll('a.australia-open')];
     if (!links.length) return;
     const manifestURL = new URL('../quality.json', links[0].href);
+    manifestURL.searchParams.set('v', '2');
     let photos;
     try {
       const response = await fetch(manifestURL, { signal: controller.signal });
@@ -22,7 +23,9 @@
       const manifest = await response.json();
       const bySlug = new Map(manifest.map(photo => [photo.slug, photo]));
       photos = links.map(link => bySlug.get(link.dataset.photo));
-      if (photos.some(photo => !photo)) throw new Error('Incomplete album variants');
+      if (photos.some(photo => !photo || ['standard', 'hd', 'full'].some(tier => !photo.variants[tier]?.download))) {
+        throw new Error('Incomplete album downloads');
+      }
     } catch (error) {
       if (error.name !== 'AbortError') console.warn('Quality viewer unavailable; image links remain usable.', error);
       return;
@@ -31,25 +34,32 @@
     dialog = document.createElement('dialog');
     dialog.className = 'australia-viewer';
     dialog.setAttribute('aria-labelledby', 'australia-viewer-title');
+    const icon = path => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${path}</svg>`;
     dialog.innerHTML = `
       <header class="australia-viewer-header">
-        <div><h2 id="australia-viewer-title"></h2><p class="australia-viewer-caption"></p></div>
-        <button type="button" class="australia-close" aria-label="关闭照片">关闭 ×</button>
-      </header>
-      <div class="australia-viewer-tools">
-        <div class="australia-quality" role="group" aria-label="照片画质">
-          <button type="button" data-quality="standard" aria-pressed="true">标准</button>
-          <button type="button" data-quality="hd" aria-pressed="false">高清</button>
-          <button type="button" data-quality="full" aria-pressed="false">全分辨率</button>
+        <div class="australia-viewer-heading"><span class="australia-viewer-eyebrow">2026 澳洲</span><h2 id="australia-viewer-title"></h2><p class="australia-viewer-caption"></p></div>
+        <div class="australia-viewer-actions">
+          <button type="button" class="australia-zoom australia-icon-button" aria-label="查看实际像素" aria-pressed="false" title="查看实际像素">${icon('<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4M8 10.5h5m-2.5-2.5v5"/>')}</button>
+          <button type="button" class="australia-close australia-icon-button" aria-label="关闭照片" title="关闭 · Esc" autofocus>${icon('<path d="m6 6 12 12M18 6 6 18"/>')}</button>
         </div>
-        <a class="australia-download" download>下载此画质</a>
-      </div>
-      <p class="australia-viewer-status" role="status" aria-live="polite"></p>
+      </header>
       <div class="australia-viewer-image" tabindex="0" role="region" aria-label="照片，点击可切换实际像素查看"></div>
+      <div class="australia-viewer-meta">
+        <p class="australia-viewer-status" role="status" aria-live="polite"></p>
+        <span class="australia-viewer-help">点击放大 · 方向键切换</span>
+      </div>
       <footer class="australia-viewer-footer">
-        <button type="button" class="australia-previous" aria-label="上一张照片">← 上一张</button>
-        <span class="australia-viewer-help">点击图片查看实际像素 · Esc 关闭</span>
-        <button type="button" class="australia-next" aria-label="下一张照片">下一张 →</button>
+        <nav class="australia-viewer-navigation" aria-label="切换照片">
+          <button type="button" class="australia-previous australia-icon-button" aria-label="上一张照片" title="上一张">${icon('<path d="m14 6-6 6 6 6"/>')}</button>
+          <span class="australia-viewer-counter" aria-label="当前照片"></span>
+          <button type="button" class="australia-next australia-icon-button" aria-label="下一张照片" title="下一张">${icon('<path d="m10 6 6 6-6 6"/>')}</button>
+        </nav>
+        <div class="australia-quality" role="group" aria-label="照片画质">
+          <button type="button" data-quality="standard" aria-pressed="true" title="长边 2560 像素">标准</button>
+          <button type="button" data-quality="hd" aria-pressed="false" title="长边 3840 像素">高清</button>
+          <button type="button" data-quality="full" aria-pressed="false" title="保留原片尺寸">全分辨率</button>
+        </div>
+        <a class="australia-download" download>${icon('<path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/>')}<span>下载 JPG</span><span class="australia-download-size"></span></a>
       </footer>`;
     document.body.append(dialog);
     const find = selector => dialog.querySelector(selector);
@@ -60,12 +70,16 @@
     const download = find('.australia-download');
     const previous = find('.australia-previous');
     const next = find('.australia-next');
+    const counter = find('.australia-viewer-counter');
+    const downloadSize = find('.australia-download-size');
+    const zoom = find('.australia-zoom');
     const qualityButtons = [...dialog.querySelectorAll('[data-quality]')];
     const labels = { standard: '标准', hd: '高清', full: '全分辨率' };
     let index = 0;
     let quality = 'standard';
     let request = 0;
     let pending = null;
+    let shownIndex = -1;
     const stopLoading = () => {
       request++;
       if (pending) {
@@ -80,21 +94,29 @@
       const ticket = request;
       const photo = photos[index];
       const variant = photo.variants[quality];
+      const jpeg = variant.download;
       const src = new URL(variant.src, manifestURL).href;
-      const size = variant.bytes >= 1048576
-        ? `${(variant.bytes / 1048576).toFixed(1)} MB`
-        : `${Math.round(variant.bytes / 1024)} KB`;
-      const detail = `${labels[quality]} · ${variant.width} × ${variant.height} · ${size}`;
+      const size = jpeg.bytes >= 1048576
+        ? `${(jpeg.bytes / 1048576).toFixed(1)} MB`
+        : `${Math.round(jpeg.bytes / 1024)} KB`;
+      const detail = `${labels[quality]} · ${variant.width} × ${variant.height}`;
       title.textContent = photo.name;
-      caption.textContent = `${photo.date} · ${photo.rating} 星 · ${index + 1} / ${photos.length}`;
+      caption.textContent = `${photo.date} · ${photo.rating} 星`;
+      counter.textContent = `${String(index + 1).padStart(2, '0')} / ${photos.length}`;
       status.textContent = `正在加载 ${detail}`;
-      download.href = src;
-      download.download = `${photo.name}-${quality}.${quality === 'full' ? 'jpg' : 'webp'}`;
+      download.href = new URL(jpeg.src, manifestURL).href;
+      download.download = `${photo.name}-${quality}.jpg`;
+      downloadSize.textContent = size;
+      download.setAttribute('aria-label', `下载${labels[quality]} JPG，${size}`);
       previous.disabled = index === 0;
       next.disabled = index === photos.length - 1;
       qualityButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.quality === quality)));
       viewport.classList.remove('is-zoomed');
-      viewport.replaceChildren();
+      zoom.setAttribute('aria-pressed', 'false');
+      zoom.disabled = true;
+      viewport.classList.add('is-loading');
+      viewport.setAttribute('aria-busy', 'true');
+      if (shownIndex !== index) viewport.replaceChildren();
       const img = new Image();
       pending = img;
       img.alt = `${photo.date} · ${photo.name}`;
@@ -103,11 +125,18 @@
         if (ticket !== request || !dialog.open) return;
         pending = null;
         viewport.replaceChildren(img);
-        status.textContent = detail + (quality === 'full' ? ' · 高质量 JPEG' : ' · WebP');
+        shownIndex = index;
+        viewport.classList.remove('is-loading');
+        viewport.setAttribute('aria-busy', 'false');
+        zoom.disabled = false;
+        status.textContent = detail;
       };
       img.onerror = () => {
         if (ticket !== request || !dialog.open) return;
         pending = null;
+        viewport.classList.remove('is-loading');
+        viewport.setAttribute('aria-busy', 'false');
+        zoom.disabled = !viewport.querySelector('img');
         status.textContent = '图片加载失败，请切换画质重试，或使用下载链接。';
       };
       img.src = src;
@@ -133,8 +162,12 @@
     previous.addEventListener('click', () => move(-1));
     next.addEventListener('click', () => move(1));
     const toggleZoom = () => {
-      if (viewport.querySelector('img')) viewport.classList.toggle('is-zoomed');
+      if (viewport.querySelector('img') && !pending) {
+        viewport.classList.toggle('is-zoomed');
+        zoom.setAttribute('aria-pressed', String(viewport.classList.contains('is-zoomed')));
+      }
     };
+    zoom.addEventListener('click', toggleZoom);
     viewport.addEventListener('click', toggleZoom);
     viewport.addEventListener('keydown', event => {
       if (event.key === 'Enter' || event.key === ' ') {
@@ -152,6 +185,7 @@
     dialog.addEventListener('close', () => {
       stopLoading();
       viewport.replaceChildren();
+      shownIndex = -1;
     });
   }
   if (typeof document$ !== 'undefined') document$.subscribe(setup);
