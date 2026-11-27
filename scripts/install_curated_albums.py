@@ -63,6 +63,11 @@ def install_album(root, album, archive):
                     shutil.copyfileobj(source, output)
         for name in ('index.md', 'quality.json'):
             shutil.copyfile(metadata / name, stage / name)
+        # Keep the page and its photo metadata atomic; the viewer need not wait for another fetch.
+        embedded = json.dumps(photos, ensure_ascii=False).replace('<', '\\u003c')
+        page = stage / 'index.md'
+        page.write_text(page.read_text() + '\n<script type="application/json" id="australia-photo-data">'
+                        + embedded + '</script>\n')
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copytree(stage, destination)
 

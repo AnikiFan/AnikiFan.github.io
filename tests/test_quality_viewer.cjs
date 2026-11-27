@@ -12,6 +12,7 @@ class Element {
   addEventListener(name, callback) { (this.events[name] ||= []).push(callback); }
   emit(name, event = {}) { for (const fn of this.events[name] || []) fn(event); }
   setAttribute(name, value) { this.attributes[name] = value; }
+  removeAttribute(name) { delete this.attributes[name]; if (name === "href") delete this.href; }
   replaceChildren(...children) { this.children = children; }
   append(child) { this.children.push(child); }
   remove() { this.removed = true; }
@@ -20,6 +21,7 @@ class Element {
   showModal() { this.open = true; }
   close() { this.open = false; this.emit('close'); }
 }
+function harness(options = {}) {
 const tiers = ['standard', 'hd', 'full'];
 const photos = ['first', 'second'].map(slug => ({slug, name: slug, date: '2026-11-21', rating: 4,
   variants: Object.fromEntries(tiers.map((tier, index) => [tier, {
@@ -36,19 +38,28 @@ class TestImage extends Element {
   get src() { return this.url; }
 }
 const document = {
-  readyState: 'complete', body: new Element(), querySelector: () => album,
+  getElementById: () => options.embedded ? {textContent: JSON.stringify(photos)} : null, readyState: 'complete', body: new Element(), querySelector: () => album,
   createElement() {
     const d = new Element(); d.nodes = {};
-    for (const selector of ['#australia-viewer-title','.australia-viewer-caption','.australia-viewer-status','.australia-viewer-image','.australia-download','.australia-previous','.australia-next','.australia-close','.australia-viewer-counter','.australia-download-size','.australia-zoom']) d.nodes[selector] = new Element();
+    for (const selector of ['#australia-viewer-title','.australia-viewer-caption','.australia-viewer-status','.australia-viewer-image','.australia-download','.australia-previous','.australia-next','.australia-close','.australia-viewer-counter','.australia-download-size','.australia-zoom','.australia-retry']) d.nodes[selector] = new Element();
     d.buttons = tiers.map(tier => Object.assign(new Element(), {dataset: {quality: tier}}));
     dialogs.push(d); return d;
   }
 };
+let fetchCalls = 0;
+let fetchHandler = async () => ({ok: true, json: async () => photos});
 vm.runInNewContext(fs.readFileSync(process.argv[2], 'utf8'), {
   document, URL, AbortController, Image: TestImage, console,
-  fetch: async () => ({ok: true, json: async () => photos})
+  fetch: (...args) => { fetchCalls++; return fetchHandler(...args); }
 });
-setImmediate(() => {
+return {photos, links, dialogs, images, requested, get fetchCalls() {return fetchCalls;}, setFetch(fn) {fetchHandler = fn;}};
+}
+const tick = () => new Promise(resolve => setImmediate(resolve));
+(async () => {
+  {
+    const {links, dialogs, images, requested} = harness();
+    await tick();
+
   const d = dialogs[0]; const click = {preventDefault() {this.prevented = true;}};
   assert.equal(requested.length, 0, 'Opening the page must not fetch large images');
   links[0].emit('click', click);
@@ -86,4 +97,64 @@ setImmediate(() => {
   links[0].emit('click', modifiedClick);
   assert.equal(d.open, false);
   console.log('PASS: lazy loading, all three tiers, download target, stale-load protection, navigation, close, native modified clicks');
-});
+
+  }
+
+  // Clicking before metadata arrives must open the viewer immediately, not the image URL.
+  {
+    const h = harness();
+    let resolve;
+    h.setFetch(() => new Promise(done => {resolve = done;}));
+    const click = {preventDefault() {this.prevented = true;}};
+    h.links[0].emit('click', click);
+    const d = h.dialogs[0];
+    assert.equal(click.prevented, true);
+    assert.equal(d.open, true);
+    assert.equal(d.nodes['.australia-download'].attributes['aria-disabled'], 'true');
+    assert.equal(h.requested.length, 0);
+    await tick();
+    h.links[1].emit('click', {preventDefault() {}});
+    resolve({ok: true, json: async () => h.photos});
+    await tick();
+    assert.match(h.requested.at(-1), /standard\/second.webp$/);
+    assert.match(d.nodes['.australia-download'].href, /standard\/second.jpg$/);
+    assert.equal(d.nodes['.australia-download'].attributes['aria-disabled'], undefined);
+  }
+  // A transient request failure keeps the controls present and offers a working retry.
+  {
+    const h = harness();
+    h.setFetch(async () => {throw new Error('simulated offline');});
+    h.links[0].emit('click', {preventDefault() {}});
+    await tick();
+    const d = h.dialogs[0];
+    assert.equal(d.open, true);
+    assert.equal(d.nodes['.australia-retry'].hidden, false);
+    assert.match(d.nodes['.australia-viewer-status'].textContent, /加载失败/);
+    h.setFetch(async () => ({ok: true, json: async () => h.photos}));
+    d.nodes['.australia-retry'].emit('click');
+    await tick();
+    assert.match(d.nodes['.australia-download'].href, /standard\/first.jpg$/);
+    assert.equal(d.nodes['.australia-retry'].hidden, true);
+  }
+  // Embedded metadata is sufficient even if external metadata requests are unavailable.
+  {
+    const h = harness({embedded: true});
+    h.setFetch(async () => {throw new Error('unexpected metadata request');});
+    await tick();
+    h.links[0].emit('click', {preventDefault() {}});
+    assert.equal(h.fetchCalls, 0);
+    assert.match(h.dialogs[0].nodes['.australia-download'].href, /standard\/first.jpg$/);
+  }
+  // A late response must not reopen a viewer the user has closed.
+  {
+    const h = harness();let resolve;
+    h.setFetch(() => new Promise(done => {resolve = done;}));
+    h.links[0].emit('click', {preventDefault() {}});
+    await tick();h.dialogs[0].close();
+    resolve({ok: true, json: async () => h.photos});
+    await tick();
+    assert.equal(h.dialogs[0].open, false);
+    assert.equal(h.requested.length, 0);
+  }
+  console.log('PASS: early clicks, delayed metadata, retry after failure, embedded metadata, close while loading');
+})().catch(error => {console.error(error); process.exitCode = 1;});

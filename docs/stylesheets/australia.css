@@ -71,6 +71,9 @@ body:has(.australia-viewer[open]) { overflow: hidden; }
 .australia-quality button[aria-pressed="true"] { color: #16171a; background: #f0f1f3; }
 .australia-viewer .australia-download { justify-self: end; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; padding: 0 20px; border-radius: 999px; background: #f0f1f3; color: #16171a; white-space: nowrap; font-size: 13px; }
 .australia-viewer .australia-download:hover { background: #fff; }
+.australia-viewer .australia-download[aria-disabled="true"] { opacity: .4; cursor: wait; }
+.australia-viewer .australia-retry { background: #292c32; padding: 10px 16px; border-radius: 999px; white-space: nowrap; }
+.australia-viewer .australia-retry[hidden] { display: none; }
 .australia-download-size { font-size: 11px; font-weight: 400; opacity: .58; }
 @media(max-width:1000px) {
   .australia-viewer { padding: 20px 24px 24px; }

@@ -44,6 +44,10 @@ class CuratedAlbumTests(unittest.TestCase):
         self.assertEqual((destination / 'standard/test.webp').read_bytes(), b'image')
         self.assertFalse((destination / 'full').exists())
         self.assertIn('https://nextcloud', (destination / 'quality.json').read_text())
+        page = (destination / 'index.md').read_text()
+        self.assertIn('id="australia-photo-data"', page)
+        embedded = page.split('id="australia-photo-data">', 1)[1].split('</script>', 1)[0]
+        self.assertEqual(json.loads(embedded), json.loads((destination / 'quality.json').read_text()))
         self.assertIn('Existing album', (self.root / 'docs/gallery/index.md').read_text())
         self.assertEqual(len(json.loads((self.root / 'build/nextcloud/nav.json').read_text())), 2)
 
