@@ -15,22 +15,9 @@
     const links = [...album.querySelectorAll('a.australia-open')];
     if (!links.length) return;
     const manifestURL = new URL('../quality.json', links[0].href);
-    manifestURL.searchParams.set('v', '2');
-    let photos;
-    try {
-      const response = await fetch(manifestURL, { signal: controller.signal });
-      if (!response.ok) throw new Error('Album variants unavailable');
-      const manifest = await response.json();
-      const bySlug = new Map(manifest.map(photo => [photo.slug, photo]));
-      photos = links.map(link => bySlug.get(link.dataset.photo));
-      if (photos.some(photo => !photo || ['standard', 'hd', 'full'].some(tier => !photo.variants[tier]?.download))) {
-        throw new Error('Incomplete album downloads');
-      }
-    } catch (error) {
-      if (error.name !== 'AbortError') console.warn('Quality viewer unavailable; image links remain usable.', error);
-      return;
-    }
-    if (controller.signal.aborted) return;
+    manifestURL.searchParams.set('v', '3');
+    let photos = null;
+    let loading = null;
     dialog = document.createElement('dialog');
     dialog.className = 'australia-viewer';
     dialog.setAttribute('aria-labelledby', 'australia-viewer-title');
@@ -46,6 +33,7 @@
       <div class="australia-viewer-image" tabindex="0" role="region" aria-label="照片，点击可切换实际像素查看"></div>
       <div class="australia-viewer-meta">
         <p class="australia-viewer-status" role="status" aria-live="polite"></p>
+        <button type="button" class="australia-retry" hidden>重新加载</button>
         <span class="australia-viewer-help">点击放大 · 方向键切换</span>
       </div>
       <footer class="australia-viewer-footer">
@@ -73,6 +61,7 @@
     const counter = find('.australia-viewer-counter');
     const downloadSize = find('.australia-download-size');
     const zoom = find('.australia-zoom');
+    const retry = find('.australia-retry');
     const qualityButtons = [...dialog.querySelectorAll('[data-quality]')];
     const labels = { standard: '标准', hd: '高清', full: '全分辨率' };
     let index = 0;
@@ -89,8 +78,61 @@
         pending = null;
       }
     };
+    function readPhotos(manifest) {
+      const bySlug = new Map(manifest.map(photo => [photo.slug, photo]));
+      const result = links.map(link => bySlug.get(link.dataset.photo));
+      if (result.some(photo => !photo || ['standard', 'hd', 'full'].some(tier => !photo.variants[tier]?.download))) {
+        throw new Error('Incomplete album downloads');
+      }
+      return result;
+    }
+    function loadPhotos() {
+      if (photos || loading || controller.signal.aborted) return;
+      retry.hidden = true;
+      loading = Promise.resolve().then(async () => {
+        const embedded = document.getElementById('australia-photo-data');
+        if (embedded) {
+          try { photos = readPhotos(JSON.parse(embedded.textContent)); }
+          catch { /* Recover from old or incomplete cached page data using a fresh request. */ }
+        }
+        if (!photos) {
+          const response = await fetch(manifestURL, { signal: controller.signal, cache: 'no-store' });
+          if (!response.ok) throw new Error('Album variants unavailable');
+          photos = readPhotos(await response.json());
+        }
+        if (!controller.signal.aborted && dialog.open) show();
+      }).catch(error => {
+        if (controller.signal.aborted) return;
+        console.warn('Photo metadata could not be loaded.', error);
+        status.textContent = '照片信息加载失败，请点击重新加载。';
+        viewport.classList.remove('is-loading');
+        viewport.setAttribute('aria-busy', 'false');
+        retry.hidden = false;
+      }).finally(() => { loading = null; });
+    }
     function show() {
       stopLoading();
+      if (!photos) {
+        title.textContent = '2026 澳洲';
+        caption.textContent = '正在准备照片预览';
+        counter.textContent = `${String(index + 1).padStart(2, '0')} / ${links.length}`;
+        status.textContent = '正在加载照片信息…';
+        download.removeAttribute('href');
+        download.setAttribute('aria-disabled', 'true');
+        download.tabIndex = -1;
+        qualityButtons.forEach(button => { button.disabled = true; });
+        previous.disabled = index === 0;
+        next.disabled = index === links.length - 1;
+        zoom.disabled = true;
+        viewport.classList.add('is-loading');
+        viewport.setAttribute('aria-busy', 'true');
+        loadPhotos();
+        return;
+      }
+      retry.hidden = true;
+      download.removeAttribute('aria-disabled');
+      download.tabIndex = 0;
+      qualityButtons.forEach(button => { button.disabled = false; });
       const ticket = request;
       const photo = photos[index];
       const variant = photo.variants[quality];
@@ -143,7 +185,7 @@
     }
     function move(offset) {
       const target = index + offset;
-      if (target < 0 || target >= photos.length) return;
+      if (target < 0 || target >= links.length) return;
       index = target;
       show();
     }
@@ -158,6 +200,10 @@
       quality = button.dataset.quality;
       show();
     }));
+    retry.addEventListener('click', show);
+    download.addEventListener('click', event => {
+      if (!photos) event.preventDefault();
+    });
     find('.australia-close').addEventListener('click', () => dialog.close());
     previous.addEventListener('click', () => move(-1));
     next.addEventListener('click', () => move(1));
@@ -187,6 +233,8 @@
       viewport.replaceChildren();
       shownIndex = -1;
     });
+    // Bind the viewer before any network request, so an early click never opens the raw image.
+    loadPhotos();
   }
   if (typeof document$ !== 'undefined') document$.subscribe(setup);
   else if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setup, { once: true });
