@@ -1,0 +1,50 @@
+
+/* Local Australia album preview; all rules scoped to this album. */
+.australia-album { padding: .4rem 0 2rem; }
+.md-typeset .australia-kicker { margin: 0 0 .35rem; font-size: .65rem; letter-spacing: .16em; color: var(--md-default-fg-color--light); }
+.md-typeset .australia-album h1 { margin: 0 0 .35rem; font-weight: 500; letter-spacing: .02em; color: var(--md-default-fg-color); }
+.md-typeset .australia-intro { margin: 0 0 1.25rem; font-size: .8rem; color: var(--md-default-fg-color--light); }
+.australia-dates { display:flex; flex-wrap:wrap; gap:.45rem; margin:1rem 0 2rem; }
+.australia-dates a { padding:.3rem .7rem; border:1px solid var(--md-default-fg-color--lightest); border-radius:1.2rem; font-size:.72rem; color:var(--md-default-fg-color); }
+.australia-dates a:hover, .australia-dates a:focus-visible { border-color:var(--md-accent-fg-color); color:var(--md-accent-fg-color); }
+.australia-dates span { margin-left:.2rem; color:var(--md-default-fg-color--light); font-size:.6rem; }
+.md-typeset .australia-album h2 { margin:1.6rem 0 .85rem; font-size:1.05rem; font-weight:500; scroll-margin-top:6rem; }
+.australia-count { margin-left:.5rem; font-weight:400; font-size:.67rem; color:var(--md-default-fg-color--light); white-space:nowrap; }
+.australia-featured { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; align-items:center; margin-bottom:2.3rem; padding-bottom:1.4rem; border-bottom:1px solid var(--md-default-fg-color--lightest); }
+.australia-grid { columns:3; column-gap:1rem; }
+.md-typeset .australia-photo { margin:0 0 1rem; width:100%; max-width:none; break-inside:avoid; }
+.md-typeset .australia-photo > p { margin:0; }
+.australia-photo a { display:block; border-radius:.25rem; overflow:hidden; }
+.australia-photo img { display:block; width:100%; height:auto; border-radius:.25rem; background:var(--md-default-fg-color--lightest); transition:filter .18s ease; }
+.australia-photo a:hover img { filter:brightness(1.04); }
+.md-typeset .australia-photo figcaption { margin:.3rem 0 0; font-size:.6rem; letter-spacing:.03em; color:var(--md-default-fg-color--light); text-align:left; }
+@media(max-width:900px) { .australia-grid { columns:2; } }
+@media(max-width:600px) { .australia-featured { grid-template-columns:1fr; gap:.7rem; } .australia-featured .australia-photo { max-width:100%; } .australia-grid { column-gap:.65rem; } .australia-dates { gap:.35rem; margin-bottom:1.5rem; } .australia-dates a { padding:.3rem .6rem; } }
+@media(prefers-reduced-motion:reduce) { .australia-photo img { transition:none; } }
+
+.md-typeset .australia-quality-hint { margin: -.6rem 0 1rem; font-size: .72rem; color: var(--md-default-fg-color--light); }
+body:has(.australia-viewer[open]) { overflow: hidden; }
+.australia-viewer { box-sizing: border-box; width: min(96vw, 1600px); height: 94dvh; max-width: 100vw; max-height: 100dvh; padding: 1rem 1.25rem; border: 1px solid #444; border-radius: .6rem; background: #14171b; color: #f1f3f5; overflow: hidden; font: inherit; }
+.australia-viewer::backdrop { background: rgba(0,0,0,.86); }
+.australia-viewer[open] { display: flex; flex-direction: column; gap: .65rem; }
+.australia-viewer-header, .australia-viewer-tools, .australia-viewer-footer { display: flex; align-items: center; justify-content: space-between; gap: .75rem; flex-shrink: 0; }
+.australia-viewer-header h2 { margin: 0; font-size: 1rem; font-weight: 500; }
+.australia-viewer-caption, .australia-viewer-status { margin: .2rem 0 0; color: #bac2cd; font-size: .68rem; }
+.australia-viewer button, .australia-viewer .australia-download { border: 1px solid #545c69; padding: .45rem .7rem; border-radius: .3rem; background: #242a32; color: #f1f3f5; font: inherit; font-size: .72rem; cursor: pointer; white-space: nowrap; text-decoration: none; }
+.australia-viewer button:hover, .australia-viewer .australia-download:hover { background: #353e4b; }
+.australia-viewer button:focus-visible, .australia-viewer a:focus-visible, .australia-viewer-image:focus-visible { outline: 2px solid #a5c9ff; outline-offset: 3px; }
+.australia-viewer button:disabled { opacity: .4; cursor: default; }
+.australia-quality { display: flex; gap: .35rem; }
+.australia-quality button[aria-pressed="true"] { color: #101e34; background: #b5d3ff; border-color: #b5d3ff; }
+.australia-viewer-status { min-height: 1.1rem; }
+.australia-viewer-image { flex: 1; min-height: 0; overflow: auto; display: flex; align-items: center; justify-content: center; border-radius: .2rem; background: #0b0d10; }
+.australia-viewer-image img { display: block; width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; cursor: zoom-in; }
+.australia-viewer-image.is-zoomed { display: block; }
+.australia-viewer-image.is-zoomed img { max-width: none; max-height: none; cursor: zoom-out; }
+.australia-viewer-help { color: #bac2cd; font-size: .62rem; text-align: center; }
+@media(max-width:600px) {
+  .australia-viewer { width: 100vw; height: 100dvh; margin: 0; border: 0; border-radius: 0; padding: .8rem; }
+  .australia-viewer-tools { flex-wrap: wrap; gap: .5rem; }
+  .australia-viewer button, .australia-viewer .australia-download { min-height: 44px; }
+  .australia-viewer-help { max-width: 7rem; }
+}
