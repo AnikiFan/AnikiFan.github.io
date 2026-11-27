@@ -36,6 +36,13 @@ def install_album(root, album, archive):
         url = urlsplit(photo['variants']['full']['src'])
         if url.scheme != 'https' or url.netloc != 'nextcloud.xiaofan.ac.cn' or url.username:
             raise ValueError('Full-resolution images must use the public Nextcloud host')
+        for tier in ('standard', 'hd', 'full'):
+            download = photo['variants'][tier]['download']
+            url = urlsplit(download['src'])
+            if (url.scheme != 'https' or url.netloc != 'nextcloud.xiaofan.ac.cn'
+                    or url.username or not url.path.lower().endswith('.jpg')
+                    or download['bytes'] <= 0):
+                raise ValueError('Every quality tier must provide a public JPG download')
     destination = root / 'docs/gallery/albums' / slug
     if destination.exists():
         raise ValueError('Curated album collides with a Nextcloud album')

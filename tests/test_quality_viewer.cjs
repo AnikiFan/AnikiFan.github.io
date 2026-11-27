@@ -6,7 +6,7 @@ class Element {
   constructor() {
     this.events = {}; this.dataset = {}; this.attributes = {}; this.children = [];
     const classes = new Set();
-    this.classList = { remove: x => classes.delete(x), contains: x => classes.has(x),
+    this.classList = { add: x => classes.add(x), remove: x => classes.delete(x), contains: x => classes.has(x),
       toggle: x => classes.has(x) ? classes.delete(x) : classes.add(x) };
   }
   addEventListener(name, callback) { (this.events[name] ||= []).push(callback); }
@@ -23,7 +23,7 @@ class Element {
 const tiers = ['standard', 'hd', 'full'];
 const photos = ['first', 'second'].map(slug => ({slug, name: slug, date: '2026-11-21', rating: 4,
   variants: Object.fromEntries(tiers.map((tier, index) => [tier, {
-    src: `${tier === 'full' ? 'https://nextcloud.xiaofan.ac.cn/' : ''}${tier}/${slug}.${tier === 'full' ? 'jpg' : 'webp'}`, width: 2560 + index * 1280, height: 1706, bytes: 1000000 * (index + 1)
+    src: `${tier === 'full' ? 'https://nextcloud.xiaofan.ac.cn/' : ''}${tier}/${slug}.${tier === 'full' ? 'jpg' : 'webp'}`, width: 2560 + index * 1280, height: 1706, bytes: 1000000 * (index + 1), download: {src: `https://nextcloud.xiaofan.ac.cn/jpg/${tier}/${slug}.jpg`, bytes: 2000000 * (index + 1)}
   }]))}));
 const links = photos.map(photo => Object.assign(new Element(), {href: `http://localhost/album/images/${photo.slug}.webp`, dataset: {photo: photo.slug}}));
 const album = {querySelectorAll: () => links};
@@ -39,7 +39,7 @@ const document = {
   readyState: 'complete', body: new Element(), querySelector: () => album,
   createElement() {
     const d = new Element(); d.nodes = {};
-    for (const selector of ['#australia-viewer-title','.australia-viewer-caption','.australia-viewer-status','.australia-viewer-image','.australia-download','.australia-previous','.australia-next','.australia-close']) d.nodes[selector] = new Element();
+    for (const selector of ['#australia-viewer-title','.australia-viewer-caption','.australia-viewer-status','.australia-viewer-image','.australia-download','.australia-previous','.australia-next','.australia-close','.australia-viewer-counter','.australia-download-size','.australia-zoom']) d.nodes[selector] = new Element();
     d.buttons = tiers.map(tier => Object.assign(new Element(), {dataset: {quality: tier}}));
     dialogs.push(d); return d;
   }
@@ -54,18 +54,27 @@ setImmediate(() => {
   links[0].emit('click', click);
   assert.equal(click.prevented, true); assert.equal(d.open, true);
   assert.match(requested.at(-1), /standard\/first.webp$/);
+  assert.match(d.nodes['.australia-download'].href, /jpg\/standard\/first.jpg$/);
+  assert.equal(d.nodes['.australia-download'].download, 'first-standard.jpg');
   assert.equal(d.nodes['.australia-previous'].disabled, true);
   images.at(-1).onload();
   assert.match(d.nodes['.australia-viewer-status'].textContent, /标准/);
   d.buttons[1].emit('click');
   const oldLoad = images.at(-1).onload;
   assert.match(requested.at(-1), /hd\/first.webp$/);
+  assert.match(d.nodes['.australia-download'].href, /jpg\/hd\/first.jpg$/);
+  assert.equal(d.nodes['.australia-download'].download, 'first-hd.jpg');
+  assert.equal(d.nodes['.australia-viewer-image'].children.length, 1, 'Keep the current photo visible during quality changes');
   d.buttons[2].emit('click');
   assert.match(requested.at(-1), /full\/first.jpg$/);
   images.at(-1).onload(); oldLoad();
   assert.match(d.nodes['.australia-viewer-image'].children[0].src, /full\/first.jpg$/);
   assert.equal(d.nodes['.australia-download'].download, 'first-full.jpg');
   assert.match(d.nodes['.australia-viewer-status'].textContent, /全分辨率/);
+  d.nodes['.australia-zoom'].emit('click');
+  assert.equal(d.nodes['.australia-zoom'].attributes['aria-pressed'], 'true');
+  d.nodes['.australia-viewer-image'].emit('click');
+  assert.equal(d.nodes['.australia-zoom'].attributes['aria-pressed'], 'false');
   d.nodes['.australia-next'].emit('click');
   assert.match(requested.at(-1), /full\/second.jpg$/);
   assert.equal(d.nodes['.australia-next'].disabled, true);

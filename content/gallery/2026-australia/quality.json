@@ -9,19 +9,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00022-2.jpg",
         "width": 6336,
         "height": 9504,
-        "bytes": 21842137
+        "bytes": 21842137,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00022-2.jpg",
+          "bytes": 21842137,
+          "width": 6336,
+          "height": 9504
+        }
       },
       "hd": {
         "src": "hd/dsc00022-2.webp",
         "width": 2560,
         "height": 3840,
-        "bytes": 2044806
+        "bytes": 2044806,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00022-2.jpg",
+          "bytes": 3733022,
+          "width": 2560,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00022-2.webp",
         "width": 1707,
         "height": 2560,
-        "bytes": 832556
+        "bytes": 832556,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00022-2.jpg",
+          "bytes": 1856396,
+          "width": 1707,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00022-2.webp",
@@ -41,19 +59,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00024-3.jpg",
         "width": 9504,
         "height": 6336,
-        "bytes": 22521526
+        "bytes": 22521526,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00024-3.jpg",
+          "bytes": 22521526,
+          "width": 9504,
+          "height": 6336
+        }
       },
       "hd": {
         "src": "hd/dsc00024-3.webp",
         "width": 3840,
         "height": 2560,
-        "bytes": 2102812
+        "bytes": 2102812,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00024-3.jpg",
+          "bytes": 3895762,
+          "width": 3840,
+          "height": 2560
+        }
       },
       "standard": {
         "src": "images/dsc00024-3.webp",
         "width": 2560,
         "height": 1707,
-        "bytes": 890090
+        "bytes": 890090,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00024-3.jpg",
+          "bytes": 1952826,
+          "width": 2560,
+          "height": 1707
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00024-3.webp",
@@ -73,19 +109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00043-20.jpg",
         "width": 6336,
         "height": 9504,
-        "bytes": 24529889
+        "bytes": 24529889,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00043-20.jpg",
+          "bytes": 24529889,
+          "width": 6336,
+          "height": 9504
+        }
       },
       "hd": {
         "src": "hd/dsc00043-20.webp",
         "width": 2560,
         "height": 3840,
-        "bytes": 2216440
+        "bytes": 2216440,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00043-20.jpg",
+          "bytes": 4158618,
+          "width": 2560,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00043-20.webp",
         "width": 1707,
         "height": 2560,
-        "bytes": 964680
+        "bytes": 964680,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00043-20.jpg",
+          "bytes": 2149576,
+          "width": 1707,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00043-20.webp",
@@ -105,19 +159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00044-21.jpg",
         "width": 6336,
         "height": 9504,
-        "bytes": 24829464
+        "bytes": 24829464,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00044-21.jpg",
+          "bytes": 24829464,
+          "width": 6336,
+          "height": 9504
+        }
       },
       "hd": {
         "src": "hd/dsc00044-21.webp",
         "width": 2560,
         "height": 3840,
-        "bytes": 2243356
+        "bytes": 2243356,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00044-21.jpg",
+          "bytes": 4199699,
+          "width": 2560,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00044-21.webp",
         "width": 1707,
         "height": 2560,
-        "bytes": 972252
+        "bytes": 972252,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00044-21.jpg",
+          "bytes": 2160808,
+          "width": 1707,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00044-21.webp",
@@ -137,19 +209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00045-22.jpg",
         "width": 6336,
         "height": 9504,
-        "bytes": 24495406
+        "bytes": 24495406,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00045-22.jpg",
+          "bytes": 24495406,
+          "width": 6336,
+          "height": 9504
+        }
       },
       "hd": {
         "src": "hd/dsc00045-22.webp",
         "width": 2560,
         "height": 3840,
-        "bytes": 2225604
+        "bytes": 2225604,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00045-22.jpg",
+          "bytes": 4166616,
+          "width": 2560,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00045-22.webp",
         "width": 1707,
         "height": 2560,
-        "bytes": 973324
+        "bytes": 973324,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00045-22.jpg",
+          "bytes": 2164484,
+          "width": 1707,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00045-22.webp",
@@ -169,19 +259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00046-23.jpg",
         "width": 6336,
         "height": 9504,
-        "bytes": 25497739
+        "bytes": 25497739,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00046-23.jpg",
+          "bytes": 25497739,
+          "width": 6336,
+          "height": 9504
+        }
       },
       "hd": {
         "src": "hd/dsc00046-23.webp",
         "width": 2560,
         "height": 3840,
-        "bytes": 2446354
+        "bytes": 2446354,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00046-23.jpg",
+          "bytes": 4356549,
+          "width": 2560,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00046-23.webp",
         "width": 1707,
         "height": 2560,
-        "bytes": 1038988
+        "bytes": 1038988,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00046-23.jpg",
+          "bytes": 2245243,
+          "width": 1707,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00046-23.webp",
@@ -201,19 +309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00048-24.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 20924917
+        "bytes": 20924917,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00048-24.jpg",
+          "bytes": 20924917,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00048-24.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 814314
+        "bytes": 814314,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00048-24.jpg",
+          "bytes": 2429338,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00048-24.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 326238
+        "bytes": 326238,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00048-24.jpg",
+          "bytes": 1146380,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00048-24.webp",
@@ -233,19 +359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00072-37.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 26807926
+        "bytes": 26807926,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00072-37.jpg",
+          "bytes": 26807926,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00072-37.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 3031624
+        "bytes": 3031624,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00072-37.jpg",
+          "bytes": 5026560,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00072-37.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 1366234
+        "bytes": 1366234,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00072-37.jpg",
+          "bytes": 2652524,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00072-37.webp",
@@ -265,19 +409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00089-48.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 18271717
+        "bytes": 18271717,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00089-48.jpg",
+          "bytes": 18271717,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00089-48.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 710720
+        "bytes": 710720,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00089-48.jpg",
+          "bytes": 2140704,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00089-48.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 258394
+        "bytes": 258394,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00089-48.jpg",
+          "bytes": 1063403,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00089-48.webp",
@@ -297,19 +459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00090-49.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17359185
+        "bytes": 17359185,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00090-49.jpg",
+          "bytes": 17359185,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00090-49.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 606160
+        "bytes": 606160,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00090-49.jpg",
+          "bytes": 1998698,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00090-49.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 250524
+        "bytes": 250524,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00090-49.jpg",
+          "bytes": 920956,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00090-49.webp",
@@ -329,19 +509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00091-50.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16914519
+        "bytes": 16914519,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00091-50.jpg",
+          "bytes": 16914519,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00091-50.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 527054
+        "bytes": 527054,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00091-50.jpg",
+          "bytes": 1826928,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00091-50.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 199902
+        "bytes": 199902,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00091-50.jpg",
+          "bytes": 813138,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00091-50.webp",
@@ -361,19 +559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00092-51.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 18321143
+        "bytes": 18321143,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00092-51.jpg",
+          "bytes": 18321143,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00092-51.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 785708
+        "bytes": 785708,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00092-51.jpg",
+          "bytes": 2260003,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00092-51.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 322194
+        "bytes": 322194,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00092-51.jpg",
+          "bytes": 1053587,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00092-51.webp",
@@ -393,19 +609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00093-52.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16954637
+        "bytes": 16954637,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00093-52.jpg",
+          "bytes": 16954637,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00093-52.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 457526
+        "bytes": 457526,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00093-52.jpg",
+          "bytes": 1738539,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00093-52.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 170260
+        "bytes": 170260,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00093-52.jpg",
+          "bytes": 747310,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00093-52.webp",
@@ -425,19 +659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00094-53.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16604035
+        "bytes": 16604035,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00094-53.jpg",
+          "bytes": 16604035,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00094-53.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 409498
+        "bytes": 409498,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00094-53.jpg",
+          "bytes": 1631789,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00094-53.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 143572
+        "bytes": 143572,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00094-53.jpg",
+          "bytes": 693178,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00094-53.webp",
@@ -457,19 +709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00095-54.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16661597
+        "bytes": 16661597,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00095-54.jpg",
+          "bytes": 16661597,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00095-54.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 413448
+        "bytes": 413448,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00095-54.jpg",
+          "bytes": 1634845,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00095-54.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 145558
+        "bytes": 145558,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00095-54.jpg",
+          "bytes": 694228,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00095-54.webp",
@@ -489,19 +759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00105-59.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14290682
+        "bytes": 14290682,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00105-59.jpg",
+          "bytes": 14290682,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00105-59.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 541720
+        "bytes": 541720,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00105-59.jpg",
+          "bytes": 1669954,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00105-59.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 205136
+        "bytes": 205136,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00105-59.jpg",
+          "bytes": 748701,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00105-59.webp",
@@ -521,19 +809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00112-60.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 18518921
+        "bytes": 18518921,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00112-60.jpg",
+          "bytes": 18518921,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00112-60.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1042246
+        "bytes": 1042246,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00112-60.jpg",
+          "bytes": 2337141,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00112-60.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 365760
+        "bytes": 365760,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00112-60.jpg",
+          "bytes": 1024775,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00112-60.webp",
@@ -553,19 +859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00114-61.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13442092
+        "bytes": 13442092,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00114-61.jpg",
+          "bytes": 13442092,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00114-61.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 463274
+        "bytes": 463274,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00114-61.jpg",
+          "bytes": 1551145,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00114-61.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 197414
+        "bytes": 197414,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00114-61.jpg",
+          "bytes": 715045,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00114-61.webp",
@@ -585,19 +909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00116-63.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15493454
+        "bytes": 15493454,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00116-63.jpg",
+          "bytes": 15493454,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00116-63.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 833598
+        "bytes": 833598,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00116-63.jpg",
+          "bytes": 2068309,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00116-63.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 344208
+        "bytes": 344208,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00116-63.jpg",
+          "bytes": 966417,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00116-63.webp",
@@ -617,19 +959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00132-70.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13355269
+        "bytes": 13355269,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00132-70.jpg",
+          "bytes": 13355269,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00132-70.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 439568
+        "bytes": 439568,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00132-70.jpg",
+          "bytes": 1520704,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00132-70.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 173232
+        "bytes": 173232,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00132-70.jpg",
+          "bytes": 711681,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00132-70.webp",
@@ -649,19 +1009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00133-71.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15225622
+        "bytes": 15225622,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00133-71.jpg",
+          "bytes": 15225622,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00133-71.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 644186
+        "bytes": 644186,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00133-71.jpg",
+          "bytes": 1836842,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00133-71.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 241476
+        "bytes": 241476,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00133-71.jpg",
+          "bytes": 851081,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00133-71.webp",
@@ -681,19 +1059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00150-73.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15995356
+        "bytes": 15995356,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00150-73.jpg",
+          "bytes": 15995356,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00150-73.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 997488
+        "bytes": 997488,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00150-73.jpg",
+          "bytes": 2124852,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00150-73.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 368932
+        "bytes": 368932,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00150-73.jpg",
+          "bytes": 997024,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00150-73.webp",
@@ -713,19 +1109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00153-74.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14229521
+        "bytes": 14229521,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00153-74.jpg",
+          "bytes": 14229521,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00153-74.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 771586
+        "bytes": 771586,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00153-74.jpg",
+          "bytes": 1950265,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00153-74.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 320394
+        "bytes": 320394,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00153-74.jpg",
+          "bytes": 951265,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00153-74.webp",
@@ -745,19 +1159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00171-86.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16530807
+        "bytes": 16530807,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00171-86.jpg",
+          "bytes": 16530807,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00171-86.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1050306
+        "bytes": 1050306,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00171-86.jpg",
+          "bytes": 2421927,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00171-86.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 458122
+        "bytes": 458122,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00171-86.jpg",
+          "bytes": 1195544,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00171-86.webp",
@@ -777,19 +1209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00175-87.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15477934
+        "bytes": 15477934,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00175-87.jpg",
+          "bytes": 15477934,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00175-87.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 874090
+        "bytes": 874090,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00175-87.jpg",
+          "bytes": 2164155,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00175-87.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 375238
+        "bytes": 375238,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00175-87.jpg",
+          "bytes": 1057197,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00175-87.webp",
@@ -809,19 +1259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00182-92.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15148468
+        "bytes": 15148468,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00182-92.jpg",
+          "bytes": 15148468,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00182-92.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 813796
+        "bytes": 813796,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00182-92.jpg",
+          "bytes": 2084893,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00182-92.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 345970
+        "bytes": 345970,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00182-92.jpg",
+          "bytes": 1014094,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00182-92.webp",
@@ -841,19 +1309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00190-100.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13530525
+        "bytes": 13530525,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00190-100.jpg",
+          "bytes": 13530525,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00190-100.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 613950
+        "bytes": 613950,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00190-100.jpg",
+          "bytes": 1744246,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00190-100.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 260738
+        "bytes": 260738,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00190-100.jpg",
+          "bytes": 856194,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00190-100.webp",
@@ -873,19 +1359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00191-101.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13536675
+        "bytes": 13536675,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00191-101.jpg",
+          "bytes": 13536675,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00191-101.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 620262
+        "bytes": 620262,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00191-101.jpg",
+          "bytes": 1754945,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00191-101.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 263206
+        "bytes": 263206,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00191-101.jpg",
+          "bytes": 862565,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00191-101.webp",
@@ -905,19 +1409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00192-102.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13580844
+        "bytes": 13580844,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00192-102.jpg",
+          "bytes": 13580844,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00192-102.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 630862
+        "bytes": 630862,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00192-102.jpg",
+          "bytes": 1771864,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00192-102.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 268906
+        "bytes": 268906,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00192-102.jpg",
+          "bytes": 871985,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00192-102.webp",
@@ -937,19 +1459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00193-103.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15159466
+        "bytes": 15159466,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00193-103.jpg",
+          "bytes": 15159466,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00193-103.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 801926
+        "bytes": 801926,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00193-103.jpg",
+          "bytes": 2037921,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00193-103.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 343254
+        "bytes": 343254,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00193-103.jpg",
+          "bytes": 982698,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00193-103.webp",
@@ -969,19 +1509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00196-104.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 18018822
+        "bytes": 18018822,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00196-104.jpg",
+          "bytes": 18018822,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00196-104.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1387724
+        "bytes": 1387724,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00196-104.jpg",
+          "bytes": 2876279,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00196-104.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 606700
+        "bytes": 606700,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00196-104.jpg",
+          "bytes": 1436768,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00196-104.webp",
@@ -1001,19 +1559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00204-105.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13930826
+        "bytes": 13930826,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00204-105.jpg",
+          "bytes": 13930826,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00204-105.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 487524
+        "bytes": 487524,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00204-105.jpg",
+          "bytes": 1593037,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00204-105.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 200786
+        "bytes": 200786,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00204-105.jpg",
+          "bytes": 747101,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00204-105.webp",
@@ -1033,19 +1609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00207-108.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14212731
+        "bytes": 14212731,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00207-108.jpg",
+          "bytes": 14212731,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00207-108.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 613270
+        "bytes": 613270,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00207-108.jpg",
+          "bytes": 1849977,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00207-108.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 260486
+        "bytes": 260486,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00207-108.jpg",
+          "bytes": 931397,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00207-108.webp",
@@ -1065,19 +1659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00218-118.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14886653
+        "bytes": 14886653,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00218-118.jpg",
+          "bytes": 14886653,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00218-118.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 684380
+        "bytes": 684380,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00218-118.jpg",
+          "bytes": 1972234,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00218-118.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 275462
+        "bytes": 275462,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00218-118.jpg",
+          "bytes": 978438,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00218-118.webp",
@@ -1097,19 +1709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00219-119.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14970567
+        "bytes": 14970567,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00219-119.jpg",
+          "bytes": 14970567,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00219-119.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 715006
+        "bytes": 715006,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00219-119.jpg",
+          "bytes": 1999680,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00219-119.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 289774
+        "bytes": 289774,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00219-119.jpg",
+          "bytes": 987690,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00219-119.webp",
@@ -1129,19 +1759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00221-120.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14952608
+        "bytes": 14952608,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00221-120.jpg",
+          "bytes": 14952608,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00221-120.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 710494
+        "bytes": 710494,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00221-120.jpg",
+          "bytes": 1996501,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00221-120.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 288126
+        "bytes": 288126,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00221-120.jpg",
+          "bytes": 986572,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00221-120.webp",
@@ -1161,19 +1809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00223-122.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16416996
+        "bytes": 16416996,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00223-122.jpg",
+          "bytes": 16416996,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00223-122.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 953862
+        "bytes": 953862,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00223-122.jpg",
+          "bytes": 2426697,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00223-122.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 399074
+        "bytes": 399074,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00223-122.jpg",
+          "bytes": 1232635,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00223-122.webp",
@@ -1193,19 +1859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00224-123.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15544266
+        "bytes": 15544266,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00224-123.jpg",
+          "bytes": 15544266,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00224-123.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 774854
+        "bytes": 774854,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00224-123.jpg",
+          "bytes": 2115749,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00224-123.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 328636
+        "bytes": 328636,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00224-123.jpg",
+          "bytes": 1049854,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00224-123.webp",
@@ -1225,19 +1909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00231-128.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16963005
+        "bytes": 16963005,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00231-128.jpg",
+          "bytes": 16963005,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00231-128.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1070894
+        "bytes": 1070894,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00231-128.jpg",
+          "bytes": 2477644,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00231-128.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 439538
+        "bytes": 439538,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00231-128.jpg",
+          "bytes": 1185380,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00231-128.webp",
@@ -1257,19 +1959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00237-132.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 17189819
+        "bytes": 17189819,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00237-132.jpg",
+          "bytes": 17189819,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00237-132.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1244210
+        "bytes": 1244210,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00237-132.jpg",
+          "bytes": 2613025,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00237-132.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 486208
+        "bytes": 486208,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00237-132.jpg",
+          "bytes": 1243750,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00237-132.webp",
@@ -1289,19 +2009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00244-135.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 17614595
+        "bytes": 17614595,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00244-135.jpg",
+          "bytes": 17614595,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00244-135.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 1317854
+        "bytes": 1317854,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00244-135.jpg",
+          "bytes": 2731064,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00244-135.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 514024
+        "bytes": 514024,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00244-135.jpg",
+          "bytes": 1328093,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00244-135.webp",
@@ -1321,19 +2059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00257-141.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16946303
+        "bytes": 16946303,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00257-141.jpg",
+          "bytes": 16946303,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00257-141.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 750464
+        "bytes": 750464,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00257-141.jpg",
+          "bytes": 2106495,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00257-141.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 294260
+        "bytes": 294260,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00257-141.jpg",
+          "bytes": 1010785,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00257-141.webp",
@@ -1353,19 +2109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00259-142.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 19122019
+        "bytes": 19122019,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00259-142.jpg",
+          "bytes": 19122019,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00259-142.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 963884
+        "bytes": 963884,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00259-142.jpg",
+          "bytes": 2379127,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00259-142.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 362302
+        "bytes": 362302,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00259-142.jpg",
+          "bytes": 1089016,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00259-142.webp",
@@ -1385,19 +2159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00260-143.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 17941465
+        "bytes": 17941465,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00260-143.jpg",
+          "bytes": 17941465,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00260-143.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 688568
+        "bytes": 688568,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00260-143.jpg",
+          "bytes": 2011093,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00260-143.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 243698
+        "bytes": 243698,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00260-143.jpg",
+          "bytes": 888696,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00260-143.webp",
@@ -1417,19 +2209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00261-144.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16696703
+        "bytes": 16696703,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00261-144.jpg",
+          "bytes": 16696703,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00261-144.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 675422
+        "bytes": 675422,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00261-144.jpg",
+          "bytes": 1977882,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00261-144.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 253072
+        "bytes": 253072,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00261-144.jpg",
+          "bytes": 922740,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00261-144.webp",
@@ -1449,19 +2259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00262-145.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16572187
+        "bytes": 16572187,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00262-145.jpg",
+          "bytes": 16572187,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00262-145.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 647576
+        "bytes": 647576,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00262-145.jpg",
+          "bytes": 1941660,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00262-145.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 236374
+        "bytes": 236374,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00262-145.jpg",
+          "bytes": 906127,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00262-145.webp",
@@ -1481,19 +2309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00265-147.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 27822561
+        "bytes": 27822561,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00265-147.jpg",
+          "bytes": 27822561,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00265-147.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 2719828
+        "bytes": 2719828,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00265-147.jpg",
+          "bytes": 4730142,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00265-147.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 1114468
+        "bytes": 1114468,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00265-147.jpg",
+          "bytes": 2356122,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00265-147.webp",
@@ -1513,19 +2359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00266-148.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 26988251
+        "bytes": 26988251,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00266-148.jpg",
+          "bytes": 26988251,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00266-148.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 2291124
+        "bytes": 2291124,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00266-148.jpg",
+          "bytes": 4317100,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00266-148.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 917048
+        "bytes": 917048,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00266-148.jpg",
+          "bytes": 2168922,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00266-148.webp",
@@ -1545,19 +2409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00271-152.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17606930
+        "bytes": 17606930,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00271-152.jpg",
+          "bytes": 17606930,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00271-152.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 976504
+        "bytes": 976504,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00271-152.jpg",
+          "bytes": 2312585,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00271-152.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 370732
+        "bytes": 370732,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00271-152.jpg",
+          "bytes": 1085435,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00271-152.webp",
@@ -1577,19 +2459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00276-157.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16511624
+        "bytes": 16511624,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00276-157.jpg",
+          "bytes": 16511624,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00276-157.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 609590
+        "bytes": 609590,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00276-157.jpg",
+          "bytes": 1759725,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00276-157.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 197416
+        "bytes": 197416,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00276-157.jpg",
+          "bytes": 725635,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00276-157.webp",
@@ -1609,19 +2509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00277-158.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16101140
+        "bytes": 16101140,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00277-158.jpg",
+          "bytes": 16101140,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00277-158.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 623334
+        "bytes": 623334,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00277-158.jpg",
+          "bytes": 1756442,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00277-158.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 207998
+        "bytes": 207998,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00277-158.jpg",
+          "bytes": 737868,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00277-158.webp",
@@ -1641,19 +2559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00278-159.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16194449
+        "bytes": 16194449,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00278-159.jpg",
+          "bytes": 16194449,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00278-159.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 649226
+        "bytes": 649226,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00278-159.jpg",
+          "bytes": 1785167,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00278-159.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 216764
+        "bytes": 216764,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00278-159.jpg",
+          "bytes": 753359,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00278-159.webp",
@@ -1673,19 +2609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00335-199.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16715901
+        "bytes": 16715901,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00335-199.jpg",
+          "bytes": 16715901,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00335-199.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1085340
+        "bytes": 1085340,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00335-199.jpg",
+          "bytes": 2446938,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00335-199.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 432908
+        "bytes": 432908,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00335-199.jpg",
+          "bytes": 1164527,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00335-199.webp",
@@ -1705,19 +2659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00351-209.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13836025
+        "bytes": 13836025,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00351-209.jpg",
+          "bytes": 13836025,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00351-209.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 347070
+        "bytes": 347070,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00351-209.jpg",
+          "bytes": 1452119,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00351-209.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 147266
+        "bytes": 147266,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00351-209.jpg",
+          "bytes": 657960,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00351-209.webp",
@@ -1737,19 +2709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00354-210.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14308941
+        "bytes": 14308941,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00354-210.jpg",
+          "bytes": 14308941,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00354-210.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 496824
+        "bytes": 496824,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00354-210.jpg",
+          "bytes": 1622540,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00354-210.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 197314
+        "bytes": 197314,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00354-210.jpg",
+          "bytes": 739814,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00354-210.webp",
@@ -1769,19 +2759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00355-211.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13681971
+        "bytes": 13681971,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00355-211.jpg",
+          "bytes": 13681971,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00355-211.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 356306
+        "bytes": 356306,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00355-211.jpg",
+          "bytes": 1445656,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00355-211.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 141464
+        "bytes": 141464,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00355-211.jpg",
+          "bytes": 653862,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00355-211.webp",
@@ -1801,19 +2809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00365-221.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 18204704
+        "bytes": 18204704,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00365-221.jpg",
+          "bytes": 18204704,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00365-221.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1022614
+        "bytes": 1022614,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00365-221.jpg",
+          "bytes": 2491655,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00365-221.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 385898
+        "bytes": 385898,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00365-221.jpg",
+          "bytes": 1158453,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00365-221.webp",
@@ -1833,19 +2859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00370-226.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17654484
+        "bytes": 17654484,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00370-226.jpg",
+          "bytes": 17654484,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00370-226.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 851362
+        "bytes": 851362,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00370-226.jpg",
+          "bytes": 2205457,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00370-226.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 312696
+        "bytes": 312696,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00370-226.jpg",
+          "bytes": 988802,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00370-226.webp",
@@ -1865,19 +2909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00371-227.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17895338
+        "bytes": 17895338,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00371-227.jpg",
+          "bytes": 17895338,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00371-227.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 946416
+        "bytes": 946416,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00371-227.jpg",
+          "bytes": 2341755,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00371-227.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 373082
+        "bytes": 373082,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00371-227.jpg",
+          "bytes": 1067081,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00371-227.webp",
@@ -1897,19 +2959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00381-237.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 18954110
+        "bytes": 18954110,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00381-237.jpg",
+          "bytes": 18954110,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00381-237.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1384020
+        "bytes": 1384020,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00381-237.jpg",
+          "bytes": 2768813,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00381-237.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 511194
+        "bytes": 511194,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00381-237.jpg",
+          "bytes": 1331184,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00381-237.webp",
@@ -1929,19 +3009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00419-272.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 20582195
+        "bytes": 20582195,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00419-272.jpg",
+          "bytes": 20582195,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00419-272.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1139354
+        "bytes": 1139354,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00419-272.jpg",
+          "bytes": 2701002,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00419-272.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 390678
+        "bytes": 390678,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00419-272.jpg",
+          "bytes": 1225536,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00419-272.webp",
@@ -1961,19 +3059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00431-279.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14543223
+        "bytes": 14543223,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00431-279.jpg",
+          "bytes": 14543223,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00431-279.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 278202
+        "bytes": 278202,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00431-279.jpg",
+          "bytes": 1327827,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00431-279.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 98600
+        "bytes": 98600,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00431-279.jpg",
+          "bytes": 535808,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00431-279.webp",
@@ -1993,19 +3109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00432-280.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14247581
+        "bytes": 14247581,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00432-280.jpg",
+          "bytes": 14247581,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00432-280.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 239214
+        "bytes": 239214,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00432-280.jpg",
+          "bytes": 1261291,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00432-280.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 85680
+        "bytes": 85680,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00432-280.jpg",
+          "bytes": 506637,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00432-280.webp",
@@ -2025,19 +3159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00433-281.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14426451
+        "bytes": 14426451,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00433-281.jpg",
+          "bytes": 14426451,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00433-281.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 229612
+        "bytes": 229612,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00433-281.jpg",
+          "bytes": 1272369,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00433-281.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 84924
+        "bytes": 84924,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00433-281.jpg",
+          "bytes": 507973,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00433-281.webp",
@@ -2057,19 +3209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00434-282.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14384250
+        "bytes": 14384250,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00434-282.jpg",
+          "bytes": 14384250,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00434-282.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 250222
+        "bytes": 250222,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00434-282.jpg",
+          "bytes": 1295804,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00434-282.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 91466
+        "bytes": 91466,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00434-282.jpg",
+          "bytes": 524209,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00434-282.webp",
@@ -2089,19 +3259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00435-283.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14545864
+        "bytes": 14545864,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00435-283.jpg",
+          "bytes": 14545864,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00435-283.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 262940
+        "bytes": 262940,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00435-283.jpg",
+          "bytes": 1314182,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00435-283.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 95674
+        "bytes": 95674,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00435-283.jpg",
+          "bytes": 526697,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00435-283.webp",
@@ -2121,19 +3309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00438-284.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14680083
+        "bytes": 14680083,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00438-284.jpg",
+          "bytes": 14680083,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00438-284.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 278162
+        "bytes": 278162,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00438-284.jpg",
+          "bytes": 1339670,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00438-284.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 99306
+        "bytes": 99306,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00438-284.jpg",
+          "bytes": 539837,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00438-284.webp",
@@ -2153,19 +3359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00439-285.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14703166
+        "bytes": 14703166,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00439-285.jpg",
+          "bytes": 14703166,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00439-285.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 277484
+        "bytes": 277484,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00439-285.jpg",
+          "bytes": 1342535,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00439-285.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 100052
+        "bytes": 100052,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00439-285.jpg",
+          "bytes": 542044,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00439-285.webp",
@@ -2185,19 +3409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00444-287.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15403261
+        "bytes": 15403261,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00444-287.jpg",
+          "bytes": 15403261,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00444-287.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 382414
+        "bytes": 382414,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00444-287.jpg",
+          "bytes": 1464608,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00444-287.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 118700
+        "bytes": 118700,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00444-287.jpg",
+          "bytes": 605455,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00444-287.webp",
@@ -2217,19 +3459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00454-297.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14488455
+        "bytes": 14488455,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00454-297.jpg",
+          "bytes": 14488455,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00454-297.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 233296
+        "bytes": 233296,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00454-297.jpg",
+          "bytes": 1276376,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00454-297.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 82912
+        "bytes": 82912,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00454-297.jpg",
+          "bytes": 505328,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00454-297.webp",
@@ -2249,19 +3509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00455-298.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14629691
+        "bytes": 14629691,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00455-298.jpg",
+          "bytes": 14629691,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00455-298.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 210128
+        "bytes": 210128,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00455-298.jpg",
+          "bytes": 1202282,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00455-298.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 67400
+        "bytes": 67400,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00455-298.jpg",
+          "bytes": 440382,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00455-298.webp",
@@ -2281,19 +3559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00456-299.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15647593
+        "bytes": 15647593,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00456-299.jpg",
+          "bytes": 15647593,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00456-299.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 374624
+        "bytes": 374624,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00456-299.jpg",
+          "bytes": 1548623,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00456-299.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 132956
+        "bytes": 132956,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00456-299.jpg",
+          "bytes": 653088,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00456-299.webp",
@@ -2313,19 +3609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00457-300.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13869823
+        "bytes": 13869823,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00457-300.jpg",
+          "bytes": 13869823,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00457-300.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 120960
+        "bytes": 120960,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00457-300.jpg",
+          "bytes": 1036052,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00457-300.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 37978
+        "bytes": 37978,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00457-300.jpg",
+          "bytes": 355865,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00457-300.webp",
@@ -2345,19 +3659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00458-301.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14136024
+        "bytes": 14136024,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00458-301.jpg",
+          "bytes": 14136024,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00458-301.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 108622
+        "bytes": 108622,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00458-301.jpg",
+          "bytes": 1017020,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00458-301.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 31736
+        "bytes": 31736,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00458-301.jpg",
+          "bytes": 334395,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00458-301.webp",
@@ -2377,19 +3709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00459-302.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15205795
+        "bytes": 15205795,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00459-302.jpg",
+          "bytes": 15205795,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00459-302.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 297680
+        "bytes": 297680,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00459-302.jpg",
+          "bytes": 1385766,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00459-302.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 103192
+        "bytes": 103192,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00459-302.jpg",
+          "bytes": 551283,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00459-302.webp",
@@ -2409,19 +3759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00460-303.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15209647
+        "bytes": 15209647,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00460-303.jpg",
+          "bytes": 15209647,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00460-303.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 300446
+        "bytes": 300446,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00460-303.jpg",
+          "bytes": 1432554,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00460-303.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 102138
+        "bytes": 102138,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00460-303.jpg",
+          "bytes": 593285,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00460-303.webp",
@@ -2441,19 +3809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00473-313.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16804843
+        "bytes": 16804843,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00473-313.jpg",
+          "bytes": 16804843,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00473-313.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 487424
+        "bytes": 487424,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00473-313.jpg",
+          "bytes": 1835810,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00473-313.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 179228
+        "bytes": 179228,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00473-313.jpg",
+          "bytes": 814116,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00473-313.webp",
@@ -2473,19 +3859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00475-314.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16659242
+        "bytes": 16659242,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00475-314.jpg",
+          "bytes": 16659242,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00475-314.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 516742
+        "bytes": 516742,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00475-314.jpg",
+          "bytes": 1876612,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00475-314.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 206508
+        "bytes": 206508,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00475-314.jpg",
+          "bytes": 889551,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00475-314.webp",
@@ -2505,19 +3909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00481-320.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 20752318
+        "bytes": 20752318,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00481-320.jpg",
+          "bytes": 20752318,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00481-320.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1004788
+        "bytes": 1004788,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00481-320.jpg",
+          "bytes": 2510113,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00481-320.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 379020
+        "bytes": 379020,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00481-320.jpg",
+          "bytes": 1109911,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00481-320.webp",
@@ -2537,19 +3959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00494-331.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 17741672
+        "bytes": 17741672,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00494-331.jpg",
+          "bytes": 17741672,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00494-331.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 662476
+        "bytes": 662476,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00494-331.jpg",
+          "bytes": 2047516,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00494-331.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 256386
+        "bytes": 256386,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00494-331.jpg",
+          "bytes": 909132,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00494-331.webp",
@@ -2569,19 +4009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00495-332.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16400359
+        "bytes": 16400359,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00495-332.jpg",
+          "bytes": 16400359,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00495-332.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 496698
+        "bytes": 496698,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00495-332.jpg",
+          "bytes": 1654917,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00495-332.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 167822
+        "bytes": 167822,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00495-332.jpg",
+          "bytes": 707479,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00495-332.webp",
@@ -2601,19 +4059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00496-333.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 16229748
+        "bytes": 16229748,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00496-333.jpg",
+          "bytes": 16229748,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00496-333.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 470238
+        "bytes": 470238,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00496-333.jpg",
+          "bytes": 1665546,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00496-333.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 175774
+        "bytes": 175774,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00496-333.jpg",
+          "bytes": 721502,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00496-333.webp",
@@ -2633,19 +4109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00497-334.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16967940
+        "bytes": 16967940,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00497-334.jpg",
+          "bytes": 16967940,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00497-334.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 565610
+        "bytes": 565610,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00497-334.jpg",
+          "bytes": 1773641,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00497-334.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 194988
+        "bytes": 194988,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00497-334.jpg",
+          "bytes": 769583,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00497-334.webp",
@@ -2665,19 +4159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00498-335.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17114445
+        "bytes": 17114445,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00498-335.jpg",
+          "bytes": 17114445,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00498-335.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 562728
+        "bytes": 562728,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00498-335.jpg",
+          "bytes": 1779124,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00498-335.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 194256
+        "bytes": 194256,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00498-335.jpg",
+          "bytes": 769143,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00498-335.webp",
@@ -2697,19 +4209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00549-375.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 21016906
+        "bytes": 21016906,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00549-375.jpg",
+          "bytes": 21016906,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00549-375.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 1638924
+        "bytes": 1638924,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00549-375.jpg",
+          "bytes": 3132614,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00549-375.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 595690
+        "bytes": 595690,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00549-375.jpg",
+          "bytes": 1510681,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00549-375.webp",
@@ -2729,19 +4259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00564-386.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 17306653
+        "bytes": 17306653,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00564-386.jpg",
+          "bytes": 17306653,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00564-386.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 690546
+        "bytes": 690546,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00564-386.jpg",
+          "bytes": 1925869,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00564-386.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 252080
+        "bytes": 252080,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00564-386.jpg",
+          "bytes": 872789,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00564-386.webp",
@@ -2761,19 +4309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00573-391.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 20454207
+        "bytes": 20454207,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00573-391.jpg",
+          "bytes": 20454207,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00573-391.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 790506
+        "bytes": 790506,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00573-391.jpg",
+          "bytes": 2284153,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00573-391.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 237054
+        "bytes": 237054,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00573-391.jpg",
+          "bytes": 1034848,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00573-391.webp",
@@ -2793,19 +4359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00574-392.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 20385922
+        "bytes": 20385922,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00574-392.jpg",
+          "bytes": 20385922,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00574-392.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 713436
+        "bytes": 713436,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00574-392.jpg",
+          "bytes": 2267650,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00574-392.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 286106
+        "bytes": 286106,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00574-392.jpg",
+          "bytes": 1053241,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00574-392.webp",
@@ -2825,19 +4409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00632-422.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 18987482
+        "bytes": 18987482,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00632-422.jpg",
+          "bytes": 18987482,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00632-422.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 876684
+        "bytes": 876684,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00632-422.jpg",
+          "bytes": 2447887,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00632-422.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 372988
+        "bytes": 372988,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00632-422.jpg",
+          "bytes": 1234370,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00632-422.webp",
@@ -2857,19 +4459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00633-423.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 19063573
+        "bytes": 19063573,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00633-423.jpg",
+          "bytes": 19063573,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00633-423.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 881052
+        "bytes": 881052,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00633-423.jpg",
+          "bytes": 2466474,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00633-423.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 368642
+        "bytes": 368642,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00633-423.jpg",
+          "bytes": 1245687,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00633-423.webp",
@@ -2889,19 +4509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00682-443.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15277884
+        "bytes": 15277884,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00682-443.jpg",
+          "bytes": 15277884,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00682-443.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 641806
+        "bytes": 641806,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00682-443.jpg",
+          "bytes": 1809524,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00682-443.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 222948
+        "bytes": 222948,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00682-443.jpg",
+          "bytes": 798997,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00682-443.webp",
@@ -2921,19 +4559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00783-492.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15993653
+        "bytes": 15993653,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00783-492.jpg",
+          "bytes": 15993653,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00783-492.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 951290
+        "bytes": 951290,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00783-492.jpg",
+          "bytes": 2084011,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00783-492.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 342630
+        "bytes": 342630,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00783-492.jpg",
+          "bytes": 945676,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00783-492.webp",
@@ -2953,19 +4609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00886-530.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12448353
+        "bytes": 12448353,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00886-530.jpg",
+          "bytes": 12448353,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00886-530.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 254058
+        "bytes": 254058,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00886-530.jpg",
+          "bytes": 1107768,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00886-530.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 80858
+        "bytes": 80858,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00886-530.jpg",
+          "bytes": 449754,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00886-530.webp",
@@ -2985,19 +4659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00940-545.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14574592
+        "bytes": 14574592,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00940-545.jpg",
+          "bytes": 14574592,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00940-545.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 775706
+        "bytes": 775706,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00940-545.jpg",
+          "bytes": 1936790,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00940-545.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 277928
+        "bytes": 277928,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00940-545.jpg",
+          "bytes": 901621,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00940-545.webp",
@@ -3017,19 +4709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00943-546.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15145770
+        "bytes": 15145770,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00943-546.jpg",
+          "bytes": 15145770,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00943-546.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 893514
+        "bytes": 893514,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00943-546.jpg",
+          "bytes": 2140332,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00943-546.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 335746
+        "bytes": 335746,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00943-546.jpg",
+          "bytes": 1018216,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00943-546.webp",
@@ -3049,19 +4759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00946-547.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13384924
+        "bytes": 13384924,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00946-547.jpg",
+          "bytes": 13384924,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00946-547.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 538916
+        "bytes": 538916,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00946-547.jpg",
+          "bytes": 1665401,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00946-547.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 216356
+        "bytes": 216356,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00946-547.jpg",
+          "bytes": 782307,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00946-547.webp",
@@ -3081,19 +4809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00967-551.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14300306
+        "bytes": 14300306,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00967-551.jpg",
+          "bytes": 14300306,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00967-551.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 526896
+        "bytes": 526896,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00967-551.jpg",
+          "bytes": 1657221,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00967-551.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 214016
+        "bytes": 214016,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00967-551.jpg",
+          "bytes": 760862,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00967-551.webp",
@@ -3113,19 +4859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00970-552.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13855506
+        "bytes": 13855506,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00970-552.jpg",
+          "bytes": 13855506,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00970-552.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 462296
+        "bytes": 462296,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00970-552.jpg",
+          "bytes": 1556102,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00970-552.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 190874
+        "bytes": 190874,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00970-552.jpg",
+          "bytes": 706909,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00970-552.webp",
@@ -3145,19 +4909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00973-553.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13943644
+        "bytes": 13943644,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00973-553.jpg",
+          "bytes": 13943644,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00973-553.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 447698
+        "bytes": 447698,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00973-553.jpg",
+          "bytes": 1520530,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00973-553.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 182956
+        "bytes": 182956,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00973-553.jpg",
+          "bytes": 681471,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00973-553.webp",
@@ -3177,19 +4959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00976-554.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13908573
+        "bytes": 13908573,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00976-554.jpg",
+          "bytes": 13908573,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00976-554.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 476014
+        "bytes": 476014,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00976-554.jpg",
+          "bytes": 1526986,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00976-554.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 186922
+        "bytes": 186922,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00976-554.jpg",
+          "bytes": 682995,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00976-554.webp",
@@ -3209,19 +5009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00979-555.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13823890
+        "bytes": 13823890,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00979-555.jpg",
+          "bytes": 13823890,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc00979-555.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 446190
+        "bytes": 446190,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00979-555.jpg",
+          "bytes": 1515017,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc00979-555.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 177808
+        "bytes": 177808,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00979-555.jpg",
+          "bytes": 682292,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00979-555.webp",
@@ -3241,19 +5059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00985-557.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14177568
+        "bytes": 14177568,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00985-557.jpg",
+          "bytes": 14177568,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00985-557.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 758938
+        "bytes": 758938,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00985-557.jpg",
+          "bytes": 1906772,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00985-557.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 294692
+        "bytes": 294692,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00985-557.jpg",
+          "bytes": 919501,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00985-557.webp",
@@ -3273,19 +5109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00997-561.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15367924
+        "bytes": 15367924,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc00997-561.jpg",
+          "bytes": 15367924,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc00997-561.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 819168
+        "bytes": 819168,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc00997-561.jpg",
+          "bytes": 2061338,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc00997-561.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 331952
+        "bytes": 331952,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc00997-561.jpg",
+          "bytes": 976816,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc00997-561.webp",
@@ -3305,19 +5159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01000-562.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15698573
+        "bytes": 15698573,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01000-562.jpg",
+          "bytes": 15698573,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01000-562.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 892346
+        "bytes": 892346,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01000-562.jpg",
+          "bytes": 2163080,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01000-562.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 374462
+        "bytes": 374462,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01000-562.jpg",
+          "bytes": 1043730,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01000-562.webp",
@@ -3337,19 +5209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01002-563.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15872572
+        "bytes": 15872572,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01002-563.jpg",
+          "bytes": 15872572,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01002-563.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 932722
+        "bytes": 932722,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01002-563.jpg",
+          "bytes": 2173488,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01002-563.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 366022
+        "bytes": 366022,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01002-563.jpg",
+          "bytes": 1036756,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01002-563.webp",
@@ -3369,19 +5259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01009-564.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14141944
+        "bytes": 14141944,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01009-564.jpg",
+          "bytes": 14141944,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01009-564.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 599376
+        "bytes": 599376,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01009-564.jpg",
+          "bytes": 1745760,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01009-564.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 247250
+        "bytes": 247250,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01009-564.jpg",
+          "bytes": 804078,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01009-564.webp",
@@ -3401,19 +5309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01012-565.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14234728
+        "bytes": 14234728,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01012-565.jpg",
+          "bytes": 14234728,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01012-565.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 613064
+        "bytes": 613064,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01012-565.jpg",
+          "bytes": 1787055,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01012-565.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 251356
+        "bytes": 251356,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01012-565.jpg",
+          "bytes": 826334,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01012-565.webp",
@@ -3433,19 +5359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01015-566.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14658736
+        "bytes": 14658736,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01015-566.jpg",
+          "bytes": 14658736,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01015-566.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 678674
+        "bytes": 678674,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01015-566.jpg",
+          "bytes": 1831523,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01015-566.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 272018
+        "bytes": 272018,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01015-566.jpg",
+          "bytes": 850063,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01015-566.webp",
@@ -3465,19 +5409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01023-568.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14090963
+        "bytes": 14090963,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01023-568.jpg",
+          "bytes": 14090963,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01023-568.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 652816
+        "bytes": 652816,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01023-568.jpg",
+          "bytes": 1836652,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01023-568.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 284656
+        "bytes": 284656,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01023-568.jpg",
+          "bytes": 878843,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01023-568.webp",
@@ -3497,19 +5459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01027-569.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14403506
+        "bytes": 14403506,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01027-569.jpg",
+          "bytes": 14403506,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01027-569.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 646076
+        "bytes": 646076,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01027-569.jpg",
+          "bytes": 1823451,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01027-569.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 272292
+        "bytes": 272292,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01027-569.jpg",
+          "bytes": 851589,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01027-569.webp",
@@ -3529,19 +5509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01030-570.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14468077
+        "bytes": 14468077,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01030-570.jpg",
+          "bytes": 14468077,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01030-570.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 657642
+        "bytes": 657642,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01030-570.jpg",
+          "bytes": 1874268,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01030-570.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 282120
+        "bytes": 282120,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01030-570.jpg",
+          "bytes": 885960,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01030-570.webp",
@@ -3561,19 +5559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01057-595.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13780882
+        "bytes": 13780882,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01057-595.jpg",
+          "bytes": 13780882,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01057-595.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 538576
+        "bytes": 538576,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01057-595.jpg",
+          "bytes": 1628932,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01057-595.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 219484
+        "bytes": 219484,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01057-595.jpg",
+          "bytes": 756146,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01057-595.webp",
@@ -3593,19 +5609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01060-596.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 13944102
+        "bytes": 13944102,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01060-596.jpg",
+          "bytes": 13944102,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01060-596.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 552610
+        "bytes": 552610,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01060-596.jpg",
+          "bytes": 1666798,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01060-596.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 228208
+        "bytes": 228208,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01060-596.jpg",
+          "bytes": 775844,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01060-596.webp",
@@ -3625,19 +5659,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01063-597.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 14020997
+        "bytes": 14020997,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01063-597.jpg",
+          "bytes": 14020997,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01063-597.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 566488
+        "bytes": 566488,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01063-597.jpg",
+          "bytes": 1676880,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01063-597.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 228880
+        "bytes": 228880,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01063-597.jpg",
+          "bytes": 777654,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01063-597.webp",
@@ -3657,19 +5709,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01066-598.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 13847868
+        "bytes": 13847868,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01066-598.jpg",
+          "bytes": 13847868,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01066-598.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 592970
+        "bytes": 592970,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01066-598.jpg",
+          "bytes": 1743073,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01066-598.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 255544
+        "bytes": 255544,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01066-598.jpg",
+          "bytes": 847888,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01066-598.webp",
@@ -3689,19 +5759,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01072-599.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 11970312
+        "bytes": 11970312,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01072-599.jpg",
+          "bytes": 11970312,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01072-599.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 278178
+        "bytes": 278178,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01072-599.jpg",
+          "bytes": 1157755,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01072-599.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 107368
+        "bytes": 107368,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01072-599.jpg",
+          "bytes": 505369,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01072-599.webp",
@@ -3721,19 +5809,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01075-600.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 12159997
+        "bytes": 12159997,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01075-600.jpg",
+          "bytes": 12159997,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01075-600.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 296434
+        "bytes": 296434,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01075-600.jpg",
+          "bytes": 1192069,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01075-600.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 116254
+        "bytes": 116254,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01075-600.jpg",
+          "bytes": 522952,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01075-600.webp",
@@ -3753,19 +5859,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01081-601.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 11998901
+        "bytes": 11998901,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01081-601.jpg",
+          "bytes": 11998901,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01081-601.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 283290
+        "bytes": 283290,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01081-601.jpg",
+          "bytes": 1149765,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01081-601.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 104010
+        "bytes": 104010,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01081-601.jpg",
+          "bytes": 496625,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01081-601.webp",
@@ -3785,19 +5909,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01084-602.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 11934474
+        "bytes": 11934474,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01084-602.jpg",
+          "bytes": 11934474,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01084-602.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 286682
+        "bytes": 286682,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01084-602.jpg",
+          "bytes": 1151458,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01084-602.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 104696
+        "bytes": 104696,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01084-602.jpg",
+          "bytes": 500337,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01084-602.webp",
@@ -3817,19 +5959,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01087-603.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 12074989
+        "bytes": 12074989,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01087-603.jpg",
+          "bytes": 12074989,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01087-603.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 288114
+        "bytes": 288114,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01087-603.jpg",
+          "bytes": 1179170,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01087-603.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 110358
+        "bytes": 110358,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01087-603.jpg",
+          "bytes": 515781,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01087-603.webp",
@@ -3849,19 +6009,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01090-604.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12434510
+        "bytes": 12434510,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01090-604.jpg",
+          "bytes": 12434510,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01090-604.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 330276
+        "bytes": 330276,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01090-604.jpg",
+          "bytes": 1220183,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01090-604.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 120304
+        "bytes": 120304,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01090-604.jpg",
+          "bytes": 527975,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01090-604.webp",
@@ -3881,19 +6059,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01093-605.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12536099
+        "bytes": 12536099,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01093-605.jpg",
+          "bytes": 12536099,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01093-605.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 357522
+        "bytes": 357522,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01093-605.jpg",
+          "bytes": 1273786,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01093-605.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 132132
+        "bytes": 132132,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01093-605.jpg",
+          "bytes": 558436,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01093-605.webp",
@@ -3913,19 +6109,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01096-606.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12611632
+        "bytes": 12611632,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01096-606.jpg",
+          "bytes": 12611632,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01096-606.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 369830
+        "bytes": 369830,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01096-606.jpg",
+          "bytes": 1290997,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01096-606.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 133004
+        "bytes": 133004,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01096-606.jpg",
+          "bytes": 567266,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01096-606.webp",
@@ -3945,19 +6159,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01099-607.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12608622
+        "bytes": 12608622,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01099-607.jpg",
+          "bytes": 12608622,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01099-607.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 375674
+        "bytes": 375674,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01099-607.jpg",
+          "bytes": 1289143,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01099-607.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 134766
+        "bytes": 134766,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01099-607.jpg",
+          "bytes": 567300,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01099-607.webp",
@@ -3977,19 +6209,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01102-608.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 12715941
+        "bytes": 12715941,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01102-608.jpg",
+          "bytes": 12715941,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01102-608.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 382882
+        "bytes": 382882,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01102-608.jpg",
+          "bytes": 1305954,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01102-608.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 137330
+        "bytes": 137330,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01102-608.jpg",
+          "bytes": 572562,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01102-608.webp",
@@ -4009,19 +6259,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01114-612.jpg",
         "width": 6376,
         "height": 9568,
-        "bytes": 15364121
+        "bytes": 15364121,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01114-612.jpg",
+          "bytes": 15364121,
+          "width": 6376,
+          "height": 9568
+        }
       },
       "hd": {
         "src": "hd/dsc01114-612.webp",
         "width": 2559,
         "height": 3840,
-        "bytes": 854786
+        "bytes": 854786,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01114-612.jpg",
+          "bytes": 2057677,
+          "width": 2559,
+          "height": 3840
+        }
       },
       "standard": {
         "src": "images/dsc01114-612.webp",
         "width": 1706,
         "height": 2560,
-        "bytes": 327630
+        "bytes": 327630,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01114-612.jpg",
+          "bytes": 969162,
+          "width": 1706,
+          "height": 2560
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01114-612.webp",
@@ -4041,19 +6309,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01141-624.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14984220
+        "bytes": 14984220,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01141-624.jpg",
+          "bytes": 14984220,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01141-624.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 778508
+        "bytes": 778508,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01141-624.jpg",
+          "bytes": 2006574,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01141-624.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 332284
+        "bytes": 332284,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01141-624.jpg",
+          "bytes": 963448,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01141-624.webp",
@@ -4073,19 +6359,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01145-625.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14939288
+        "bytes": 14939288,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01145-625.jpg",
+          "bytes": 14939288,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01145-625.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 756544
+        "bytes": 756544,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01145-625.jpg",
+          "bytes": 1942001,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01145-625.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 305856
+        "bytes": 305856,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01145-625.jpg",
+          "bytes": 925180,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01145-625.webp",
@@ -4105,19 +6409,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01147-626.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14939288
+        "bytes": 14939288,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01147-626.jpg",
+          "bytes": 14939288,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01147-626.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 756544
+        "bytes": 756544,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01147-626.jpg",
+          "bytes": 1942001,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01147-626.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 305856
+        "bytes": 305856,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01147-626.jpg",
+          "bytes": 925180,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01147-626.webp",
@@ -4137,19 +6459,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01148-627.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14198981
+        "bytes": 14198981,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01148-627.jpg",
+          "bytes": 14198981,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01148-627.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 707838
+        "bytes": 707838,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01148-627.jpg",
+          "bytes": 1835136,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01148-627.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 260790
+        "bytes": 260790,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01148-627.jpg",
+          "bytes": 858364,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01148-627.webp",
@@ -4169,19 +6509,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01157-628.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 16563204
+        "bytes": 16563204,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01157-628.jpg",
+          "bytes": 16563204,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01157-628.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 957674
+        "bytes": 957674,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01157-628.jpg",
+          "bytes": 2253563,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01157-628.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 357908
+        "bytes": 357908,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01157-628.jpg",
+          "bytes": 1030045,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01157-628.webp",
@@ -4201,19 +6559,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01160-629.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 14638224
+        "bytes": 14638224,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01160-629.jpg",
+          "bytes": 14638224,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01160-629.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 778982
+        "bytes": 778982,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01160-629.jpg",
+          "bytes": 1979613,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01160-629.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 300062
+        "bytes": 300062,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01160-629.jpg",
+          "bytes": 950985,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01160-629.webp",
@@ -4233,19 +6609,37 @@
         "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01168-630.jpg",
         "width": 9568,
         "height": 6376,
-        "bytes": 15671523
+        "bytes": 15671523,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/full/dsc01168-630.jpg",
+          "bytes": 15671523,
+          "width": 9568,
+          "height": 6376
+        }
       },
       "hd": {
         "src": "hd/dsc01168-630.webp",
         "width": 3840,
         "height": 2559,
-        "bytes": 858866
+        "bytes": 858866,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/hd/dsc01168-630.jpg",
+          "bytes": 2105431,
+          "width": 3840,
+          "height": 2559
+        }
       },
       "standard": {
         "src": "images/dsc01168-630.webp",
         "width": 2560,
         "height": 1706,
-        "bytes": 331046
+        "bytes": 331046,
+        "download": {
+          "src": "https://nextcloud.xiaofan.ac.cn/public.php/dav/files/w3y9BT5odTxEjZ8/jpg/standard/dsc01168-630.jpg",
+          "bytes": 972353,
+          "width": 2560,
+          "height": 1706
+        }
       },
       "thumb": {
         "src": "thumbs/dsc01168-630.webp",

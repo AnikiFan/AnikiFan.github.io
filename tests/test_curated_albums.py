@@ -19,6 +19,9 @@ class CuratedAlbumTests(unittest.TestCase):
         variants = {tier: {'src': f'{tier}/test.webp', 'bytes': 5}
                     for tier in ('thumb', 'standard', 'hd')}
         variants['full'] = {'src': 'https://nextcloud.xiaofan.ac.cn/public.php/dav/files/test/full.jpg'}
+        for tier in ('standard', 'hd', 'full'):
+            variants[tier]['download'] = {
+                'src': f'https://nextcloud.xiaofan.ac.cn/test/{tier}.jpg', 'bytes': 5}
         (self.metadata / 'quality.json').write_text(json.dumps([{'variants': variants}]))
         self.archive = self.root / 'web.zip'
         with zipfile.ZipFile(self.archive, 'w') as zipped:
@@ -66,3 +69,11 @@ class CuratedAlbumTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'collides'):
             install_album(self.root, self.album, self.archive)
         self.assertEqual((destination / 'existing.jpg').read_bytes(), b'keep')
+
+    def test_webp_download_is_rejected(self):
+        path = self.metadata / 'quality.json'
+        photos = json.loads(path.read_text())
+        photos[0]['variants']['standard']['download']['src'] = 'https://nextcloud.xiaofan.ac.cn/test.webp'
+        path.write_text(json.dumps(photos))
+        with self.assertRaisesRegex(ValueError, 'JPG download'):
+            install_album(self.root, self.album, self.archive)
