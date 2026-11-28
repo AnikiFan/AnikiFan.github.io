@@ -14,8 +14,13 @@
 .australia-grid { columns:3; column-gap:1rem; }
 .md-typeset .australia-photo { margin:0 0 1rem; width:100%; max-width:none; break-inside:avoid; }
 .md-typeset .australia-photo > p { margin:0; }
-.australia-photo a { display:block; border-radius:.25rem; overflow:hidden; }
-.australia-photo img { display:block; width:100%; height:auto; border-radius:.25rem; background:var(--md-default-fg-color--lightest); transition:filter .18s ease; }
+.australia-photo a { display:block; position:relative; border-radius:.25rem; overflow:hidden; background:var(--md-default-fg-color--lightest); }
+.australia-photo a::before { content:'照片预览'; position:absolute; inset:0; display:grid; place-items:center; padding:1rem; color:var(--md-default-fg-color--light); font-size:.65rem; text-align:center; }
+.australia-photo a[data-thumbnail="loading"]::before { content:'正在加载…'; }
+.australia-photo a[data-thumbnail="error"]::before { content:'暂时无法加载 · 点击查看'; }
+.australia-photo a[data-thumbnail="ready"]::before { content:none; }
+.australia-photo img { display:block; position:relative; width:100%; height:auto; border-radius:.25rem; background:var(--md-default-fg-color--lightest); transition:filter .18s ease; }
+.australia-photo a[data-thumbnail="loading"] img, .australia-photo a[data-thumbnail="error"] img { opacity:0; }
 .australia-photo a:hover img { filter:brightness(1.04); }
 .md-typeset .australia-photo figcaption { margin:.3rem 0 0; font-size:.6rem; letter-spacing:.03em; color:var(--md-default-fg-color--light); text-align:left; }
 @media(max-width:900px) { .australia-grid { columns:2; } }

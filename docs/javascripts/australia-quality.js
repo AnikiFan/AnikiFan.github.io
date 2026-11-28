@@ -14,6 +14,18 @@
     };
     const links = [...album.querySelectorAll('a.australia-open')];
     if (!links.length) return;
+    // Reserve space in the HTML, then reflect both cached and later image results.
+    for (const link of links) {
+      const thumbnail = link.querySelector('img');
+      if (!thumbnail) continue;
+      const state = value => {
+        link.dataset.thumbnail = value;
+        link.setAttribute('aria-busy', String(value === 'loading'));
+      };
+      thumbnail.addEventListener('load', () => state('ready'), { signal: controller.signal });
+      thumbnail.addEventListener('error', () => state('error'), { signal: controller.signal });
+      state(thumbnail.complete ? (thumbnail.naturalWidth > 0 ? 'ready' : 'error') : 'loading');
+    }
     const manifestURL = new URL('../quality.json', links[0].href);
     manifestURL.searchParams.set('v', '3');
     let photos = null;

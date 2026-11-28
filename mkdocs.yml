@@ -148,10 +148,10 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/australia.css?v=3
+  - stylesheets/australia.css?v=4
 extra_javascript:
   - javascripts/extra.js
-  - javascripts/australia-quality.js?v=3
+  - javascripts/australia-quality.js?v=4
 
 validation:
   omitted_files: warn

@@ -28,6 +28,7 @@ const photos = ['first', 'second'].map(slug => ({slug, name: slug, date: '2026-1
     src: `${tier === 'full' ? 'https://nextcloud.xiaofan.ac.cn/' : ''}${tier}/${slug}.${tier === 'full' ? 'jpg' : 'webp'}`, width: 2560 + index * 1280, height: 1706, bytes: 1000000 * (index + 1), download: {src: `https://nextcloud.xiaofan.ac.cn/jpg/${tier}/${slug}.jpg`, bytes: 2000000 * (index + 1)}
   }]))}));
 const links = photos.map(photo => Object.assign(new Element(), {href: `http://localhost/album/images/${photo.slug}.webp`, dataset: {photo: photo.slug}}));
+links.forEach((link, index) => link.append(Object.assign(new Element(), options.thumbnails?.[index] || {complete: false, naturalWidth: 0})));
 const album = {querySelectorAll: () => links};
 const dialogs = [];
 const images = [];
@@ -56,6 +57,19 @@ return {photos, links, dialogs, images, requested, get fetchCalls() {return fetc
 }
 const tick = () => new Promise(resolve => setImmediate(resolve));
 (async () => {
+  {
+    const {links} = harness({embedded: true, thumbnails: [{complete: true, naturalWidth: 640}, {complete: true, naturalWidth: 0}]});
+    assert.equal(links[0].dataset.thumbnail, 'ready', 'Recognize cached thumbnails');
+    assert.equal(links[1].dataset.thumbnail, 'error', 'Recognize failures before listeners attach');
+    links[1].children[0].emit('load');
+    assert.equal(links[1].dataset.thumbnail, 'ready');
+    const pending = harness({embedded: true}).links[0];
+    assert.equal(pending.dataset.thumbnail, 'loading');
+    assert.equal(pending.attributes['aria-busy'], 'true');
+    pending.children[0].emit('error');
+    assert.equal(pending.dataset.thumbnail, 'error');
+    assert.equal(pending.attributes['aria-busy'], 'false');
+  }
   {
     const {links, dialogs, images, requested} = harness();
     await tick();
